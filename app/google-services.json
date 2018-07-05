@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "354556880397",
+    "firebase_url": "https://emeraldguide-950cb.firebaseio.com",
+    "project_id": "emeraldguide-950cb",
+    "storage_bucket": "emeraldguide-950cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354556880397:android:2366631af537e252",
+        "android_client_info": {
+          "package_name": "com.example.brittanyjones.emeraldguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354556880397-v0bnkha2ksl33l4cosiaeavt9l2ffhjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brittanyjones.emeraldguide",
+            "certificate_hash": "e176c849c8ce53f6749524e710ea5dd793003c42"
+          }
+        },
+        {
+          "client_id": "354556880397-0eunld1u4iikd4emhe2uiak19ojq08k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxfHiHq9-9SQ-W0ms9w_2CIDghts8BfiY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354556880397-0eunld1u4iikd4emhe2uiak19ojq08k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
