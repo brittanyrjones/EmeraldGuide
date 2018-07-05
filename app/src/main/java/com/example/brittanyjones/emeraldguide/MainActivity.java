@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Button login_btn=(Button)findViewById(R.id.button30);
         Button food_btn=(Button)findViewById(R.id.button19);
         Button shower_btn=(Button)findViewById(R.id.button20);
-        Button menu_search_btn=(Button)findViewById(R.id.button25);
+        Button menu_search_btn=(Button)findViewById(R.id.button24);
         Button shelter_btn=(Button)findViewById(R.id.button21);
         Button give_btn=(Button)findViewById(R.id.button22);
 
