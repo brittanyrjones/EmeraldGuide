@@ -1,10 +1,21 @@
-package com.example.brittanyjones.emeraldguide;
+package com.example.brittanyjones.emeraldguide.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.brittanyjones.emeraldguide.EmergencyActivity;
+import com.example.brittanyjones.emeraldguide.GiveActivity;
+import com.example.brittanyjones.emeraldguide.HelpActivity;
+import com.example.brittanyjones.emeraldguide.LoginActivity;
+import com.example.brittanyjones.emeraldguide.MenuSearchActivity;
+import com.example.brittanyjones.emeraldguide.R;
+import com.example.brittanyjones.emeraldguide.SearchActivity;
+import com.example.brittanyjones.emeraldguide.ShelterActivity;
+import com.example.brittanyjones.emeraldguide.ShowerActivity;
+import com.example.brittanyjones.emeraldguide.VolunteerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
