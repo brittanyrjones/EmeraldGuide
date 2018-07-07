@@ -1,16 +1,17 @@
 package com.example.brittanyjones.emeraldguide.activity;
 
+import android.app.Activity;
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.example.brittanyjones.emeraldguide.R;
 import com.example.brittanyjones.emeraldguide.adapter.ResourcesAdapter;
 import com.example.brittanyjones.emeraldguide.model.Resource;
-import com.example.brittanyjones.emeraldguide.rest.ApiClient;
+import com.example.brittanyjones.emeraldguide.network.RetrofitClientInstance;
 import com.example.brittanyjones.emeraldguide.rest.ApiInterface;
 
 import java.util.List;
@@ -20,6 +21,10 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class FoodActivity extends AppCompatActivity {
+    private ResourcesAdapter adapter;
+    private RecyclerView recyclerView;
+    ProgressDialog progressDoalog;
+
     private static final String TAG = MainActivity.class.getSimpleName();
 
 
@@ -31,32 +36,32 @@ public class FoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food);
 
-        if (API_KEY.isEmpty()) {
-            Toast.makeText(getApplicationContext(), "Please obtain your API KEY first from themoviedb.org", Toast.LENGTH_LONG).show();
-            return;
+        progressDoalog = new ProgressDialog(FoodActivity.this);
+        progressDoalog.setMessage("Loading....");
+        progressDoalog.show();
 
-        }
-
-        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.resources_recycler_view);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        ApiInterface apiService =
-                ApiClient.getClient().create(ApiInterface.class);
-
-        Call<ResourcesResponse> call = apiService.getResources(API_KEY);
-        call.enqueue(new Callback<ResourcesResponse>() {
+        ApiInterface service = RetrofitClientInstance.getRetrofitInstance().create(ApiInterface.class);
+        Call<List<Resource>> call = service.getAllResources();
+        call.enqueue(new Callback<List<Resource>>() {
             @Override
-            public void onResponse(Call<ResourcesResponse> call, Response<ResourcesResponse> response) {
-                List<Resource> resources = response.body().getJSON();
-                recyclerView.setAdapter(new ResourcesAdapter(resources, R.layout.list_item_resource, getApplicationContext()));
-
+            public void onResponse(Call<List<Resource>> call, Response<List<Resource>> response) {
+                progressDoalog.dismiss();
+                generateDataList(response.body());
             }
 
             @Override
-            public void onFailure(Call<ResourcesResponse> call, Throwable t) {
-                // Log error here since request failed
-                Log.e(TAG, t.toString());
+            public void onFailure(Call<List<Resource>> call, Throwable t) {
+                progressDoalog.dismiss();
+                Toast.makeText(MainActivity.this, "Something went wrong...Please try later!", Toast.LENGTH_SHORT).show();
             }
         });
     }
+    private void generateDataList(List<Resource> resourceList) {
+        recyclerView = findViewById(R.id.customRecyclerView);
+        adapter = new ResourceAdapter(this,resourceList);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(FoodActivity.this);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setAdapter(adapter);
+    }
 }
+

@@ -1,18 +1,19 @@
 package com.example.brittanyjones.emeraldguide.rest;
 
 
-import com.example.brittanyjones.emeraldguide.model.ResourceResponse;
+import com.example.brittanyjones.emeraldguide.model.Resource;
+
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
-import retrofit2.http.Query;
 
 
 public interface ApiInterface {
-    @GET("resource/")
-    Call<ResourcesResponse> getlocation(@Query("api_key") String apiKey);
 
-    @GET("resource")
-    Call<ResourceResponse> getNameOfProgram(@Path("id") int id, @Query("api_key") String apiKey);
+    String BASE_URL = "https://data.seattle.gov/resource/";
+    @GET("47rs-c243")
+
+    Call<List<Resource>> getResources();
 }
+

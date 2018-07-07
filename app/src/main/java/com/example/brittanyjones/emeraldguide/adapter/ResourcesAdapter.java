@@ -5,7 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.brittanyjones.emeraldguide.R;
@@ -19,48 +19,49 @@ public class ResourcesAdapter extends RecyclerView.Adapter<ResourcesAdapter.Reso
     private int rowLayout;
     private Context context;
 
-    public static class ResourceViewHolder extends RecyclerView.ViewHolder {
-        LinearLayout ResourcesLayout;
-        TextView movieTitle;
-        TextView data;
-        TextView movieDescription;
-        TextView rating;
-
-        public ResourceViewHolder(View v) {
-            super(v);
-            resourcesLayout = (LinearLayout) v.findViewById(R.id.movies_layout);
-            movieTitle = (TextView) v.findViewById(R.id.title);
-            data = (TextView) v.findViewById(R.id.subtitle);
-            movieDescription = (TextView) v.findViewById(R.id.description);
-            rating = (TextView) v.findViewById(R.id.rating);
-        }
-    }
-    public ResourcesAdapter(List<Resource> resources, int rowLayout, Context context) {
-        this.resources = resources;
-        this.rowLayout = rowLayout;
+    public ResourcesAdapter(Context context,List<Resource> dataList){
         this.context = context;
-    }
+        this.dataList = dataList;
+}
 
+class ResourceViewHolder extends RecyclerView.ViewHolder {
+
+    public final View mView;
+
+    TextView txtTitle;
+    private ImageView coverImage;
+
+    ResourceViewHolder(View itemView) {
+        super(itemView);
+        mView = itemView;
+
+        txtTitle = mView.findViewById(R.id.nameOfProgram);
+        coverImage = mView.findViewById(R.id.coverImage);
+    }
+}
 
     @Override
-    public ResourcesAdapter.ResourceViewHolder onCreateViewHolder(ViewGroup parent,
-                                                            int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(rowLayout, parent, false);
+    public ResourceViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
+        View view = layoutInflater.inflate(R.layout.custom_row, parent, false);
         return new ResourceViewHolder(view);
     }
 
-
     @Override
-    public void onBindViewHolder(ResourceViewHolder holder, final int position) {
-        holder.movieTitle.setText(resources.get(position).getNameOfProgram());
-        holder.data.setText(resources.get(position).getLocation());
-        holder.movieDescription.setText(resources.get(position).getDayTime());
-        holder.rating.setText(resources.get(position).getMealServed());
+    public void onBindViewHolder(ResourceViewHolder holder, int position) {
+        holder.txtTitle.setText(dataList.get(position).getTitle());
+
+        Picasso.Builder builder = new Picasso.Builder(context);
+        builder.downloader(new OkHttp3Downloader(context));
+        builder.build().load(dataList.get(position).getThumbnailUrl())
+                .placeholder((R.drawable.ic_launcher_background))
+                .error(R.drawable.ic_launcher_background)
+                .into(holder.coverImage);
+
     }
 
     @Override
     public int getItemCount() {
-        return movies.size();
+        return dataList.size();
     }
 }
-
