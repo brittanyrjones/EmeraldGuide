@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.models;
+package com.example.brittanyjones.emeraldguide.model;
 
 
 import com.google.gson.annotations.Expose;
