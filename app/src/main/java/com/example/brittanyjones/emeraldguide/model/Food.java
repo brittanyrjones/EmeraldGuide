@@ -4,7 +4,7 @@ package com.example.brittanyjones.emeraldguide.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Resource {
+public class Food {
     @SerializedName("day_time")
     @Expose
     private String dayTime;
@@ -29,7 +29,7 @@ public class Resource {
         this.dayTime = dayTime;
     }
 
-    public Resource withDayTime(String dayTime) {
+    public Food withDayTime(String dayTime) {
         this.dayTime = dayTime;
         return this;
     }
@@ -42,7 +42,7 @@ public class Resource {
         this.location = location;
     }
 
-    public Resource withLocation(String location) {
+    public Food withLocation(String location) {
         this.location = location;
         return this;
     }
@@ -55,7 +55,7 @@ public class Resource {
         this.mealServed = mealServed;
     }
 
-    public Resource withMealServed(String mealServed) {
+    public Food withMealServed(String mealServed) {
         this.mealServed = mealServed;
         return this;
     }
@@ -68,7 +68,7 @@ public class Resource {
         this.nameOfProgram = nameOfProgram;
     }
 
-    public Resource withNameOfProgram(String nameOfProgram) {
+    public Food withNameOfProgram(String nameOfProgram) {
         this.nameOfProgram = nameOfProgram;
         return this;
     }
@@ -81,7 +81,7 @@ public class Resource {
         this.peopleServed = peopleServed;
     }
 
-    public Resource withPeopleServed(String peopleServed) {
+    public Food withPeopleServed(String peopleServed) {
         this.peopleServed = peopleServed;
         return this;
     }

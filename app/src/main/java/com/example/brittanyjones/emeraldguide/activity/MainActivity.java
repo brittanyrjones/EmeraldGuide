@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Button search_btn=(Button)findViewById(R.id.button25);
         Button help_btn=(Button)findViewById(R.id.button26);
         Button emergency_btn=(Button)findViewById(R.id.button27) ;
