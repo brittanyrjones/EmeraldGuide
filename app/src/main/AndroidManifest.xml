@@ -15,25 +15,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".EmergencyActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.HelpActivity" />
+        <activity android:name=".activity.EmergencyActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".FoodActivity" />
-        <activity android:name=".ShowerActivity" />
-        <activity android:name=".ShelterActivity" />
-        <activity android:name=".GiveActivity" />
-        <activity android:name=".MenuSearchActivity" />
-        <activity android:name=".VolunteerActivity"></activity>
+        <activity android:name=".activity.FoodActivity" />
+        <activity android:name=".activity.ShowerActivity" />
+        <activity android:name=".activity.ShelterActivity" />
+        <activity android:name=".activity.GiveActivity" />
+        <activity android:name=".activity.MenuSearchActivity" />
+        <activity android:name=".activity.VolunteerActivity"></activity>
     </application>
 
 </manifest>
