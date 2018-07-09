@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.activity;
+package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Button emergency_btn=(Button)findViewById(R.id.button27) ;
         Button volunteer_btn=(Button)findViewById(R.id.button28);
         Button login_btn=(Button)findViewById(R.id.button30);
-        Button food_btn=(Button)findViewById(R.id.button19);
+        Button resource_btn=(Button)findViewById(R.id.button19);
         Button shower_btn=(Button)findViewById(R.id.button20);
         Button menu_search_btn=(Button)findViewById(R.id.button24);
         Button shelter_btn=(Button)findViewById(R.id.button21);
@@ -61,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(loginint);
             }
         });
-        food_btn.setOnClickListener(new View.OnClickListener() {
+        resource_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodint = new Intent(MainActivity.this,FoodActivity.class);
-                startActivity(foodint);
+                Intent resourceint = new Intent(MainActivity.this,ResourceActivity.class);
+                startActivity(resourceint);
             }
         });
         shower_btn.setOnClickListener(new View.OnClickListener() {

@@ -15,25 +15,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.SearchActivity" />
-        <activity android:name=".activity.HelpActivity" />
-        <activity android:name=".activity.EmergencyActivity" />
+        <activity android:name=".activity.activity.SearchActivity" />
+        <activity android:name=".activity.activity.HelpActivity" />
+        <activity android:name=".activity.activity.EmergencyActivity" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".activity.activity.LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".activity.FoodActivity" />
-        <activity android:name=".activity.ShowerActivity" />
-        <activity android:name=".activity.ShelterActivity" />
-        <activity android:name=".activity.GiveActivity" />
-        <activity android:name=".activity.MenuSearchActivity" />
-        <activity android:name=".activity.VolunteerActivity"></activity>
+        <activity android:name=".activity.activity.ResourceActivity" />
+        <activity android:name=".activity.activity.ShowerActivity" />
+        <activity android:name=".activity.activity.ShelterActivity" />
+        <activity android:name=".activity.activity.GiveActivity" />
+        <activity android:name=".activity.activity.MenuSearchActivity" />
+        <activity android:name=".activity.activity.VolunteerActivity"></activity>
     </application>
 
 </manifest>

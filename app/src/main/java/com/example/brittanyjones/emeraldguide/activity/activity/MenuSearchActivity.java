@@ -1,15 +1,15 @@
-package com.example.brittanyjones.emeraldguide.activity;
+package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.brittanyjones.emeraldguide.R;
 
-public class EmergencyActivity extends AppCompatActivity {
+public class MenuSearchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_emergency);
+        setContentView(R.layout.activity_menu_search);
     }
 }

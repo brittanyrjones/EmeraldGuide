@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.activity;
+package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

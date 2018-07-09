@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.activity;
+package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +10,6 @@ public class VolunteerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_volunteer2);
+        setContentView(R.layout.activity_volunteer);
     }
 }

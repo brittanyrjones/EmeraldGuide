@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.activity;
+package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -7,8 +7,13 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-public interface JSONPlaceHolderApi {
-    @GET("/47rs-c243.json")
+
+
+
+public interface Api {
+
+    @GET("47rs-c243.json?$$app_token=z6xRNwqCisAx6UdpF9pYOa64m")
+
     Call<List<Resource>> getAllResources();
 
 }
