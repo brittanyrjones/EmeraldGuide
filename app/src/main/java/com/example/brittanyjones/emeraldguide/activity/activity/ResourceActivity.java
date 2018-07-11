@@ -28,6 +28,7 @@ public class ResourceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resource);
+        setTitle("Free Meals Served in Seattle");
         Log.d("123", "onCreate");
         getResourceList();
     }

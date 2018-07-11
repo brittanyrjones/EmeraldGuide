@@ -14,17 +14,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Welcome to the Emerald Guide");
 
         Button search_btn=(Button)findViewById(R.id.button25);
         Button help_btn=(Button)findViewById(R.id.button26);
         Button emergency_btn=(Button)findViewById(R.id.button27) ;
         Button volunteer_btn=(Button)findViewById(R.id.button28);
-        Button login_btn=(Button)findViewById(R.id.button30);
         Button resource_btn=(Button)findViewById(R.id.button19);
-        Button shower_btn=(Button)findViewById(R.id.button20);
-        Button menu_search_btn=(Button)findViewById(R.id.button24);
-        Button shelter_btn=(Button)findViewById(R.id.button21);
-        Button give_btn=(Button)findViewById(R.id.button22);
+        Button shower_btn=(Button)findViewById(R.id.button21);
+        Button shelter_btn=(Button)findViewById(R.id.button20);
 
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,13 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(volunteerint);
             }
         });
-        login_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent loginint = new Intent(MainActivity.this,LoginActivity.class);
-                startActivity(loginint);
-            }
-        });
+
         resource_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,25 +67,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(showerint);
             }
         });
-        menu_search_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent menusearchint = new Intent(MainActivity.this,MenuSearchActivity.class);
-                startActivity(menusearchint);
-            }
-        });
+
         shelter_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent shelterint = new Intent(MainActivity.this,ShelterActivity.class);
                 startActivity(shelterint);
-            }
-        });
-        give_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent givint = new Intent(MainActivity.this,GiveActivity.class);
-                startActivity(givint);
             }
         });
 

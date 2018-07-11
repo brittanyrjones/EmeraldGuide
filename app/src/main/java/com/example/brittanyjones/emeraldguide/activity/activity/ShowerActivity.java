@@ -11,5 +11,6 @@ public class ShowerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shower);
+        setTitle("Public Restrooms and Hygiene Facilities");
     }
 }

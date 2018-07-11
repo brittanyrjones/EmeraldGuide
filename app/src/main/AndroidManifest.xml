@@ -25,13 +25,9 @@
         <activity android:name=".activity.activity.SearchActivity" />
         <activity android:name=".activity.activity.HelpActivity" />
         <activity android:name=".activity.activity.EmergencyActivity" />
-        <activity
-            android:name=".activity.activity.LoginActivity"
-            android:label="@string/title_activity_login" />
         <activity android:name=".activity.activity.ResourceActivity" />
         <activity android:name=".activity.activity.ShowerActivity" />
         <activity android:name=".activity.activity.ShelterActivity" />
-        <activity android:name=".activity.activity.GiveActivity" />
         <activity android:name=".activity.activity.MenuSearchActivity" />
         <activity android:name=".activity.activity.VolunteerActivity"></activity>
     </application>

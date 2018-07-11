@@ -11,5 +11,6 @@ public class ShelterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shelter);
+        setTitle("Emergency Shelters");
     }
 }
