@@ -1,36 +1,38 @@
 package com.example.brittanyjones.emeraldguide.activity.model;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+
 
 public class Resource {
-    @SerializedName("day_time")
-    @Expose
-    private String dayTime;
-    @SerializedName("location")
-    @Expose
+    private String name_of_program;
+    private String meal_served;
     private String location;
-    @SerializedName("meal_served")
-    @Expose
-    private String mealServed;
-    @SerializedName("name_of_program")
-    @Expose
-    private String nameOfProgram;
-    @SerializedName("people_served")
-    @Expose
-    private String peopleServed;
+    private String people_served;
+    private String day_time;
 
-    public String getDayTime() {
-        return dayTime;
+    public Resource(String name_of_program, String meal_served, String location, String people_served, String day_time) {
+
+        this.name_of_program = name_of_program;
+        this.meal_served = meal_served;
+        this.location = location;
+        this.people_served = people_served;
+        this.day_time = day_time;
+
     }
 
-    public void setDayTime(String dayTime) {
-        this.dayTime = dayTime;
+    public String getName_Of_Program() {
+        return name_of_program;
     }
 
-    public Resource withDayTime(String dayTime) {
-        this.dayTime = dayTime;
-        return this;
+    public void setName_Of_Program(String name_of_program) {
+        this.name_of_program = name_of_program;
+    }
+
+    public String getMeal_Served() {
+        return meal_served;
+    }
+
+    public void setMeal_Served(String meal_served) {
+        this.meal_served = meal_served;
     }
 
     public String getLocation() {
@@ -40,50 +42,112 @@ public class Resource {
     public void setLocation(String location) {
         this.location = location;
     }
-
-    public Resource withLocation(String location) {
-        this.location = location;
-        return this;
-    }
-
-    public String getMealServed() {
-        return mealServed;
-    }
-
-    public void setMealServed(String mealServed) {
-        this.mealServed = mealServed;
-    }
-
-    public Resource withMealServed(String mealServed) {
-        this.mealServed = mealServed;
-        return this;
-    }
-
-    public String getNameOfProgram() {
-        return nameOfProgram;
-    }
-
-    public void setNameOfProgram(String nameOfProgram) {
-        this.nameOfProgram = nameOfProgram;
-    }
-
-    public Resource withNameOfProgram(String nameOfProgram) {
-        this.nameOfProgram = nameOfProgram;
-        return this;
-    }
-
     public String getPeopleServed() {
-        return peopleServed;
+        return people_served;
     }
 
-    public void setPeopleServed(String peopleServed) {
-        this.peopleServed = peopleServed;
+    public void setPeopleServed(String people_served) {
+        this.people_served = people_served;
+    }
+    public String getDayTime() {
+        return day_time;
     }
 
-    public Resource withPeopleServed(String peopleServed) {
-        this.peopleServed = peopleServed;
-        return this;
+    public void setDaytime(String day_time) {
+        this.day_time = day_time;
     }
-
 }
 
+
+
+
+
+
+
+
+
+
+//public class Resource {
+//    @SerializedName("day_time")
+//    @Expose
+//    private String dayTime;
+//    @SerializedName("location")
+//    @Expose
+//    private String location;
+//    @SerializedName("meal_served")
+//    @Expose
+//    private String mealServed;
+//    @SerializedName("name_of_program")
+//    @Expose
+//    private String nameOfProgram;
+//    @SerializedName("people_served")
+//    @Expose
+//    private String peopleServed;
+//
+//    public String getDayTime() {
+//        return dayTime;
+//    }
+//
+//    public void setDayTime(String dayTime) {
+//        this.dayTime = dayTime;
+//    }
+//
+//    public Resource withDayTime(String dayTime) {
+//        this.dayTime = dayTime;
+//        return this;
+//    }
+//
+//    public String getLocation() {
+//        return location;
+//    }
+//
+//    public void setLocation(String location) {
+//        this.location = location;
+//    }
+//
+//    public Resource withLocation(String location) {
+//        this.location = location;
+//        return this;
+//    }
+//
+//    public String getMealServed() {
+//        return mealServed;
+//    }
+//
+//    public void setMealServed(String mealServed) {
+//        this.mealServed = mealServed;
+//    }
+//
+//    public Resource withMealServed(String mealServed) {
+//        this.mealServed = mealServed;
+//        return this;
+//    }
+//
+//    public String getNameOfProgram() {
+//        return nameOfProgram;
+//    }
+//
+//    public void setNameOfProgram(String nameOfProgram) {
+//        this.nameOfProgram = nameOfProgram;
+//    }
+//
+//    public Resource withNameOfProgram(String nameOfProgram) {
+//        this.nameOfProgram = nameOfProgram;
+//        return this;
+//    }
+//
+//    public String getPeopleServed() {
+//        return peopleServed;
+//    }
+//
+//    public void setPeopleServed(String peopleServed) {
+//        this.peopleServed = peopleServed;
+//    }
+//
+//    public Resource withPeopleServed(String peopleServed) {
+//        this.peopleServed = peopleServed;
+//        return this;
+//    }
+//
+//}
+//
