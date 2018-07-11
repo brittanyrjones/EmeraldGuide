@@ -5,10 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.brittanyjones.emeraldguide.R;
 import com.example.brittanyjones.emeraldguide.activity.Api.ApiService;
 import com.example.brittanyjones.emeraldguide.activity.adapter.RecyclerViewAdapter;
+import com.example.brittanyjones.emeraldguide.activity.adapter.RecyclerViewClickListener;
+import com.example.brittanyjones.emeraldguide.activity.adapter.RecyclerViewTouchListener;
 import com.example.brittanyjones.emeraldguide.activity.model.Resource;
 
 import java.util.List;
@@ -21,6 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ResourceActivity extends AppCompatActivity {
 
+    private RecyclerView recyclerView;
     private LinearLayoutManager layoutManager;
     List<Resource> resourceList =null;
 
@@ -31,7 +36,9 @@ public class ResourceActivity extends AppCompatActivity {
         setTitle("Free Meals Served in Seattle");
         Log.d("123", "onCreate");
         getResourceList();
+
     }
+
     private void getResourceList() {
         Log.d("123", "getResourceList");
         try {
@@ -66,7 +73,7 @@ public class ResourceActivity extends AppCompatActivity {
                     resourceList = response.body();
                     Log.d("123", "List<Resource> resourceList = response.body();");
 
-                    RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);
+                    RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler);
                     Log.d("123", "RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);");
 
                     layoutManager = new LinearLayoutManager(ResourceActivity.this);
@@ -74,11 +81,25 @@ public class ResourceActivity extends AppCompatActivity {
                     recyclerView.setLayoutManager(layoutManager);
                     Log.d("123", "recyclerView.setLayoutManager(layoutManager);");
 
-                    RecyclerViewAdapter recyclerViewAdapter =new RecyclerViewAdapter(getApplicationContext(), resourceList);
+                    RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getApplicationContext(), resourceList);
                     Log.d("123", "RecyclerViewAdapter recyclerViewAdapter =new RecyclerViewAdapter(getApplicationContext(), resourceList);");
                     recyclerView.setAdapter(recyclerViewAdapter);
                     Log.d("123", "recyclerView.setAdapter(recyclerViewAdapter);");
+
+                    recyclerView.addOnItemTouchListener(new RecyclerViewTouchListener(getApplicationContext(), recyclerView, new RecyclerViewClickListener() {
+                        @Override
+                        public void onClick(View view, int position) {
+                            Toast.makeText(getApplicationContext(), resourceList.get(position).getName_Of_Program() + " is clicked!", Toast.LENGTH_SHORT).show();
+                        }
+
+                        @Override
+                        public void onLongClick(View view, int position) {
+                            Toast.makeText(getApplicationContext(), resourceList.get(position).getName_Of_Program() + " is long pressed!", Toast.LENGTH_SHORT).show();
+
+                        }
+                    }));
                 }
+
 
                 @Override
                 public void onFailure(Call<List<Resource>> call, Throwable t) {
