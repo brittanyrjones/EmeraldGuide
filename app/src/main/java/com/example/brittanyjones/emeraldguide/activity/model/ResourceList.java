@@ -5,9 +5,6 @@
 //
 //import java.util.ArrayList;
 //
-///**
-// * Created by Abhi on 06 Sep 2017 006.
-// */
 //
 //public class ResourceList {
 //

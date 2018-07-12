@@ -4,51 +4,58 @@
 
     android:orientation="vertical"
     android:layout_height="wrap_content">
+
     <TextView
         android:id="@+id/programName_txt"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 
-        android:text="Watches Name"
-        />
+        android:text="Resource Name"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/location_txt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="$200"
-        android:textColor="@color/colorAccent"/>
+        android:text="Resource Location"
+        android:textColor="@color/colorPrimaryDark" />
+
     <TextView
         android:id="@+id/website_txt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Watches Name"
+        android:text="Resource Website"
         android:textSize="15dp"
-        android:textStyle="bold"
-        />
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:clickable="true"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <TextView
         android:id="@+id/geographicArea_txt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="$200"
-        android:textSize="15dp"
-        android:textColor="@color/colorAccent"/>
+        android:text="Geo Area"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
     <TextView
         android:id="@+id/mealInformation_txt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Watches Name"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        />
+        android:text="Meal Information"
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/phoneNumber_txt"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="$200"
-        android:textSize="15dp"
-        android:textColor="@color/colorAccent"/>
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="#000000"
+        android:textSize="15dp" />
 
 </LinearLayout>
