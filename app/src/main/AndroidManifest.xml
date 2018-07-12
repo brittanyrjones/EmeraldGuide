@@ -29,7 +29,8 @@
         <activity android:name=".activity.activity.ShowerActivity" />
         <activity android:name=".activity.activity.ShelterActivity" />
         <activity android:name=".activity.activity.MenuSearchActivity" />
-        <activity android:name=".activity.activity.VolunteerActivity"></activity>
+        <activity android:name=".activity.activity.VolunteerActivity" />
+        <activity android:name=".activity.activity.YouthActivity"></activity>
     </application>
 
 </manifest>

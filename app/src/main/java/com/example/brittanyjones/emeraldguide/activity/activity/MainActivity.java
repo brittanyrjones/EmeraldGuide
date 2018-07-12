@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Button resource_btn=(Button)findViewById(R.id.button19);
         Button shower_btn=(Button)findViewById(R.id.button21);
         Button shelter_btn=(Button)findViewById(R.id.button20);
+        Button youth_btn=(Button)findViewById(R.id.button30);
 
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +74,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent shelterint = new Intent(MainActivity.this,ShelterActivity.class);
                 startActivity(shelterint);
+            }
+        });
+        youth_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent youthint = new Intent(MainActivity.this,YouthActivity.class);
+                startActivity(youthint);
             }
         });
 

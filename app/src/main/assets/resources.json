@@ -108,7 +108,7 @@
     {
       "Geographic Area": "Central Seattle",
       "Program Name": "Chief Seattle Club",
-      "Location": "113 Cherry St. Seattle, WA. 98104",
+      "Location": "410 2nd Ave Ext S, Seattle, WA 98104",
       "Phone Number": "206-292-6214",
       "Website": "www.chiefseattleclub.org",
       "Meal Information": "American Indians only: Monday through Friday 7:00 am to 9:30 am"
@@ -204,7 +204,7 @@
     {
       "Geographic Area": "Central Seattle",
       "Program Name": "WRC/Noel House Shelter",
-      "Location": "2030 3rd Ave.,  Seattle, WA. 98121",
+      "Location": "2030 3rd Ave, Seattle, WA 98101",
       "Phone Number": "206-770-0156",
       "Website": "www.noelhouse.org",
       "Meal Information": "Women Only, Women's Referral Center serves dinner at 6p.m. nightly"
@@ -252,7 +252,7 @@
     {
       "Geographic Area": "Central Seattle",
       "Program Name": "Seattle Indian Center",
-      "Location": "611 12th Ave South, Suite 300, Seattle",
+      "Location": "1265 S Main St #105, Seattle, WA 98144",
       "Phone Number": "206-329-8700",
       "Website": "No Website",
       "Meal Information": "open to all:  Monday - Friday: 12:00 - 12:45 P.M."
@@ -306,14 +306,6 @@
       "Meal Information": "Women only, 18 and older: Everyday 7:20am to 7:50am (overnight guests), 8:10am-8:40am (program clients); Lunch 11:30am-12:00pm, 12:30pm-1:00pm; Snack 3:00 pm - 3:30 pm"
     },
     {
-      "Geographic Area": "West Seattle",
-      "Program Name": "None In Area",
-      "Location": "",
-      "Phone Number": "",
-      "Website": "",
-      "Meal Information": ""
-    },
-    {
       "Geographic Area": "North Seattle",
       "Program Name": "Blessed Sacrament Food Program",
       "Location": "5050 8th Ave NE Seattle, WA 98105",
@@ -324,7 +316,7 @@
     {
       "Geographic Area": "North Seattle",
       "Program Name": "Friday Feast",
-      "Location": "1110 E. Harrison #303 Seattle, WA 98102",
+      "Location": "1415 NE 43rd St Seattle, WA 98105",
       "Phone Number": "206-632-1635",
       "Website": "www.rootsinfo.org",
       "Meal Information": "Open to all: Every Friday Dinner at 6:00 pm to 7:00 pm. Also serves snacks, dinner, and hot breakfast to homeless young persons between 18-25."
@@ -351,36 +343,36 @@
       "Location": "5710 22nd Ave. NW Seattle, WA 98107",
       "Phone Number": "206-784-3119",
       "Website": "www.saintlukesseattle.org",
-      "Meal Information": "<P>Open to all: Every Friday Lunch 11:30 am to 12:30 am / <FONT COLOR=\"#000000\" SIZE=\"13\" FACE=\"Calibri\"><B>Closed July & August</B></FONT></P>"
+      "Meal Information": "Open to all: Every Friday Lunch 11:30 am to 12:30 am. Closed July & August"
     },
     {
       "Geographic Area": "North Seattle",
       "Program Name": "Teen Feed",
-      "Location": "University Lutheran Church, N.E. 50th & 16th N.E., Seattle (Enter down the steps off 16th & 50th)",
+      "Location": "1604 NE 50th St, Seattle, WA 98105",
       "Phone Number": "206-522-4366",
       "Website": "www.teenfeed.org/teenfeed.aspx",
-      "Meal Information": "Open to youth ages 13 -25;  Mondays: 7:00 - 8:00 P.M."
+      "Meal Information": "Open to youth ages 13 -25; Mondays: 7:00 - 8:00 P.M. Enter down the steps off 16th & 50th."
     },
     {
       "Geographic Area": "North Seattle",
       "Program Name": "Teen Feed",
-      "Location": "University Methodist               N.E. 43rd & 15th N.E., Seattle (Enter via alley, southwest corner of the bldg)",
+      "Location": "1415 NE 43rd St, Seattle, WA 98105",
       "Phone Number": "206-522-4366",
       "Website": "www.teenfeed.org/teenfeed.aspx",
-      "Meal Information": "Open to youth ages 13 -25; Tuesdays: 7:00 - 8:00 P.M."
+      "Meal Information": "Open to youth ages 13 -25; Tuesdays: 7:00 - 8:00 P.M. Enter via alley, on the southwest corner of the bldg"
     },
     {
       "Geographic Area": "North Seattle",
       "Program Name": "Teen Feed",
-      "Location": "University Congregational N.E. 45th & 16th N.E., Seattle (Down the seps off 16th)",
+      "Location": "4515 16th Ave NE, Seattle, WA 98105",
       "Phone Number": "206-522-4366",
       "Website": "www.teenfeed.org/teenfeed.aspx",
-      "Meal Information": "Open to youth ages 13 -25;  Wednesday & Thursday: 7:00 - 8:00 P.M."
+      "Meal Information": "Open to youth ages 13 -25;  Wednesday & Thursday: 7:00 - 8:00 P.M. Located Down the steps off 16th street."
     },
     {
       "Geographic Area": "North Seattle",
       "Program Name": "Teen Feed",
-      "Location": "University Christian N.E. 50th & 15th N.E., Seattle",
+      "Location": "4731 15th Ave NE, Seattle, WA 98105",
       "Phone Number": "206-522-4366",
       "Website": "www.teenfeed.org/teenfeed.aspx",
       "Meal Information": "Open to youth ages 13 -25;  Fridays & Sundays: 7:00 - 8:00 P.M. (Enter via alley, SW corner of building)"
