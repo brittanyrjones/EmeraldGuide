@@ -70,7 +70,7 @@ public class ResourceActivity extends AppCompatActivity {
                     Log.d("123", "RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);");
 
                     layoutManager = new LinearLayoutManager(ResourceActivity.this);
-                    Log.d("123", "layoutManager = new LinearLayoutManager(ResourceActivity.this);");
+                    Log.d("123", "layoutManager = new LinearLayoutManager(ResourceActivity2.this);");
                     recyclerView.setLayoutManager(layoutManager);
                     Log.d("123", "recyclerView.setLayoutManager(layoutManager);");
 
@@ -96,7 +96,7 @@ public class ResourceActivity extends AppCompatActivity {
 
 
 
-//public class ResourceActivity extends AppCompatActivity {
+//public class ResourceActivity2 extends AppCompatActivity {
 //
 //    private ArrayList<Resource> resourceList;
 //    private ProgressDialog pDialog;
@@ -108,7 +108,7 @@ public class ResourceActivity extends AppCompatActivity {
 //        super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_resource);
 //
-//        pDialog = new ProgressDialog(ResourceActivity.this);
+//        pDialog = new ProgressDialog(ResourceActivity2.this);
 //        pDialog.setMessage("Loading Data.. Please wait...");
 //        pDialog.setIndeterminate(false);
 //        pDialog.setCancelable(false);
@@ -146,7 +146,7 @@ public class ResourceActivity extends AppCompatActivity {
 //    }
 //}
 
-//public class ResourceActivity extends AppCompatActivity {
+//public class ResourceActivity2 extends AppCompatActivity {
 //
 //    ListView listView;
 //

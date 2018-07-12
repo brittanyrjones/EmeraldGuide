@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/resource_geographicArea"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:text="resource_geographicArea"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/resource_programName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:text="$200"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/resource_location"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:text="Watches Name"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/resource_phoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:text="$200"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/resource_mealInformation"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:text="Watches Name"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/resource_website"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:text="$200"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>

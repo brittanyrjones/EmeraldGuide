@@ -1,0 +1,389 @@
+{
+  "resources": [
+
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "Asian Counseling and Referral Services",
+      "Location": "3639 MLK Jr. Way S. Seattle, WA 98144",
+      "Phone Number": "206-695-7522",
+      "Website": "www.acrs.org",
+      "Meal Information": "Open to all: Friday 10:30 AM"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "Community Kitchen Coalition",
+      "Location": "4437 41st Ave S. Seattle, WA 98188",
+      "Phone Number": "Not Available",
+      "Website": "www.communitykitchensnw.org",
+      "Meal Information": "Open to all: See website for schedule of shared meals"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "Heroes for the Homeless",
+      "Location": "Various Locations",
+      "Phone Number": "425-985-7852",
+      "Website": "www.heroesforthehomeless.org",
+      "Meal Information": "Open to all: Serves at various outdoor meal sites on the 2nd and last Saturday each month"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "Latino Hot Meal",
+      "Location": "2524 16th Ave S.W. Seattle, WA 98144",
+      "Phone Number": "206-329-7960",
+      "Website": "www.elcentrodelaraza.org",
+      "Meal Information": "Open to all: Monday through Friday 12:00 pm (noon) to 1:00 pm , closed some holidays"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "St. Vincent de Paul Food Bank",
+      "Location": "5950 4th Ave S. Seattle, WA 98108",
+      "Phone Number": "206-283-2104",
+      "Website": "www.svdpseattle.org",
+      "Meal Information": "Open to all: Monday through Friday sandwiches and soup are given out 8:30 am 11:00 am"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "South Park Breakfast Bunch",
+      "Location": "8201 10th Ave S. Seattle, WA 98108",
+      "Phone Number": "206-767-3650",
+      "Website": "www.allaboutsouthpark.com",
+      "Meal Information": "Open to all: Breakfast, Sunday through Friday 5:30 am to 8:30 am"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "South Park Senior Meals",
+      "Location": "8201 10th Ave S. Seattle, WA 98108",
+      "Phone Number": "206-767-3650",
+      "Website": "www.allaboutsouthpark.com",
+      "Meal Information": "Open to all: Dinner;  Monday & Friday 5:30 pm"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "Latino Lunch",
+      "Location": "8201 10th Ave S. Seattle, WA 98108",
+      "Phone Number": "206-764-0494",
+      "Website": "www.allaboutsouthpark.com",
+      "Meal Information": "Open to all: Lunch; Tuesdays 11:30 am"
+    },
+    {
+      "Geographic Area": "South Seattle",
+      "Program Name": "Samoan American Pacific lunch",
+      "Location": "8201 10th Ave S. Seattle, WA 98108",
+      "Phone Number": "253-230-7959",
+      "Website": "www.allaboutsouthpark.com",
+      "Meal Information": "Open to all: Lunch; Wednesdays & Fridays 11:30 am"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "AOK Friends",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "Not Available",
+      "Website": "No Website",
+      "Meal Information": "Open to all: Every Sunday, Lunch 1:00 pm to 2:00 pm (3rd Sunday meal served at Noon to 1:00 pm)"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Bread of Life Mission",
+      "Location": "97 South Main Street, Seattle, WA 98104",
+      "Phone Number": "206-682-3579",
+      "Website": "www.breadoflifemission.org",
+      "Meal Information": "Open to all: Lunch, Tuesday and Thursday 12-12:30 pm; Dinner, Monday through Saturday 7:30 - 8:15 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Bible Study Outreach Ministries",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "206-229-5319",
+      "Website": "No Website",
+      "Meal Information": "Open to all: Saturday at 12:00 pm - 1:00 pm."
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Chicken Soup Brigade",
+      "Location": "1002 E. Seneca St. Seattle, WA 98122",
+      "Phone Number": "206-957-1631",
+      "Website": "www.llaa.org",
+      "Meal Information": "Screening process involved: (75% of clients are HIV positive), 1 meal per day (delivery or pick-up center)"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Chief Seattle Club",
+      "Location": "113 Cherry St. Seattle, WA. 98104",
+      "Phone Number": "206-292-6214",
+      "Website": "www.chiefseattleclub.org",
+      "Meal Information": "American Indians only: Monday through Friday 7:00 am to 9:30 am"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Community Lunch / Immanuel Community Services",
+      "Location": "1215 Thomas St. Seattle, WA  98109",
+      "Phone Number": "206-622-1930",
+      "Website": "www.scn.org/frnf/immanuel.htm",
+      "Meal Information": "Open to all: Last Sunday of each month Lunch 12:00 pm-2:00 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Community Lunch on Capitol Hill",
+      "Location": "1710 11th Ave Seattle, WA 98122",
+      "Phone Number": "206-484-7427",
+      "Website": "www.communitylunch.org",
+      "Meal Information": "Open to all: Tuesday and Friday at 12:00 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Curry Temple",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "206 325-9344",
+      "Website": "No Website",
+      "Meal Information": "Open to all: 3rd Sunday of each month Lunch 2:00 pm to 3:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Lord's Table (The)",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "Not Available",
+      "Website": "No Website",
+      "Meal Information": "Open to all: Monday through Thursday Dinner 7:30 pm-9:00 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Magic Works Alumni",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "Not Available",
+      "Website": "No Website",
+      "Meal Information": "Open to all: Last Sunday of each month 8 to 10 AM, November - March"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Mary's Place",
+      "Location": "210 Dexter Ave N. Seattle, WA 98102",
+      "Phone Number": "206-621-8474",
+      "Website": "www.churchofmarymagdalene.org/contact.htm",
+      "Meal Information": "Open to women & children only: Breakfast Mon through Fri 8:30 am to 9:30 am; Saturdays 10:00 am; Lunch: Mon-Sat - 12:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Meals on Wheels",
+      "Location": "2208 2nd Ave Seattle, WA 98121",
+      "Phone Number": "206-448-5767",
+      "Website": "www.seniorservices.org",
+      "Meal Information": "Delivers meals and mobile market to seniors and people with disabilities throughout Seattle"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Millionair Club Charity (The)",
+      "Location": "2515 Western Ave Seattle, WA 98121",
+      "Phone Number": "206-957-3855",
+      "Website": "www.millionairclub.org",
+      "Meal Information": "Open to all: Monday through Friday 6:15am to 7:00 am and 12:00pm to 1:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Mother's Kitchen",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "206-784-6374",
+      "Website": "www.amma.org/humanitarian-activities/social/mothers-kitchen/seattle.html",
+      "Meal Information": "Open to all: 3rd Sunday of each month Brunch 10:00 am to 11:00 am"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Neighborhood Cooking Foundation",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "Not Available",
+      "Website": "www.neighborhoodcooking.org",
+      "Meal Information": "Open to all: 1st Sunday of each month 6:00 pm to 7:00 pm and 2nd Saturday of each month 2:00 pm to 4:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "New Horizons Ministries",
+      "Location": "2709 3rd Ave. Seattle, WA 98121",
+      "Phone Number": "206-374-0866",
+      "Website": "www.nhmin.org",
+      "Meal Information": "For youth 22 or younger; Breakfast: Mon, Tues, Thurs, Fri, 10:00 am to 11:00 am; Dinner: Monday through Wednesday 7:00 pm to 8:00 pm and  Sun from 6:00 pm to 7:00 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "WRC/Noel House Shelter",
+      "Location": "2030 3rd Ave.,  Seattle, WA. 98121",
+      "Phone Number": "206-770-0156",
+      "Website": "www.noelhouse.org",
+      "Meal Information": "Women Only, Women's Referral Center serves dinner at 6p.m. nightly"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Operation:  Sack Lunch",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "206-357-3262",
+      "Website": "www.opsacklunch.org",
+      "Meal Information": "Open to all: Monday through Friday Breakfast 8:00 am to 9:00 am, Lunch 1:00 pm to 2:00 pm."
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Pike Market Senior Center",
+      "Location": "85 Pike Street, #200 Seattle, WA 98101",
+      "Phone Number": "206-728-2773",
+      "Website": "www.scn.org/seniors/senior_ctrs.html",
+      "Meal Information": "Open to 55+ (membership form required w/suggested yearly donation of $5): Everyday Lunch at 12:00 pm, 3 Breakfasts/week on variable days 8 am"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Recovery Café Community Meals",
+      "Location": "2301 Second Ave Seattle, WA 98121",
+      "Phone Number": "206 374-8731",
+      "Website": "www.recoverycafe.org",
+      "Meal Information": "Open to all: Tuesday through Saturday, Lunch 12:30 pm to 2:30 pm; Dinner: 5:15 pm -6:00 pm (Must be 24 hours sober, and become attend a meeting after first meal)"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Restoration Life Church",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "206-322-4878",
+      "Website": "www.restorationlc.org",
+      "Meal Information": "Open to all: 2nd and 4th Saturday of each month, Lunch 2:00 pm to 3:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "St. Martin de Porres Shelter",
+      "Location": "1561 Alaskan Way S.  Seattle, WA 98134",
+      "Phone Number": "206-323-6341",
+      "Website": "www.ccsww.org",
+      "Meal Information": "Open to men 50+: Everyday Breakfast 8:00 am, Lunch 12:00 pm, Dinner 6:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Seattle Indian Center",
+      "Location": "611 12th Ave South, Suite 300, Seattle",
+      "Phone Number": "206-329-8700",
+      "Website": "No Website",
+      "Meal Information": "open to all:  Monday - Friday: 12:00 - 12:45 P.M."
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Seattle's Union Gospel Mission",
+      "Location": "318 2nd Ave. S. Extension  Seattle, WA.  98104-2604",
+      "Phone Number": "206-723-0767",
+      "Website": "www.ugm.org",
+      "Meal Information": "Open to all (A 30 minute chapel service prior is required prior to all meals except dinner): Everyday Breakfast 7:00 am to 9:00 am, Lunch 12:00 pm, and Dinner 5:30 pm-6:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Seed of Abraham Pentecostal Church",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "425-228-1200",
+      "Website": "http://sdabraham.tripod.com/index.html",
+      "Meal Information": "Open to all: 2nd Saturday of each month snacks are served at 1:00 pm to 2:00 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Set Free Ministries",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "253-863-8031",
+      "Website": "www.sfministries.org",
+      "Meal Information": "Open to all: 2nd  and 4th Sunday of each month a cold lunch is served at 11:00 am to 12:00 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Snoqualmie Valley Alliance Church",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "425-441-8364",
+      "Website": "www.svaonline.org",
+      "Meal Information": "Open to all: 4th Saturday of each month, Dinner 6:30 pm to 8:30 pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "Street Feeding Ministry",
+      "Location": "Outdoor Meal Site located under I-5 at 6th & Columbia, Seattle",
+      "Phone Number": "206-322-6300",
+      "Website": "www.mountzion.net/",
+      "Meal Information": "Open to all: Each 1st, 3rd and 5th Saturday 4:00pm to 5:30pm"
+    },
+    {
+      "Geographic Area": "Central Seattle",
+      "Program Name": "YWCA Angeline's Meals Program",
+      "Location": "2030 3rd Ave Seattle, WA 98121",
+      "Phone Number": "206-436-8651",
+      "Website": "www.ywcaworks.org",
+      "Meal Information": "Women only, 18 and older: Everyday 7:20am to 7:50am (overnight guests), 8:10am-8:40am (program clients); Lunch 11:30am-12:00pm, 12:30pm-1:00pm; Snack 3:00 pm - 3:30 pm"
+    },
+    {
+      "Geographic Area": "West Seattle",
+      "Program Name": "None In Area",
+      "Location": "",
+      "Phone Number": "",
+      "Website": "",
+      "Meal Information": ""
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Blessed Sacrament Food Program",
+      "Location": "5050 8th Ave NE Seattle, WA 98105",
+      "Phone Number": "206-547-3020",
+      "Website": "www.blessed-sacrament.org",
+      "Meal Information": "Open to all: Every Sunday 12:00pm to 2:00 pm."
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Friday Feast",
+      "Location": "1110 E. Harrison #303 Seattle, WA 98102",
+      "Phone Number": "206-632-1635",
+      "Website": "www.rootsinfo.org",
+      "Meal Information": "Open to all: Every Friday Dinner at 6:00 pm to 7:00 pm. Also serves snacks, dinner, and hot breakfast to homeless young persons between 18-25."
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Jubilee Dinners",
+      "Location": "111 NE 80th St. Seattle, WA 98115",
+      "Phone Number": "206-523-7476",
+      "Website": "www.saintandrewsseattle.org/",
+      "Meal Information": "Open to all: Last Sunday of each month Lunch 2:00 pm"
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Phinney Neighborhood Assoc. Soup Kitchen",
+      "Location": "6532 Phinney Ave. N. Seattle, WA 98103",
+      "Phone Number": "206-783-2244",
+      "Website": "http://phinneycenter.org/",
+      "Meal Information": "Open to all: Mon. 12:00 pm-1:00 pm at Calvary Lutheran 7002 23rd Ave NW; Tuesdays 5:00 pm-6:00 pm and  Wednesdays 12:00 pm-1:00 pm at St. John's United Lutheran 5515 Phinney Ave N."
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "St. Luke's Episcopal Church",
+      "Location": "5710 22nd Ave. NW Seattle, WA 98107",
+      "Phone Number": "206-784-3119",
+      "Website": "www.saintlukesseattle.org",
+      "Meal Information": "<P>Open to all: Every Friday Lunch 11:30 am to 12:30 am / <FONT COLOR=\"#000000\" SIZE=\"13\" FACE=\"Calibri\"><B>Closed July & August</B></FONT></P>"
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Teen Feed",
+      "Location": "University Lutheran Church, N.E. 50th & 16th N.E., Seattle (Enter down the steps off 16th & 50th)",
+      "Phone Number": "206-522-4366",
+      "Website": "www.teenfeed.org/teenfeed.aspx",
+      "Meal Information": "Open to youth ages 13 -25;  Mondays: 7:00 - 8:00 P.M."
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Teen Feed",
+      "Location": "University Methodist               N.E. 43rd & 15th N.E., Seattle (Enter via alley, southwest corner of the bldg)",
+      "Phone Number": "206-522-4366",
+      "Website": "www.teenfeed.org/teenfeed.aspx",
+      "Meal Information": "Open to youth ages 13 -25; Tuesdays: 7:00 - 8:00 P.M."
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Teen Feed",
+      "Location": "University Congregational N.E. 45th & 16th N.E., Seattle (Down the seps off 16th)",
+      "Phone Number": "206-522-4366",
+      "Website": "www.teenfeed.org/teenfeed.aspx",
+      "Meal Information": "Open to youth ages 13 -25;  Wednesday & Thursday: 7:00 - 8:00 P.M."
+    },
+    {
+      "Geographic Area": "North Seattle",
+      "Program Name": "Teen Feed",
+      "Location": "University Christian N.E. 50th & 15th N.E., Seattle",
+      "Phone Number": "206-522-4366",
+      "Website": "www.teenfeed.org/teenfeed.aspx",
+      "Meal Information": "Open to youth ages 13 -25;  Fridays & Sundays: 7:00 - 8:00 P.M. (Enter via alley, SW corner of building)"
+    }
+  ]
+}
