@@ -1,5 +1,5 @@
 {
-  "emergencies": [
+  "emergency": [
     {
       "Category": "Emergency and Crisis Lines",
       "Emergency Name": "Child Protective Services",
@@ -11,14 +11,14 @@
       "Category": "Emergency and Crisis Lines",
       "Emergency Name": "Crisis Clinic 24-Hour Crisis Line",
       "Phone Number": "866-427-4747",
-      "Website": "www.crisisclinic.org/",
+      "Website": "www.crisisclinic.org",
       "Emergency Information": "Crisis Connections, formerly known as Crisis Clinic, was founded in 1964. We are one of the oldest Crisis Lines in the nation, and home to five programs focused on serving the emotional and physical needs of individuals across Washington State. These programs include the 24-Hour Crisis Line, King County 2-1-1, Teen Link, WA Recovery Help Line and WA Warm Line. With over 400 trained volunteers and experienced staff, we provide support, resources and certified training for King County and other communities statewide."
     },
     {
       "Category": "Emergency and Crisis Lines",
       "Emergency Name": "Domestic Violence Hotline ",
       "Phone Number": "800-562-6025",
-      "Website": "www.thehotline.org/",
+      "Website": "www.thehotline.org",
       "Emergency Information": "Our highly-trained advocates are available 24/7/365 to talk confidentially with anyone experiencing domestic violence, seeking resources or information, or questioning unhealthy aspects of their relationship."
     },
     {

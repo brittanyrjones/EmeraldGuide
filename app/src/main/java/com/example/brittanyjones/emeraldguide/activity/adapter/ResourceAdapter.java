@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.activity.activity;
+package com.example.brittanyjones.emeraldguide.activity.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
