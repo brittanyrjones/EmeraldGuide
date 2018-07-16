@@ -1,0 +1,74 @@
+{
+  "emergencies": [
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Child Protective Services",
+      "Phone Number": " 866-363-4276",
+      "Website": "www.dshs.wa.gov/ca/parent-resources/child-protective-services",
+      "Emergency Information": "Child Protective Services is a state agency that investigates reports of child abuse and neglect. Child safety is the first concern of Child Protective Services. They will work with both parents to safely care for their child. CPS can also go to court to remove a child from the parents' care if necessary to protect the child."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Crisis Clinic 24-Hour Crisis Line",
+      "Phone Number": "866-427-4747",
+      "Website": "www.crisisclinic.org/",
+      "Emergency Information": "Crisis Connections, formerly known as Crisis Clinic, was founded in 1964. We are one of the oldest Crisis Lines in the nation, and home to five programs focused on serving the emotional and physical needs of individuals across Washington State. These programs include the 24-Hour Crisis Line, King County 2-1-1, Teen Link, WA Recovery Help Line and WA Warm Line. With over 400 trained volunteers and experienced staff, we provide support, resources and certified training for King County and other communities statewide."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Domestic Violence Hotline ",
+      "Phone Number": "800-562-6025",
+      "Website": "www.thehotline.org/",
+      "Emergency Information": "Our highly-trained advocates are available 24/7/365 to talk confidentially with anyone experiencing domestic violence, seeking resources or information, or questioning unhealthy aspects of their relationship."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "King County Sexual Assault Resource Center",
+      "Phone Number": "888-998-6423",
+      "Website": "www.kcsarc.org",
+      "Emergency Information": "King County Sexual Assault Resource Center's (KCSARC's) purpose is to alleviate, as much as possible, the trauma of sexual assault for victims and their families. Our mission is to give voice to victims, their families, and the community; create change in beliefs, attitudes, and behaviors about violence; and instill courage for people to speak out about sexual assault."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "National Suicide Prevention Hotline",
+      "Phone Number": "1-800-273-8255",
+      "Website": "www.suicidepreventionlifeline.org/",
+      "Emergency Information": "he Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Planned Parenthood",
+      "Phone Number": "800-769-0045",
+      "Website": "www.plannedparenthood.org",
+      "Emergency Information": "Planned Parenthood delivers vital reproductive health care, sex education, and information to millions of people worldwide."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "UW 24-Hour Community Care Line",
+      "Phone Number": "206-744-2500",
+      "Website": "depts.washington.edu/hhpccweb/urgent-need/",
+      "Emergency Information": "For urgent medical advice after hours, call the 24-hour Community Care Line nurse consult service at (206) 744-2500. A nurse will be able to advise you about your problem, make treatment suggestions, and make arrangements if you need to be seen on an emergency basis."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Veterans Affairs Crisis Line",
+      "Phone Number": "800-273-8255",
+      "Website": "www.veteranscrisisline.net/ForVeterans.aspx",
+      "Emergency Information": "If you’re a Veteran in crisis or know a Veteran who is, confidential support is only a phone call, click, or text away — 24 hours a day, 7 days a week, 365 days a year. The Veterans Crisis Line, online chat, and text-messaging service are free to all Veterans, even if you are not registered with the U.S. Department of Veterans Affairs (VA) or enrolled in VA health care. Hundreds of Veterans call us every day, and start to get back on track."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Washington Poison Center Information Line",
+      "Phone Number": "800-222-1222",
+      "Website": "www.wapc.org",
+      "Emergency Information": "The Washington Poison Center (WAPC) provides immediate, free, and expert treatment advice and assistance on the telephone in case of exposure to poisonous, hazardous, or toxic substances. All calls are confidential."
+    },
+    {
+      "Category": "Emergency and Crisis Lines",
+      "Emergency Name": "Washington Recovery Helpline",
+      "Phone Number": "866-789-1511",
+      "Website": "www.warecoveryhelpline.org",
+      "Emergency Information": "The Washington Recovery Help Line, a program of Crisis Clinic, is an anonymous and confidential 24-hour help line that provides crisis intervention and referral services for Washington State residents. Professionally-trained volunteers and staff are available to provide emotional support and offer local treatment resources for substance abuse, problem gambling and mental health, as well as to other community services."
+    }
+  ]
+}
