@@ -8,7 +8,6 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.brittanyjones.emeraldguide.R;
-import com.example.brittanyjones.emeraldguide.activity.model.Hygiene;
 import com.example.brittanyjones.emeraldguide.activity.model.Shelter;
 
 import java.util.List;
@@ -50,7 +49,7 @@ public class ShelterAdapter extends BaseAdapter {
         final int pos = position;
         Shelter shelter = dataList.get(pos);
         if(shelvi == null) {
-            shelvi = inflater.inflate(R.layout.listitem_hygiene, viewGroup, false);
+            shelvi = inflater.inflate(R.layout.listitem_shelter, viewGroup, false);
             viewHolder = new ViewHolder();
             viewHolder.category = (TextView) shelvi.findViewById(R.id.shelCategory_txt);
             viewHolder.shelterName = (TextView) shelvi.findViewById(R.id.shelterName_txt);
