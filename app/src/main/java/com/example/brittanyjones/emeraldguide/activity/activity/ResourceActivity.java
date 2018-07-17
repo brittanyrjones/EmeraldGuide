@@ -7,6 +7,7 @@ import android.widget.ListView;
 
 import com.example.brittanyjones.emeraldguide.R;
 import com.example.brittanyjones.emeraldguide.activity.adapter.ResourceAdapter;
+import com.example.brittanyjones.emeraldguide.activity.model.BaseResource;
 import com.example.brittanyjones.emeraldguide.activity.model.Resource;
 import com.google.gson.Gson;
 

@@ -1,6 +1,5 @@
-package com.example.brittanyjones.emeraldguide.activity.activity;
+package com.example.brittanyjones.emeraldguide.activity.model;
 
-import com.example.brittanyjones.emeraldguide.activity.model.Resource;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

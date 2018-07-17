@@ -26,6 +26,7 @@ public class HygieneAdapter extends BaseAdapter {
         this.dataList = dataList;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
+
     @Override
     public int getCount() {
         return dataList.size();
