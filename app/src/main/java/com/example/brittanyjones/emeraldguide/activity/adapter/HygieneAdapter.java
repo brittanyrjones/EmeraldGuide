@@ -8,7 +8,6 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.brittanyjones.emeraldguide.R;
-import com.example.brittanyjones.emeraldguide.activity.model.Emergency;
 import com.example.brittanyjones.emeraldguide.activity.model.Hygiene;
 
 import java.util.List;
@@ -70,7 +69,7 @@ public class HygieneAdapter extends BaseAdapter {
         viewHolder.website.setText(hygiene.getWebsite());
         viewHolder.hygieneHours.setText(hygiene.getHygieneHours());
         viewHolder.area.setText(hygiene.getArea());
-        viewHolder.hygieneAddress.setText(hygiene.getHygieneAddress();
+        viewHolder.hygieneAddress.setText(hygiene.getHygieneAddress());
 
         return hyvi;
     }
