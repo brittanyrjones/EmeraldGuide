@@ -1,0 +1,125 @@
+{
+  "shelter": [
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "97 S. Main St.",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Bread of Life Mission",
+      "Phone Number": "206-682-3579",
+      "Website": "breadoflifemission.org",
+      "Shelter Information": "Shelter with meals and no maximum length of stay for homeless men, 18 and older. Accepts offenders and sex offenders. Documents Required: valid photo ID. $5 per night.",
+      "Shelter Hours": "Overnight bed sign-up: daily: 5:30 – 6:15 p.m., 8:00 – 8:15 p.m",
+      "People Served": "Men"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "2030 Third Ave., Angeline’s Center",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Catholic Housing Services Women’s Referral Ctr",
+      "Phone Number": "206-441-3210",
+      "Website": "ccsww.org",
+      "Shelter Information": "Sightly emergency shelter screening and referral for women, 18 and older. No children. Visit in person. Priority given to clients who arrive by 8 p.m. No fees. ",
+      "Shelter Hours": "Office: daily: 8 a.m. – 4 p.m.; screening and referral (in-person only): nightly: 6 – 9 p.m",
+      "People Served": "Women"
+    },
+    {
+      "Area": "",
+      "Shelter Address": "",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Community Emergency Family Shelter Intake Line",
+      "Phone Number": "206-245-1026",
+      "Website": "",
+      "Shelter Information": "Intake for emergency night shelter for pregnant women and families",
+      "Shelter Hours": "24 Hour Intake lin",
+      "People Served": "Family"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "517 Third Ave",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Seattle Parks and Recreation Public Showers and Restrooms",
+      "Phone Number": "206-464-1570",
+      "Website": "desc.org",
+      "Shelter Information": "Overnight emergency shelters. The main shelter offers onsite medical care, mental health counseling and substance use disorder treatment. Serves women 18 and older, men 60 and older and anyone 18 and older who is vulnerable due to mental illness, developmental disability, substance use disorder and/or medical condition. Visit in person to register. Only professional referrals accepted after 5 p.m. Documents Required: documentation of disability or vulnerability may be required. No fees.",
+      "Shelter Hours": "Contact: 24 hours; intake: daily: 8 a.m. – 4:45 p.m.; shelter: nightly: 4:45 p.m. – 7 a.m.",
+      "People Served": "Adult"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "500 Fourth Ave.",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "King County Administration Building",
+      "Phone Number": "206-263-9089",
+      "Website": "resourcetalk.crisisclinic.org",
+      "Shelter Information": "Shelter beds serving men, 18 and older. Serves trans* clients identifying as male; notify staff of accommodations needed. Serves men fleeing DV, but location is not confidential. Service animals and pets are allowed. Visit in person. Intake for both locations at the King County Administration Building at 4th & Jefferson. Line forms in front of the garage door. No fees.",
+      "Shelter Hours": "Intake: 7 p.m.; nightly, 7 p.m. – 6 a.m.",
+      "People Served": "Male Identified"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "302 14th Ave. S",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Operation Nightwatch",
+      "Phone Number": "206-329-2099",
+      "Website": "seattlenightwatch.org/get-help/nightwatch-shelter/",
+      "Shelter Information": "Late-night referrals and transportation to downtown Seattle shelters. Wheelchair accessible. Serves single men and women, 18 and older. Men must either first obtain a referral ticket from one of the shelters listed, or provide an Operation Nightwatch ticket from the previous night. Women can visit site without a referral ticket. Referral tickets and admission to the Operation Nightwatch Dispatch center do not guarantee placement into a shelter. No fees.",
+      "Shelter Hours": "In-person intake: 9 p.m. – 12 a.m. nightly",
+      "People Served": "Adult"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "1101 Pike St",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Salvation Army",
+      "Phone Number": "206-447-9944",
+      "Website": "salvationarmynw.org/",
+      "Shelter Information": "Enhanced dormitory-style emergency shelter and case management for single homeless women, 18 and older. Facility is clean and sober. Performs background checks. Serves any client who self-identifies as female. Call to inquire about space availability and to do a phone screening. Program fees are $5 per day. Inability to pay does not negate entry. ",
+      "Shelter Hours": "Phone Screening: Tue. – Fri., 10 a.m. – noon, 1 – 3 p.m.; shelter: 6 p.m. – 10 a.m.",
+      "People Served": "Female Identified"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "318 Second Ave. Extension S",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Seattle’s Union Gospel Mission Men’s Shelter",
+      "Phone Number": "206-622-5177",
+      "Website": "ugm.org",
+      "Shelter Information": "Operates an emergency shelter. Serves homeless men 18 and older. Accepts offenders. Chapel service attendance is required for some services. Call to check space availability and to reserve a ticket for the night. Clients without a ticket should line up for unclaimed mats beginning at 7:15 p.m. Documents Required: ID. No fees. ",
+      "Shelter Hours": "Phone inquiries and tickets: daily: 9:30 – 11:30 a.m., 12:30 – 5:30 p.m., 10 p.m. – 6 a.m.; in-person intake with tickets: 8 p.m. nightly",
+      "People Served": "Men"
+    },
+    {
+      "Area": "South Seattle",
+      "Shelter Address": "3802 S. Othello St ",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Seattle Union Gospel Mission Women’s Shelters",
+      "Phone Number": "206-628-2008",
+      "Website": "ugm.org/what-we-do/welcome-and-embrace/",
+      "Shelter Information": "Structured shelter serving single women and women with children who are in recovery from drugs or alcohol or who have experienced domestic violence but are not actively being pursued. Transgender clients served on a case-by-case basis. Cannot serve sex offenders. Wheelchair accessible. Performs background checks Cannot accept women who are currently on a Methadone program. Call for telephone screening. Call daily to check and maintain spot on wait-list. Payment plan can be arranged. ",
+      "Shelter Hours": "Intake: Mon. – Fri., 8:30 – 9 a.m",
+      "People Served": "Family"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "2030 Third Ave. YWCA Opportunity Place",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "YWCA Angeline’s Center",
+      "Phone Number": "206-436-8656",
+      "Website": "ywcaworks.org/programs/angelines-day-center",
+      "Shelter Information": "Winter shelter and an enhanced shelter. Serves homeless adult women. Serves anyone who identifies as female. Service animals accepted. Visit winter shelter in person; no fees. For enhanced shelter attend 20-minute orientation and apply; performs background checks; fee of 30 percent of income.",
+      "Shelter Hours": "Daily: 8 a.m. – 6 p.m.; orientation: Tue., 1:30 p.m",
+      "People Served": "Female Identified"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "1902 Second Ave",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "SHARE/WHEEL",
+      "Phone Number": "Apply In Person",
+      "Website": "sharewheel.org/need-shelter",
+      "Shelter Information": "Self-managed overnight shelter. Intake is usually available in Spanish as well as English. Screenings for night-of only. Serves adults experiencing homelessness, 18 and older. Apply in person. No fees. ",
+      "Shelter Hours": "Mon., Thurs., 1 p.m.; Tue., Wed., Fri., Sat., 6 p.m",
+      "People Served": "Adult"
+    }
+  ]
+}
