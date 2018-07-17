@@ -15,7 +15,6 @@ public class YouthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youth);
 
-
         Button youth_search_btn = (Button) findViewById(R.id.button25);
         Button youth_help_btn = (Button) findViewById(R.id.button26);
         Button youth_emergency_btn = (Button) findViewById(R.id.button27);

@@ -1,74 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp">
 
-    <TextView
-        android:id="@+id/programName_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:text="Resource Name"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/location_txt"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:autoLink="map"
-        android:text="Resource Location"
-        android:textColor="@color/colorPrimaryDark"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="46dp" />
-
-    <TextView
-        android:id="@+id/geographicArea_txt"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Geo Area"
-        android:textColor="#000000"
-        android:textSize="15dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="86dp" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/mealInformation_txt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Meal Information"
-        android:textSize="15dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="25dp" />
+        <TextView
+            android:id="@+id/programName_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-    <TextView
-        android:id="@+id/website_txt"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:autoLink="all"
-        android:clickable="true"
-        android:linksClickable="true"
-        android:text="Resource Website"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="65dp" />
+            android:text="Resource Name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/phoneNumber_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="phone"
-        android:text="Phone Number"
-        android:textColor="#000000"
-        android:textSize="15dp"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="107dp" />
+        <TextView
+            android:id="@+id/location_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="map"
+            android:text="Resource Location"
+            android:textColor="@color/colorPrimaryDark" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/geographicArea_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geo Area"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/mealInformation_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meal Information"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/website_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:text="Resource Website"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phoneNumber_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:text="Phone Number"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
