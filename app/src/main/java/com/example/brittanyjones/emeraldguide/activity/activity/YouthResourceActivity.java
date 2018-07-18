@@ -29,7 +29,7 @@ public class YouthResourceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youth_resource);
-        setTitle("Public Restrooms and Hygiene Facilities");
+        setTitle("Free Hot/Cold Meals");
         init();
     }
 
