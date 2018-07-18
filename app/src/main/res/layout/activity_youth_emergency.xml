@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".activity.activity.YouthEmergencyActivity">
 
+    <ListView
+        android:id="@+id/emglistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="246dp">
+
+    </ListView>
+
 </android.support.constraint.ConstraintLayout>
