@@ -10,19 +10,22 @@
     card_view:cardElevation="15dp"
     card_view:contentPadding="5dp">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
 
-        android:layout_height="wrap_content"
+        android:layout_height="212dp"
         android:gravity="center"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/hygieneName_txt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
 
+            android:layout_alignParentTop="true"
+            android:gravity="center"
             android:text="Resource Name"
             android:textColor="@android:color/black"
             android:textSize="18sp"
@@ -32,6 +35,8 @@
             android:id="@+id/hygieneAddress_txt"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_alignTop="@+id/hygWebsite_txt"
+            android:layout_toEndOf="@+id/hygWebsite_txt"
             android:autoLink="map"
             android:background="@drawable/ic_directions_black_24dp"
             android:text="Resource Location"
@@ -42,6 +47,8 @@
             android:id="@+id/hygWebsite_txt"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_above="@+id/hygArea_txt"
+            android:layout_centerHorizontal="true"
             android:autoLink="all"
             android:background="@drawable/ic_open_in_browser_black_24dp"
             android:clickable="true"
@@ -54,15 +61,22 @@
 
         <TextView
             android:id="@+id/hygCategory_txt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Meal Information"
-            android:textSize="15dp" />
+            android:layout_above="@+id/hygieneAddress_txt"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="category"
+            android:textSize="15dp"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/hygPhoneNumber_txt"
             android:layout_width="40dp"
             android:layout_height="40dp"
+
+            android:layout_alignTop="@+id/hygieneAddress_txt"
+            android:layout_toStartOf="@+id/hygWebsite_txt"
             android:autoLink="phone"
             android:background="@drawable/ic_phone_black_24dp"
             android:text="Phone Number"
@@ -72,30 +86,39 @@
 
         <TextView
             android:id="@+id/hygieneInformation_txt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hygieneHours_txt"
             android:text="Meal Information"
             android:textSize="15dp" />
 
         <TextView
             android:id="@+id/hygieneHours_txt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hygieneName_txt"
             android:autoLink="all"
             android:clickable="true"
+            android:gravity="center"
             android:linksClickable="true"
-            android:text="Resource Website"
+            android:text="hours"
             android:textSize="15dp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/hygArea_txt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
             android:autoLink="phone"
-            android:text="Phone Number"
+            android:gravity="center"
+            android:text="area"
             android:textColor="#000000"
             android:textSize="15dp" />
 
-    </LinearLayout>
+    </RelativeLayout>
 </android.support.v7.widget.CardView>
