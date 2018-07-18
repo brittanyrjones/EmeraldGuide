@@ -28,7 +28,7 @@ public class YouthShowerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_youth_shower);
+        setContentView(R.layout.activity_shower);
         setTitle("Public Restrooms and Hygiene Facilities");
         init();
     }
@@ -64,10 +64,4 @@ public class YouthShowerActivity extends AppCompatActivity {
 
         return json;
     }
-
-
-
-
-
-
 }
