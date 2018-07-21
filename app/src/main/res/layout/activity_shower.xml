@@ -8,8 +8,10 @@
 
     <ListView
         android:id="@+id/hyglistView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="344dp"
+        android:layout_height="222dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="283dp">
 
     </ListView>
 

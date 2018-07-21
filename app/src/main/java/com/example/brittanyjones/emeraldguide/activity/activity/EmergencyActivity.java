@@ -30,7 +30,6 @@ public class EmergencyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emergency);
         setTitle("Emergency & Crisis Lines");
-
         init();
     }
 

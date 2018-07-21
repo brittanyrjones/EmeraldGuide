@@ -28,7 +28,6 @@ public class ResourceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resource);
         setTitle("Free Hot/Cold Meals");
-
         init();
     }
 

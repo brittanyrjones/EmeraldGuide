@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:orientation="horizontal"
     card_view:cardCornerRadius="20dp"
     card_view:cardElevation="15dp"
-    card_view:contentPadding="5dp">
+    android:clickable="true"
+    card_view:contentPadding="5dp"
+    android:focusable="true">
+
+
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
         android:orientation="vertical">
 
         <TextView
@@ -38,15 +47,15 @@
             android:background="@drawable/ic_directions_black_24dp"
             android:text="Resource Location"
             android:textColor="@android:color/transparent"
-            android:textColorLink="@android:color/transparent" />
+            android:textColorLink="@android:color/transparent"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/geographicArea_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="155dp"
+            android:layout_below="@+id/programName_txt"
             android:gravity="center"
             android:text="Geo Area"
             android:textColor="#000000"
@@ -59,7 +68,8 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/programName_txt"
             android:text="Meal Information"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/website_txt"
@@ -75,7 +85,8 @@
             android:textColor="@android:color/transparent"
             android:textColorLink="@android:color/transparent"
             android:textSize="15dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
 
@@ -90,9 +101,11 @@
             android:text="Phone Number"
             android:textColor="@android:color/transparent"
             android:textColorLink="@android:color/transparent"
-            android:textSize="15dp" />
-
+            android:textSize="15dp"
+            android:visibility="gone" />
 
     </RelativeLayout>
-
 </android.support.v7.widget.CardView>
+
+
+
