@@ -13,6 +13,7 @@ import com.example.brittanyjones.emeraldguide.activity.model.YouthShelter;
 import java.util.List;
 
 public class YouthShelterAdapter extends BaseAdapter {
+
     Context context;
     List<YouthShelter> dataList;
 

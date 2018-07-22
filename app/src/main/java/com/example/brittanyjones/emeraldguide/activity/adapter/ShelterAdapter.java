@@ -14,7 +14,6 @@ import java.util.List;
 
 public class ShelterAdapter extends BaseAdapter {
 
-
     Context context;
     List<Shelter> dataList;
 

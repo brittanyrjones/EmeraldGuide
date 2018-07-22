@@ -40,8 +40,8 @@ public class YouthUtils {private static final String TAG = "Utils";
         InputStream is = null;
         try {
             AssetManager manager = context.getAssets();
-            Log.d(TAG,"path "+ "news.json");
-            is = manager.open("news.json");
+            Log.d(TAG,"path "+ "youthnews.json");
+            is = manager.open("youthnews.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

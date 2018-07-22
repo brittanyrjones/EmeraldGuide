@@ -28,7 +28,7 @@ public class YouthShelterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_youth_shelter);
+        setContentView(R.layout.activity_shelter);
         setTitle("Emergency Shelters");
         init();
     }

@@ -4,8 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class YouthShelter {
-
-
+    
         @SerializedName("Area")
         @Expose
         private String area;
