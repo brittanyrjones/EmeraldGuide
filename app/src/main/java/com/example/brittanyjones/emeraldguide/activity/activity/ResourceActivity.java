@@ -22,20 +22,33 @@ public class ResourceActivity extends AppCompatActivity {
 
     private ResourceAdapter resourceAdapter;
     private ListView listView;
+//
+//    TextView geographicArea_txt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resource);
         setTitle("Free Hot/Cold Meals");
+
+//        geographicArea_txt = (TextView)
+//                findViewById(R.id.geographicArea_txt);
+//        geographicArea_txt.setVisibility(View.GONE);
         init();
     }
 
-    public void init() {
+//    public void toggle_contents(View v) {
+//        geographicArea_txt.setVisibility( geographicArea_txt.isShown()
+//        ? View.GONE
+//                : View.VISIBLE);
+//    }
+
+        public void init() {
         listView = (ListView) findViewById(R.id.listView);
         resourceAdapter = new ResourceAdapter(ResourceActivity.this, getResourcesData());
         listView.setAdapter(resourceAdapter);
     }
+
 
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<Resource> getResourcesData() {

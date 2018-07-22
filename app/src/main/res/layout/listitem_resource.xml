@@ -14,19 +14,17 @@
     android:focusable="true">
 
 
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:clickable="true"
         android:focusable="true"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/programName_txt"
-            android:layout_width="match_parent"
+            android:layout_width="248dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
@@ -34,6 +32,8 @@
             android:text="Resource Name"
             android:textColor="@android:color/black"
             android:textSize="18sp"
+            android:clickable="true"
+            android:onClick="toggle_contents"
             android:textStyle="bold" />
 
         <TextView
@@ -93,7 +93,6 @@
             android:id="@+id/phoneNumber_txt"
             android:layout_width="40dp"
             android:layout_height="40dp"
-
             android:layout_centerVertical="true"
             android:layout_toStartOf="@+id/website_txt"
             android:autoLink="phone"
@@ -103,6 +102,15 @@
             android:textColorLink="@android:color/transparent"
             android:textSize="15dp"
             android:visibility="gone" />
+
+        <Button
+            android:id="@+id/showbutton"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_arrow_drop_down_black_24dp"
+            android:onClick="showInfoClicked" />
 
     </RelativeLayout>
 </android.support.v7.widget.CardView>
