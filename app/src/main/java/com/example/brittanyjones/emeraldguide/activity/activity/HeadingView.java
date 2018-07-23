@@ -49,7 +49,7 @@ public class HeadingView {
 
     @Expand
     private void onExpand(){
-        toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_drop_down_black_24dp));
+        toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_drop_up_black_24dp));
     }
 
     @Collapse

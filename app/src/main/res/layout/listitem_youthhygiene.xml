@@ -3,7 +3,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:orientation="horizontal"
     card_view:cardCornerRadius="20dp"
@@ -14,7 +14,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
 
-        android:layout_height="212dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -41,7 +41,8 @@
             android:background="@drawable/ic_directions_black_24dp"
             android:text="Resource Location"
             android:textColor="@android:color/transparent"
-            android:textColorLink="@android:color/transparent" />
+            android:textColorLink="@android:color/transparent"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/hygWebsite_txt"
@@ -57,7 +58,8 @@
             android:textColor="@android:color/transparent"
             android:textColorLink="@android:color/transparent"
             android:textSize="15dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/hygCategory_txt"
@@ -82,7 +84,8 @@
             android:text="Phone Number"
             android:textColor="@android:color/transparent"
             android:textColorLink="@android:color/transparent"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/hygieneInformation_txt"
@@ -91,7 +94,8 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/hygieneHours_txt"
             android:text="Meal Information"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/hygieneHours_txt"
@@ -105,7 +109,8 @@
             android:linksClickable="true"
             android:text="hours"
             android:textSize="15dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/hygArea_txt"

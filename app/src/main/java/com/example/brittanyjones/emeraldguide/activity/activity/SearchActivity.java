@@ -10,13 +10,15 @@ import com.example.brittanyjones.emeraldguide.activity.model.Info;
 import com.mindorks.placeholderview.ExpandablePlaceHolderView;
 
 import java.util.Objects;
-
 public class SearchActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+
         Context mContext = this.getApplicationContext();
         ExpandablePlaceHolderView mExpandableView = (ExpandablePlaceHolderView) findViewById(R.id.expandableView);
         for(Feed feed : Objects.requireNonNull(Utils.loadFeeds(this.getApplicationContext()))){

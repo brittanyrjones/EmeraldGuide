@@ -3,7 +3,9 @@ package com.example.brittanyjones.emeraldguide.activity.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.brittanyjones.emeraldguide.R;
 import com.example.brittanyjones.emeraldguide.activity.adapter.ShelterAdapter;
@@ -27,12 +29,24 @@ public class ShelterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_shelter);
         setTitle("Emergency Shelters");
         init();
+
     }
+
+    public void on(View V){
+        TextView tv = (TextView) findViewById(R.id.shelterInformation_txt);
+        tv.setVisibility(View.VISIBLE);
+
+    }
+
 
     public void init() {
         shellistView = (ListView) findViewById(R.id.shellistView);
         shelterAdapter = new ShelterAdapter(ShelterActivity.this, getShelterData());
         shellistView.setAdapter(shelterAdapter);
+
+
+
+
     }
 
     /* Convert JSON String to BaseWatch Model via GSON */

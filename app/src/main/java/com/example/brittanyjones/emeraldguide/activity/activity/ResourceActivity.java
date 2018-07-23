@@ -3,6 +3,7 @@ package com.example.brittanyjones.emeraldguide.activity.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.brittanyjones.emeraldguide.R;
@@ -17,11 +18,17 @@ import java.util.List;
 
 public class ResourceActivity extends AppCompatActivity {
 
+
     private final static String JSON_FILE_ANDROID_WEAR = "resources.json";
     private final static String TAG = "ResourceActivity";
 
     private ResourceAdapter resourceAdapter;
     private ListView listView;
+    EditText search;
+
+
+
+
 //
 //    TextView geographicArea_txt;
 
@@ -45,6 +52,7 @@ public class ResourceActivity extends AppCompatActivity {
 
         public void init() {
         listView = (ListView) findViewById(R.id.listView);
+
         resourceAdapter = new ResourceAdapter(ResourceActivity.this, getResourcesData());
         listView.setAdapter(resourceAdapter);
     }
