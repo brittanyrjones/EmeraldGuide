@@ -12,7 +12,7 @@ import com.example.brittanyjones.emeraldguide.activity.model.Shelter;
 
 import java.util.List;
 
-public class ShelterAdapter extends BaseAdapter {
+public class ShelterAdapter extends BaseAdapter{
 
     Context context;
     List<Shelter> dataList;
@@ -26,6 +26,7 @@ public class ShelterAdapter extends BaseAdapter {
         this.dataList = dataList;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
+
     @Override
     public int getCount() {
         return dataList.size();
@@ -43,6 +44,7 @@ public class ShelterAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View view, ViewGroup viewGroup) {
+
         shelvi = view;
         //Populate the Listview
         final int pos = position;
@@ -60,6 +62,7 @@ public class ShelterAdapter extends BaseAdapter {
             viewHolder.shelterHours = (TextView) shelvi.findViewById(R.id.shelterHours_txt);
             viewHolder.peopleServed = (TextView) shelvi.findViewById(R.id.shelterPeople_Served_txt);
             shelvi.setTag(viewHolder);
+
         }else
             viewHolder = (ViewHolder) view.getTag();
 
@@ -72,8 +75,6 @@ public class ShelterAdapter extends BaseAdapter {
         viewHolder.area.setText(shelter.getArea());
         viewHolder.shelterAddress.setText(shelter.getShelterAddress());
         viewHolder.peopleServed.setText(shelter.getPeopleServed());
-
-
         return shelvi;
     }
 

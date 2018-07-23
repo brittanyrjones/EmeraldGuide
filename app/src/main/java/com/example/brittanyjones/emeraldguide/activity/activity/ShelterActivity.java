@@ -3,9 +3,7 @@ package com.example.brittanyjones.emeraldguide.activity.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.brittanyjones.emeraldguide.R;
 import com.example.brittanyjones.emeraldguide.activity.adapter.ShelterAdapter;
@@ -32,11 +30,14 @@ public class ShelterActivity extends AppCompatActivity {
 
     }
 
-    public void on(View V){
-        TextView tv = (TextView) findViewById(R.id.shelterInformation_txt);
-        tv.setVisibility(View.VISIBLE);
+//    public void on(View parent, View V, int position,
+//                        long id){
+//        TextView tv = (TextView) findViewById(R.id.shelterInformation_txt);
+//        tv.setVisibility(View.VISIBLE);
+//
+//    }
+//
 
-    }
 
 
     public void init() {
