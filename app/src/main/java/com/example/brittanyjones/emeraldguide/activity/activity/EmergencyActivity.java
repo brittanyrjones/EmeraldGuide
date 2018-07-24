@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.brittanyjones.emeraldguide.R;
+import com.example.brittanyjones.emeraldguide.activity.activity.helppages.EmergencyHelpActivity;
 import com.example.brittanyjones.emeraldguide.activity.adapter.EmergencyAdapter;
 import com.example.brittanyjones.emeraldguide.activity.model.Emergency;
 import com.example.brittanyjones.emeraldguide.activity.model.EmergencyList;
@@ -51,8 +52,8 @@ public class EmergencyActivity extends AppCompatActivity {
         help_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent helpint = new Intent(EmergencyActivity.this, HelpActivity.class);
-                startActivity(helpint);
+                Intent emergencyhelpint = new Intent(EmergencyActivity.this, EmergencyHelpActivity.class);
+                startActivity(emergencyhelpint);
             }
 
         });

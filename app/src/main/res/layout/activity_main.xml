@@ -129,7 +129,7 @@
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
         android:fontFamily="@font/gilda_display"
-        android:text="Emergency"
+        android:text="Crisis Lines"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -139,7 +139,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.904"
-        tools:text="Emergency" />
+        tools:text="Crisis Lines" />
 
     <Button
         android:id="@+id/button28"

@@ -55,3 +55,10 @@ dependencies {
     compile 'com.google.code.gson:gson:2.7'
 }
 
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}

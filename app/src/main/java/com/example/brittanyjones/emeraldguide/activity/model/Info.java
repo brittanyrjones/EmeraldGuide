@@ -3,53 +3,82 @@ package com.example.brittanyjones.emeraldguide.activity.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Info {
-
-    @SerializedName("title")
+public class Info{
+    @SerializedName("Geographic Area")
     @Expose
-    private String title;
-
-    @SerializedName("image_url")
+    private String geographicArea;
+    @SerializedName("Program Name")
     @Expose
-    private String imageUrl;
-
-    @SerializedName("caption")
+    private String programName;
+    @SerializedName("Location")
     @Expose
-    private String caption;
-
-    @SerializedName("time")
+    private String location;
+    @SerializedName("Phone Number")
     @Expose
-    private String time;
+    private String phoneNumber;
+    @SerializedName("Website")
+    @Expose
+    private String website;
+    @SerializedName("Meal Information")
+    @Expose
+    private String mealInformation;
 
-    public String getTitle() {
-        return title;
+    public Info(String geographicArea, String programName, String location, String phoneNumber, String website, String mealInformation) {
+        super();
+        this.geographicArea = geographicArea;
+        this.programName = programName;
+        this.location = location;
+        this.phoneNumber = phoneNumber;
+        this.website = website;
+        this.mealInformation = mealInformation;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public String getGeographicArea() {
+        return geographicArea;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public void setGeographicArea(String geographicArea) {
+        this.geographicArea = geographicArea;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public String getProgramName() {
+        return programName;
     }
 
-    public String getCaption() {
-        return caption;
+    public void setProgramName(String programName) {
+        this.programName = programName;
     }
 
-    public void setCaption(String caption) {
-        this.caption = caption;
+    public String getLocation() {
+        return location;
     }
 
-    public String getTime() {
-        return time;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    public String getMealInformation() {
+        return mealInformation;
+    }
+
+    public void setMealInformation(String mealInformation) {
+        this.mealInformation = mealInformation;
+    }
+
 }

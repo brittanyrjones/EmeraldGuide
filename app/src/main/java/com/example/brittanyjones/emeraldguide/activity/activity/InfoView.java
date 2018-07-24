@@ -1,10 +1,8 @@
 package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.content.Context;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.example.brittanyjones.emeraldguide.R;
 import com.example.brittanyjones.emeraldguide.activity.model.Info;
 import com.mindorks.placeholderview.annotations.Layout;
@@ -22,17 +20,25 @@ public class InfoView {
     @ChildPosition
     private int mChildPosition;
 
-    @View(R.id.titleTxt)
-    private TextView titleTxt;
+    @View(R.id.programName_txt)
+    private TextView programName_txt;
 
-    @View(R.id.captionTxt)
-    private TextView captionTxt;
+    @View(R.id.geographicArea_txt)
+    private TextView geographicArea_txt;
 
-    @View(R.id.timeTxt)
-    private TextView timeTxt;
+    @View(R.id.location_txt)
+    private TextView location_txt;
 
-    @View(R.id.imageView)
-    private ImageView imageView;
+    @View(R.id.phoneNumber_txt)
+    private TextView phoneNumber_txt;
+
+    @View(R.id.website_txt)
+    private TextView website_txt;
+
+    @View(R.id.mealInformation_txt)
+    private TextView mealInformation_txt;
+
+
 
     private Info mInfo;
     private Context mContext;
@@ -44,9 +50,11 @@ public class InfoView {
 
     @Resolve
     private void onResolved() {
-        titleTxt.setText(mInfo.getTitle());
-        captionTxt.setText(mInfo.getCaption());
-        timeTxt.setText(mInfo.getTime());
-        Glide.with(mContext).load(mInfo.getImageUrl()).into(imageView);
+        programName_txt.setText(mInfo.getProgramName());
+        geographicArea_txt.setText(mInfo.getGeographicArea());
+        location_txt.setText(mInfo.getLocation());
+        phoneNumber_txt.setText(mInfo.getPhoneNumber());
+        website_txt.setText(mInfo.getWebsite());
+        mealInformation_txt.setText(mInfo.getMealInformation());
     }
 }
