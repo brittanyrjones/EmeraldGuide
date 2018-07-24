@@ -1,9 +1,12 @@
 package com.example.brittanyjones.emeraldguide.activity.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -41,6 +44,24 @@ public class ResourceActivity extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
+
+        Button search_btn=(Button)findViewById(R.id.button25);
+        Button help_btn=(Button)findViewById(R.id.button26);
+
+        search_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent searchint = new Intent(ResourceActivity.this,SearchActivity.class);
+                startActivity(searchint);
+            }
+        });
+        help_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent helpint = new Intent(ResourceActivity.this,HelpActivity.class);
+                startActivity(helpint);
+            }
+        });
 
         init();
     }
