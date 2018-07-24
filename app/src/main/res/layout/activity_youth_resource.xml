@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.activity.YouthResourceActivity">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="80sp"
+        android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
@@ -27,15 +28,24 @@
         <Button
             android:id="@+id/button25"
             android:layout_width="25dp"
-            android:gravity="right"
             android:layout_height="25dp"
-            android:background="@drawable/ic_search_black_24dp" />
+            android:background="@drawable/ic_search_black_24dp"
+            android:gravity="right" />
     </android.support.v7.widget.Toolbar>
 
     <ListView
         android:id="@+id/reslistView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="504dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
     </ListView>
 </android.support.constraint.ConstraintLayout>
