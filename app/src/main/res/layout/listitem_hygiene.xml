@@ -9,7 +9,6 @@
     android:orientation="horizontal"
     card_view:cardCornerRadius="20dp"
     card_view:cardElevation="4dp"
-
     card_view:cardPreventCornerOverlap="true"
     card_view:cardUseCompatPadding="true"
     card_view:contentPadding="1dp">
@@ -17,8 +16,7 @@
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-
-        android:layout_height="281dp"
+        android:layout_height="300dp"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10sp">
@@ -67,10 +65,19 @@
             card_view:layout_constraintVertical_bias="0.911" />
 
         <TextView
+            android:id="@+id/hygCategory_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Information"
+            android:textSize="15dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <TextView
             android:id="@+id/hygieneInformation_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_alignParentStart="true"
             android:layout_below="@+id/hygieneHours_txt"
             android:layout_marginBottom="8dp"
@@ -88,92 +95,93 @@
             card_view:layout_constraintTop_toTopOf="parent"
             card_view:layout_constraintVertical_bias="0.562" />
 
-        <TextView
-            android:id="@+id/hygieneAddress_txt"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@+id/hygieneInformation_txt"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:autoLink="map"
-            android:background="@drawable/ic_directions_black_24dp"
-            android:text="Resource Location"
-            android:textColor="@android:color/transparent"
-            android:textColorLink="@android:color/transparent"
-            card_view:layout_constraintBottom_toBottomOf="parent"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintHorizontal_bias="0.687"
-            card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.893" />
-
-        <TextView
-            android:id="@+id/hygCategory_txt"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="84dp"
-            android:text="Meal Information"
-            android:textSize="15dp"
-            android:visibility="gone" />
-
-        <TextView
-            android:id="@+id/hygWebsite_txt"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-
-
-            android:layout_below="@+id/hygieneInformation_txt"
-            android:layout_centerHorizontal="true"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:autoLink="all"
-            android:background="@drawable/ic_open_in_browser_black_24dp"
-            android:text="Resource Website"
-            android:textColor="@android:color/transparent"
-            android:textColorLink="@android:color/transparent"
-            android:textSize="15dp"
-            android:textStyle="bold"
+            android:gravity="center"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.893" />
+            card_view:layout_constraintVertical_bias="0.824">
 
-        <TextView
-            android:id="@+id/hygPhoneNumber_txt"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/hygieneInformation_txt"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="168dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:autoLink="phone"
-            android:background="@drawable/ic_phone_black_24dp"
-            android:text="Phone Number"
-            android:textAlignment="viewStart"
-            android:textColor="@android:color/transparent"
-            android:textColorLink="@android:color/transparent"
-            android:textSize="15dp"
-            card_view:layout_constraintBottom_toBottomOf="parent"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintHorizontal_bias="0.892"
-            card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.888" />
+            <TextView
+                android:id="@+id/hygieneAddress_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/hygieneInformation_txt"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:autoLink="map"
+                android:background="@drawable/ic_directions_black_24dp"
+                android:text="Resource Location"
+                android:textColor="@android:color/transparent"
+                android:textColorLink="@android:color/transparent"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.652"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.893" />
+
+            <TextView
+                android:id="@+id/hygWebsite_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:autoLink="all"
+                android:background="@drawable/ic_open_in_browser_black_24dp"
+                android:text="Resource Website"
+                android:textColor="@android:color/transparent"
+                android:textColorLink="@android:color/transparent"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.488"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.893" />
+
+            <TextView
+                android:id="@+id/hygPhoneNumber_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hygieneInformation_txt"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:autoLink="phone"
+                android:background="@drawable/ic_phone_black_24dp"
+                android:text="Phone Number"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/transparent"
+                android:textColorLink="@android:color/transparent"
+                android:textSize="15dp"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.309"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.893" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/hygArea_txt"
             android:layout_width="match_parent"
-            android:layout_height="22dp"
+            android:layout_height="24dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginBottom="8dp"
@@ -190,10 +198,9 @@
             android:textStyle="bold"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintHorizontal_bias="0.6"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="1.0" />
+            card_view:layout_constraintVertical_bias="0.969" />
 
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>

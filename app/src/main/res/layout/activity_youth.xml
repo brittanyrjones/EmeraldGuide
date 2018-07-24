@@ -5,6 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/green_dye"
+
     tools:context=".activity.activity.YouthActivity">
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"

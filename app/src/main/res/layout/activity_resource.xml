@@ -7,20 +7,22 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="false"
     android:layout_alignParentEnd="false"
-    android:layout_alignParentLeft="false"
-    android:layout_alignParentRight="false"
+
+
     android:layout_alignParentStart="false"
     android:layout_alignParentTop="false"
+    android:background="@drawable/green_dye"
     android:orientation="vertical"
     tools:context=".activity.activity.ResourceActivity">
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
         app:titleTextAppearance="@style/TitleBarTextAppearance">
 
         <Button

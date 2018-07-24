@@ -3,5 +3,16 @@
     <option name="myName" value="Project Default" />
     <inspection_tool class="AndroidLintAppLinkUrlError" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="AndroidLintGoogleAppIndexingWarning" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="FieldCanBeLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="EXCLUDE_ANNOS">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="com.mindorks.placeholderview.annotations.expand.ChildPosition" />
+            <item index="1" class="java.lang.String" itemvalue="com.mindorks.placeholderview.annotations.expand.ParentPosition" />
+          </list>
+        </value>
+      </option>
+      <option name="IGNORE_FIELDS_USED_IN_MULTIPLE_METHODS" value="true" />
+    </inspection_tool>
   </profile>
 </component>

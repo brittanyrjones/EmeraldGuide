@@ -1,4 +1,4 @@
-package com.example.brittanyjones.emeraldguide.activity.model;
+package com.example.brittanyjones.emeraldguide.activity.model;//package com.example.brittanyjones.emeraldguide.activity.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

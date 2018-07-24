@@ -5,16 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/green_dye"
+
+
     tools:context=".activity.activity.MainActivity">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
-        app:titleTextAppearance="@style/TitleBarTextAppearance"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@style/TitleBarTextAppearance">
 
 
         <Button
@@ -26,64 +33,140 @@
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="27dp" />
 
-            <Button
-                android:id="@+id/button25"
-                android:layout_width="25dp"
-                android:gravity="right"
-                android:layout_height="25dp"
-                android:background="@drawable/ic_search_black_24dp" />
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_search_black_24dp"
+            android:gravity="right" />
 
     </android.support.v7.widget.Toolbar>
 
-
-    <Button
-        android:id="@+id/button19"
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
         android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="155dp"
+        android:layout_marginBottom="19dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/ic_restaurant_black_24dp"
+        android:padding="10dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button28"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
-
-    <Button
-        android:id="@+id/button20"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/ic_home_black_24dp"
-        app:layout_constraintBottom_toTopOf="@+id/button28"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button19"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
+        app:layout_constraintVertical_bias="0.23"
+        tools:background="#7dffffff">
 
-    <Button
-        android:id="@+id/button21"
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_restaurant_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button28"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.169" />
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout2"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/ic_local_laundry_service_black_24dp"
+        android:background="#7dffffff"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button19"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.224">
 
-    <!--<Button-->
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_home_black_24dp"
+            android:textAllCaps="false"
+            app:layout_column="0"
+            app:layout_constraintBottom_toTopOf="@+id/button28"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.68"
+            app:layout_row="0" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="150dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#7dffffff"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_local_laundry_service_black_24dp"
+            app:layout_column="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.645"
+            app:layout_row="0" />
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#7dffffff"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879">
+
+
+        <!--<Button-->
         <!--android:id="@+id/button25"-->
         <!--android:layout_width="50dp"-->
         <!--android:layout_height="50dp"-->
@@ -101,7 +184,7 @@
         <!--app:layout_constraintTop_toBottomOf="@+id/button27"-->
         <!--app:layout_constraintVertical_bias="1.0" />-->
 
-    <!--<Button-->
+        <!--<Button-->
         <!--android:id="@+id/button26"-->
         <!--android:layout_width="50dp"-->
         <!--android:layout_height="50dp"-->
@@ -119,64 +202,22 @@
         <!--app:layout_constraintTop_toBottomOf="@+id/button27"-->
         <!--app:layout_constraintVertical_bias="0.555" />-->
 
-    <Button
-        android:id="@+id/button27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/gilda_display"
-        android:text="Crisis Lines"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904"
-        tools:text="Crisis Lines" />
-
-    <Button
-        android:id="@+id/button28"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/ic_public_black_24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
-
-    <Button
-        android:id="@+id/button30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/gilda_display"
-        android:text="Youth"
-        android:textAllCaps="false"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:text="Youth" />
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_public_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.912"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.643" />
+    </android.support.v7.widget.GridLayout>
 
     <TextView
         android:id="@+id/textView2"
@@ -197,6 +238,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#7dffffff"
+        android:fontFamily="@font/gilda_display"
+        android:text="Crisis Lines"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:text="Crisis Lines" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#7dffffff"
+        android:fontFamily="@font/gilda_display"
+        android:text="Youth"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Youth" />
 
     <TextView
         android:id="@+id/textView3"
