@@ -4,19 +4,22 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
     android:clickable="true"
     android:focusable="true"
     android:orientation="horizontal"
     card_view:cardCornerRadius="20dp"
-    card_view:cardElevation="15dp"
-    card_view:contentPadding="5dp">
+    card_view:cardElevation="4dp"
+
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="1dp">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:clickable="true"
         android:focusable="true"
         android:gravity="center"
@@ -41,7 +44,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
 
-            android:layout_centerVertical="true"
+            android:layout_alignTop="@+id/website_txt"
             android:layout_toEndOf="@+id/website_txt"
             android:autoLink="map"
             android:background="@drawable/ic_directions_black_24dp"
@@ -53,9 +56,9 @@
             android:id="@+id/geographicArea_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="195dp"
+            android:layout_below="@+id/location_txt"
             android:gravity="center"
             android:text="Geo Area"
             android:textColor="#000000"
@@ -67,8 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/programName_txt"
-            android:text="Meal Information"
             android:scrollbars="vertical"
+            android:text="Meal Information"
             android:textSize="12dp" />
 
         <TextView
@@ -76,7 +79,9 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
 
-            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="87dp"
             android:autoLink="all"
             android:background="@drawable/ic_open_in_browser_black_24dp"
             android:clickable="true"
@@ -92,7 +97,7 @@
             android:id="@+id/phoneNumber_txt"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_centerVertical="true"
+            android:layout_alignTop="@+id/location_txt"
             android:layout_toStartOf="@+id/website_txt"
             android:autoLink="phone"
             android:background="@drawable/ic_phone_black_24dp"
