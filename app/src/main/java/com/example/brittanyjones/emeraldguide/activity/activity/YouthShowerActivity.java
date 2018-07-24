@@ -2,6 +2,7 @@ package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.widget.ListView;
 
@@ -29,7 +30,11 @@ public class YouthShowerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shower);
-        setTitle("Public Restrooms and Hygiene Facilities");
+        setTitle("Hygiene Facilities");
+
+        Toolbar myToolbar = findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
         init();
     }
 

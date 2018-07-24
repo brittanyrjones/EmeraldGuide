@@ -6,27 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".activity.activity.VolunteerActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="80sp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@style/TitleBarTextAppearance">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_info_black_24dp"
+            android:gravity="right"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="27dp" />
 
-    </android.support.design.widget.AppBarLayout>
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="25dp"
+            android:gravity="right"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_search_black_24dp" />
 
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    </android.support.v7.widget.Toolbar>
 
 </android.support.design.widget.CoordinatorLayout>

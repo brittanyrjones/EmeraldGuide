@@ -2,6 +2,7 @@ package com.example.brittanyjones.emeraldguide.activity.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -38,17 +39,13 @@ public class ResourceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resource);
         setTitle("Free Hot/Cold Meals");
 
-//        geographicArea_txt = (TextView)
-//                findViewById(R.id.geographicArea_txt);
-//        geographicArea_txt.setVisibility(View.GONE);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
         init();
     }
 
-//    public void toggle_contents(View v) {
-//        geographicArea_txt.setVisibility( geographicArea_txt.isShown()
-//        ? View.GONE
-//                : View.VISIBLE);
-//    }
+
 
         public void init() {
         listView = (ListView) findViewById(R.id.listView);

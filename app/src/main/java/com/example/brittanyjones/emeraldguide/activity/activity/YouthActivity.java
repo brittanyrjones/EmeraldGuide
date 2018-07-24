@@ -3,6 +3,7 @@ package com.example.brittanyjones.emeraldguide.activity.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
@@ -14,6 +15,10 @@ public class YouthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youth);
+        setTitle("Youth Emerald Guide");
+
+        Toolbar myToolbar = findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
 
         Button youth_search_btn = (Button) findViewById(R.id.button25);
         Button youth_help_btn = (Button) findViewById(R.id.button26);

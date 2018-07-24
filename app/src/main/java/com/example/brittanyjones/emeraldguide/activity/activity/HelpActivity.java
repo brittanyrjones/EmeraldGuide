@@ -1,7 +1,8 @@
 package com.example.brittanyjones.emeraldguide.activity.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
 import com.example.brittanyjones.emeraldguide.R;
 
@@ -12,5 +13,8 @@ public class HelpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
         setTitle("How to Use the Emerald Guide App");
+
+        Toolbar myToolbar = findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
     }
 }

@@ -5,5 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.activity.MenuSearchActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@style/TitleBarTextAppearance">
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_info_black_24dp"
+            android:gravity="right"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="25dp"
+            android:gravity="right"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_search_black_24dp" />
+    </android.support.v7.widget.Toolbar>
 
 </android.support.constraint.ConstraintLayout>
