@@ -32,7 +32,7 @@ public class YouthResourceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_youth_resource);
+        setContentView(R.layout.activity_resource);
         setTitle("Free Hot/Cold Meals");
 
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
@@ -61,7 +61,7 @@ public class YouthResourceActivity extends AppCompatActivity {
 
 
     public void init() {
-        youthreslistView = (ListView) findViewById(R.id.reslistView);
+        youthreslistView = (ListView) findViewById(R.id.listView);
         youthresourceAdapter = new YouthResourceAdapter(YouthResourceActivity.this, getYouthResourceData());
         youthreslistView.setAdapter(youthresourceAdapter);
     }
