@@ -19,24 +19,26 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130dp"
         android:clickable="true"
         android:focusable="true"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10sp">
 
         <TextView
             android:id="@+id/programName_txt"
-            android:layout_width="248dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:clickable="true"
+            android:fontFamily="@font/gilda_display"
             android:gravity="center"
-            android:onClick="toggle_contents"
+            android:paddingBottom="10sp"
             android:text="Resource Name"
+            android:textAllCaps="false"
             android:textColor="@android:color/black"
-            android:textSize="18sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -57,11 +59,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
+            android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/location_txt"
+            android:fontFamily="@font/gilda_display"
             android:gravity="center"
             android:text="Geo Area"
-            android:textColor="#000000"
+            android:textColor="@android:color/holo_purple"
             android:textSize="10dp" />
 
         <TextView
@@ -70,8 +73,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/programName_txt"
+            android:fontFamily="@font/gilda_display"
             android:scrollbars="vertical"
             android:text="Meal Information"
+            android:textColor="@android:color/black"
             android:textSize="12dp" />
 
         <TextView
@@ -79,9 +84,8 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
 
-            android:layout_alignParentTop="true"
+            android:layout_above="@+id/geographicArea_txt"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="87dp"
             android:autoLink="all"
             android:background="@drawable/ic_open_in_browser_black_24dp"
             android:clickable="true"

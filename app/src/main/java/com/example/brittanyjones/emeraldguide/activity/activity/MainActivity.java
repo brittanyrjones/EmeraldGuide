@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.brittanyjones.emeraldguide.R;
-import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -16,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-
+//        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         Button search_btn=(Button)findViewById(R.id.button25);
         Button help_btn=(Button)findViewById(R.id.button26);

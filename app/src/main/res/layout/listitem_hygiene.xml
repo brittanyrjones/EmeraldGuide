@@ -18,9 +18,10 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
 
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10sp">
 
         <TextView
             android:id="@+id/hygieneName_txt"
@@ -29,10 +30,13 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/gilda_display"
             android:gravity="center"
+            android:paddingBottom="10sp"
             android:text="Resource Name"
+            android:textAllCaps="false"
             android:textColor="@android:color/black"
-            android:textSize="18sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             card_view:layout_constraintBottom_toTopOf="@+id/hygieneHours_txt"
             card_view:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +54,10 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/gilda_display"
+            android:gravity="center"
             android:text="Resource Website"
+            android:textColor="@color/colorAccent"
             android:textSize="12dp"
             android:textStyle="bold"
             card_view:layout_constraintBottom_toTopOf="@+id/hygieneInformation_txt"
@@ -71,7 +78,9 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/gilda_display"
             android:text="Meal Information"
+            android:textColor="@android:color/black"
             android:textSize="12sp"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +174,7 @@
         <TextView
             android:id="@+id/hygArea_txt"
             android:layout_width="match_parent"
-            android:layout_height="21dp"
+            android:layout_height="13dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginBottom="8dp"
@@ -173,15 +182,18 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:autoLink="phone"
+            android:fontFamily="@font/gilda_display"
             android:gravity="center"
+            android:paddingBottom="0dp"
             android:text="Phone Number"
-            android:textColor="#000000"
-            android:textSize="15dp"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="10dp"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintHorizontal_bias="0.0"
             card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toBottomOf="@+id/hygWebsite_txt" />
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0" />
 
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>

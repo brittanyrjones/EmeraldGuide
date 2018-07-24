@@ -19,7 +19,8 @@
 
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10sp">
 
         <TextView
             android:id="@+id/emergencyName_txt"
@@ -30,9 +31,11 @@
 
             android:layout_alignParentTop="true"
             android:layout_marginStart="15dp"
-            android:fontFamily="sans-serif-smallcaps"
+            android:fontFamily="@font/gilda_display"
             android:gravity="center_horizontal"
+            android:padding="5sp"
             android:text="Emergency Name"
+            android:textAllCaps="true"
             android:textColor="@android:color/black"
             android:textSize="24sp"
             android:textStyle="bold" />

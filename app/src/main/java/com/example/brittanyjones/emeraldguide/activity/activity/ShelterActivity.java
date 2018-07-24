@@ -27,29 +27,13 @@ public class ShelterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_shelter);
         setTitle("Emergency Shelters");
         init();
-
     }
-
-//    public void on(View parent, View V, int position,
-//                        long id){
-//        TextView tv = (TextView) findViewById(R.id.shelterInformation_txt);
-//        tv.setVisibility(View.VISIBLE);
-//
-//    }
-//
-
-
 
     public void init() {
         shellistView = (ListView) findViewById(R.id.shellistView);
         shelterAdapter = new ShelterAdapter(ShelterActivity.this, getShelterData());
         shellistView.setAdapter(shelterAdapter);
-
-
-
-
     }
-
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<Shelter> getShelterData() {
         String jsonString = getAssetsJSON(JSON_FILE_ANDROID_SHEL);
@@ -74,10 +58,4 @@ public class ShelterActivity extends AppCompatActivity {
 
         return json;
     }
-
-
-
-
-
-
 }

@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Utils {
+
     private static final String TAG = "Utils";
 
     public static List<Feed> loadFeeds(Context context){

@@ -45,6 +45,10 @@
         <activity android:name=".activity.activity.YouthResourceActivity" />
         <activity android:name=".activity.activity.YouthSearchActivity" />
         <activity android:name=".activity.activity.YouthVolunteerActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

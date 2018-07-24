@@ -6,6 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class Feed {
+
     @SerializedName("category")
     @Expose
     private String heading;
