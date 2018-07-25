@@ -20,16 +20,22 @@ import java.io.InputStream;
 import java.util.List;
 
 public class ShelterActivity extends AppCompatActivity {
-    private final static String JSON_FILE_ANDROID_SHEL = "shelter.json";
+
+
+    private final static String JSON_FILE_ANDROID_HYG = "shelter.json";
     private final static String TAG = "ShelterActivity";
+
     private ShelterAdapter shelterAdapter;
     private ListView shellistView;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shelter);
-        setTitle("Emergency Shelters");
+        setTitle("Emergency Shelter");
 
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
@@ -55,14 +61,16 @@ public class ShelterActivity extends AppCompatActivity {
         init();
     }
 
+
     public void init() {
         shellistView = (ListView) findViewById(R.id.shellistView);
         shelterAdapter = new ShelterAdapter(ShelterActivity.this, getShelterData());
         shellistView.setAdapter(shelterAdapter);
     }
+
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<Shelter> getShelterData() {
-        String jsonString = getAssetsJSON(JSON_FILE_ANDROID_SHEL);
+        String jsonString = getAssetsJSON(JSON_FILE_ANDROID_HYG);
         Log.d(TAG, "Json: " + jsonString);
         Gson gson = new Gson();
         ShelterList baseShelter = gson.fromJson(jsonString, ShelterList.class);
@@ -84,4 +92,10 @@ public class ShelterActivity extends AppCompatActivity {
 
         return json;
     }
+
+
+
+
+
+
 }
