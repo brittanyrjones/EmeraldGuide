@@ -1,94 +1,160 @@
 package com.example.brittanyjones.emeraldguide.activity.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ListView;
 
 import com.example.brittanyjones.emeraldguide.R;
-import com.example.brittanyjones.emeraldguide.activity.Api.ApiService;
-import com.example.brittanyjones.emeraldguide.activity.adapter.RecyclerViewAdapter;
+import com.example.brittanyjones.emeraldguide.activity.adapter.ResourceAdapter;
+import com.example.brittanyjones.emeraldguide.activity.model.BaseResource;
 import com.example.brittanyjones.emeraldguide.activity.model.Resource;
+import com.google.gson.Gson;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-
 public class ResourceActivity extends AppCompatActivity {
-
-    private LinearLayoutManager layoutManager;
-    List<Resource> resourceList =null;
-
+    private final static String JSON_FILE_ANDROID_WEAR = "resources.json";
+    private final static String TAG = "ResourceActivity";
+    private ResourceAdapter resourceAdapter;
+    private ListView listView;
+//    EditText search;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resource);
-        setTitle("Free Meals Served in Seattle");
-        Log.d("123", "onCreate");
-        getResourceList();
-    }
-    private void getResourceList() {
-        Log.d("123", "getResourceList");
-        try {
-            String url = "https://data.seattle.gov/resource/";
-            Log.d("123", "https://data.seattle.gov/resource/");
+        setTitle("Free Hot/Cold Meals");
 
-            Retrofit retrofit = null;
-            Log.d("123", "retrofit");
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
 
-            if (retrofit == null) {
-                retrofit = new Retrofit.Builder()
-                        .baseUrl(url)
-                        .addConverterFactory(GsonConverterFactory.create())
-                        .build();
-                Log.d("123", "build();");
+        Button search_btn=(Button)findViewById(R.id.button25);
+
+        search_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent searchint = new Intent(ResourceActivity.this,SearchActivity.class);
+                startActivity(searchint);
             }
-
-
-            ApiService service = retrofit.create(ApiService.class);
-            Log.d("123", " ApiService service = retrofit.create(ApiService.class);");
-
-
-            Call<List<Resource>> call = service.getResourceData();
-            Log.d("123", "Call<List<Resource>> call = service.getResourceData();");
-
-            call.enqueue(new Callback<List<Resource>>() {
-                @Override
-                public void onResponse(Call<List<Resource>> call, Response<List<Resource>> response) {
-                    //Log.d("onResponse", response.message());
-                    Log.d("123", "onResponse");
-
-                    resourceList = response.body();
-                    Log.d("123", "List<Resource> resourceList = response.body();");
-
-                    RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);
-                    Log.d("123", "RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);");
-
-                    layoutManager = new LinearLayoutManager(ResourceActivity.this);
-                    Log.d("123", "layoutManager = new LinearLayoutManager(ResourceActivity2.this);");
-                    recyclerView.setLayoutManager(layoutManager);
-                    Log.d("123", "recyclerView.setLayoutManager(layoutManager);");
-
-                    RecyclerViewAdapter recyclerViewAdapter =new RecyclerViewAdapter(getApplicationContext(), resourceList);
-                    Log.d("123", "RecyclerViewAdapter recyclerViewAdapter =new RecyclerViewAdapter(getApplicationContext(), resourceList);");
-                    recyclerView.setAdapter(recyclerViewAdapter);
-                    Log.d("123", "recyclerView.setAdapter(recyclerViewAdapter);");
-                }
-
-                @Override
-                public void onFailure(Call<List<Resource>> call, Throwable t) {
-                    Log.d("123", t.getMessage());
-                }
-            });
-        }catch (Exception e) {Log.d("123", "Exception");}
+        });
+        init();
     }
-
+        public void init() {
+        listView = (ListView) findViewById(R.id.listView);
+        resourceAdapter = new ResourceAdapter(ResourceActivity.this, getResourcesData());
+        listView.setAdapter(resourceAdapter);
+    }
+    /* Convert JSON String to BaseWatch Model via GSON */
+    public List<Resource> getResourcesData() {
+        String jsonString = getAssetsJSON(JSON_FILE_ANDROID_WEAR);
+        Log.d(TAG, "Json: " + jsonString);
+        Gson gson = new Gson();
+        BaseResource baseResource = gson.fromJson(jsonString, BaseResource.class);
+        return  baseResource.getResource();
+    }
+    /* Get File in Assets Folder */
+    public String getAssetsJSON(String resources) {
+        String json = null;
+        try {
+            InputStream inputStream = this.getAssets().open(resources);
+            int size = inputStream.available();
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            inputStream.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return json;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    private LinearLayoutManager layoutManager;
+//    List<Resource> resourceList =null;
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_resource);
+//        setTitle("Free Meals Served in Seattle");
+//        Log.d("123", "onCreate");
+//        getResourceList();
+//    }
+//    private void getResourceList() {
+//        Log.d("123", "getResourceList");
+//        try {
+//            String url = "https://data.seattle.gov/resource/";
+//            Log.d("123", "https://data.seattle.gov/resource/");
+//
+//            Retrofit retrofit = null;
+//            Log.d("123", "retrofit");
+//
+//            if (retrofit == null) {
+//                retrofit = new Retrofit.Builder()
+//                        .baseUrl(url)
+//                        .addConverterFactory(GsonConverterFactory.create())
+//                        .build();
+//                Log.d("123", "build();");
+//            }
+//
+//
+//            ApiService service = retrofit.create(ApiService.class);
+//            Log.d("123", " ApiService service = retrofit.create(ApiService.class);");
+//
+//
+//            Call<List<Resource>> call = service.getResourceData();
+//            Log.d("123", "Call<List<Resource>> call = service.getResourceData();");
+//
+//            call.enqueue(new Callback<List<Resource>>() {
+//                @Override
+//                public void onResponse(Call<List<Resource>> call, Response<List<Resource>> response) {
+//                    //Log.d("onResponse", response.message());
+//                    Log.d("123", "onResponse");
+//
+//                    resourceList = response.body();
+//                    Log.d("123", "List<Resource> resourceList = response.body();");
+//
+//                    RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);
+//                    Log.d("123", "RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler);");
+//
+//                    layoutManager = new LinearLayoutManager(ResourceActivity.this);
+//                    Log.d("123", "layoutManager = new LinearLayoutManager(ResourceActivity.this);");
+//                    recyclerView.setLayoutManager(layoutManager);
+//                    Log.d("123", "recyclerView.setLayoutManager(layoutManager);");
+//
+//                    RecyclerViewAdapter recyclerViewAdapter =new RecyclerViewAdapter(getApplicationContext(), resourceList);
+//                    Log.d("123", "RecyclerViewAdapter recyclerViewAdapter =new RecyclerViewAdapter(getApplicationContext(), resourceList);");
+//                    recyclerView.setAdapter(recyclerViewAdapter);
+//                    Log.d("123", "recyclerView.setAdapter(recyclerViewAdapter);");
+//                }
+//
+//                @Override
+//                public void onFailure(Call<List<Resource>> call, Throwable t) {
+//                    Log.d("123", t.getMessage());
+//                }
+//            });
+//        }catch (Exception e) {Log.d("123", "Exception");}
+//    }
+
+
 
 
 

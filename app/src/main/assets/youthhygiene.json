@@ -1,0 +1,104 @@
+{
+  "youthhygiene": [
+    {
+      "Area": "Central Seattle",
+      "Hygiene Address": "330 19th Ave. E",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Seattle Parks and Recreation Public Showers and Restrooms",
+      "Phone Number": "206-684-4753",
+      "Website": "http://www.seattle.gov/parks/find/centers",
+      "Hygiene Information": "Provides free public showers and restrooms year round. Use is limited to 15 minutes.",
+      "Hygiene Hours": "Mon. – Fri, 2 - 7 p.m."
+    },
+    {
+      "Area": "South Seattle",
+      "Hygiene Address": "4600 38th Ave. S",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Seattle Parks and Recreation Public Showers and Restrooms",
+      "Phone Number": " 866-363-4276",
+      "Website": "http://www.seattle.gov/parks/find/centers",
+      "Hygiene Information": "Provides free public showers and restrooms year round. Use is limited to 15 minutes.",
+      "Hygiene Hours": "Mon., Wed., Fri. 8–10 a.m. - Tue., Thurs. 6:30–8:30 p.m."
+    },
+    {
+      "Area": "North Seattle",
+      "Hygiene Address": "7201 E Green Lake Dr. N",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Seattle Parks and Recreation Public Showers and Restrooms",
+      "Phone Number": " 866-363-4276",
+      "Website": "http://www.seattle.gov/parks/find/centers",
+      "Hygiene Information": "Provides free public showers and restrooms year round. Use is limited to 15 minutes.",
+      "Hygiene Hours": "Mon.–Fri. 10 a.m.–8 p.m., Sat. 9 a.m.-4:30 p.m."
+    },
+    {
+      "Area": "Central Seattle",
+      "Hygiene Address": "330 19th Ave. E",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Seattle Parks and Recreation Public Showers and Restrooms",
+      "Phone Number": " 866-363-4276",
+      "Website": "http://www.seattle.gov/parks/find/centers",
+      "Hygiene Information": "Provides free public showers and restrooms year round. Use is limited to 15 minutes.",
+      "Hygiene Hours": "Mon. – Fri, 2 - 7 p.m."
+    },
+    {
+      "Area": "Central Seattle",
+      "Hygiene Address": "2709 3rd Avenue Seattle, WA 98121",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "New Horizons Ministries",
+      "Phone Number": "206-374-0866,",
+      "Website": "www.nhmin.org",
+      "Hygiene Information": "These two hours give youth access to services like a meal, showers, laundry, clothing, and sign-ups for case management & shelter. A youth medical clinic is held every Wednesday.",
+      "Hygiene Hours": "For food, laundry, showers, and more... Sun-Thurs 7-9pm"
+    },
+    {
+      "Area": "North Seattle",
+      "Hygiene Address": "1609 19th Ave, Seattle WA, 98122",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Peace for the Streets by Kids from the Streets (PSKS)",
+      "Phone Number": "206-726-8500",
+      "Website": "http://www.psks.org/",
+      "Hygiene Information": "Drop-in center, clothing bank, computer center, community room and case management serving everyone. Visit in person. No fees.",
+      "Hygiene Hours": "Mon., Tue., Wed., Fri 12 - 3 PM"
+    },
+    {
+      "Area": "North Seattle",
+      "Hygiene Address": "540 15th Ave NE, Seattle, WA 98105",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Street Youth Ministries",
+      "Phone Number": "206-524-7301",
+      "Website": "http://www.streetyouthministries.org/",
+      "Hygiene Information": "Our drop-in center provides for basic and immediate needs of youth, including food, hygiene items, showers, clothing, and laundry. No fees.",
+      "Hygiene Hours": "Monday: 7:30pm – 9:30pm, Tuesday: 7:30 – 9:30pm, Thursday: 7:30 – 9:30pm, Friday: 1pm – 4pm"
+    },
+    {
+      "Area": "Central Seattle",
+      "Hygiene Address": "St. James Cathedral, 804 Ninth Ave.",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "University District Youth Center",
+      "Phone Number": "206-526-2992",
+      "Website": "http://www.seattle.gov/parks/find/centers",
+      "Hygiene Information": "Hospitality, advocacy, telephone use and resource referral information for people who are unemployed and/or homeless. No fees. ",
+      "Hygiene Hours": "Drop-in only: Mon. – Thurs., 1 – 4 p.m"
+    },
+    {
+      "Area": "Central Seattle",
+      "Hygiene Address": "1828 Yale Ave, Seattle, WA 98101",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Orion Center",
+      "Phone Number": "206-622-5555,",
+      "Website": "http://www.youthcare.org",
+      "Hygiene Information": "YouthCare has two drop-in locations from which homeless youth ages 13 to 24 can meet the basic needs of survival. YouthCare's Orion Center in Downtown Seattle is able to provide 3 meals a day, 5 days a week, along with showers, laundry services, and basic clothing, hygiene and first aid supplies. No fees.",
+      "Hygiene Hours": "Tuesday	8:30AM–5PM, Wednesday 8:30AM–6:30PM, Thursday 8:30AM–6:30PM, Friday	8:30AM–6:30PM, Saturday 11AM–1PM, Monday 8:30AM–6:30PM"
+    },
+    {
+      "Area": "Central Seattle",
+      "Hygiene Address": "1818 15th Avenue, Capitol Hill",
+      "Category": "Hygiene Services",
+      "Hygiene Name": "Lambert House",
+      "Phone Number": "206-322-2515",
+      "Website": "http://www.lamberthouse.org/",
+      "Hygiene Information": "Lambert House is open to lesbian, gay, bisexual, transgender, and questioning youth ages 11-22 for drop-in Monday through Friday from 4-9:30pm (see our calendar for holiday closures and breaks). . Lambert House empowers lesbian, gay, bisexual, transgender, and questioning youth through the development of leadership, social, and life skills.. No fees. ",
+      "Hygiene Hours": "Monday through Friday from 4-9:30pm"
+    }
+  ]
+}

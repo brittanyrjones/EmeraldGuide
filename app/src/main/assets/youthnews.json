@@ -1,0 +1,929 @@
+[
+  {
+    "category" : "Clothing Assistance",
+    "data" : [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Dress for Success",
+        "Location": "1118 Fifth Ave Seattle, WA 98144",
+        "Phone Number": "206-695-7522",
+        "Website": "www.seattle.dressforsuccess.org",
+        "Hours": "Tue. – Thurs., 10 a.m. – 4 p.m.",
+        "Meal Information": "Professional attire serving women"
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Jubilee Women’s Center",
+        "Location": "3639 MLK Jr. Way S. Seattle, WA 98144",
+        "Phone Number": "206-324-1244",
+        "Website": "www.jwcenter.org/our-programs/boutique",
+        "Hours": "Tue. – Thurs., 9 a.m. – 6 p.m.; Mon., Fri., 9 a.m. – 5 p.m.",
+        "Meal Information": "Offers up to two bags of clothing every 3 months. Serves low-income or homeless women. Call or visit in person to make an appointment. No fees "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Queen Anne Helpline",
+        "Location": "311 W. McGraw St, Seattle, WA 98144",
+        "Phone Number": "206-695-7522",
+        "Website": "www.queenannehelpline.org",
+        "Hours":"Call: 9 a.m. – 4 p.m. Appointments: Mon., Tue., Thurs., 10:30 a.m. – 3 p.m.",
+        "Meal Information": "Adult clothing for those in Seattle or anyone who is homeless. May receive once every 30 days. Call for an appointment. Documents required: photo ID. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "St. Francis House",
+        "Location": "3639 MLK Jr. Way S. Seattle, WA 98144",
+        "Phone Number": "206-621-0945",
+        "Website": "www.stfrancishouseseattle.org",
+        "Hours": "Mon. – Fri., 10 a.m. – 2 p.m.",
+        "Meal Information": "Clothing serving anyone. May receive assistance once every 30 days. Visit in person. No fees"
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "St. Vincent de Paul of Seattle",
+        "Location": "3639 MLK Jr. Way S. Seattle, WA 98144",
+        "Phone Number": "206-767-6449",
+        "Hours": "Helpline: Mon. – Fri., 8 a.m. – 3 p.m.",
+        "Website": "svdpseattle.org",
+        "Meal Information": "Furniture, beds, clothing and other household items serving King County residents. Call the helpline. Intake specialists send requests to the appropriate chapter. No fees."
+      }
+    ]
+  },
+  {
+    "category" : "Drug and Alcohol Services",
+    "data" : [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "ADD Health Counseling Services & Seattle Treatment Services",
+        "Location": "1404 E. Yesler Way Suite 202C Seattle, WA 98144",
+        "Phone Number": "206-525-0094",
+        "Hours": "Phone Hours: 24 hours; Seattle appointment times vary; Walkin appointments: Tue., Thurs., 9 a.m. – 9 p.m.",
+        "Website": "seattletreatmentservices.org",
+        "Meal Information": "Intensive outpatient treatment, outpatient, Alcohol and Drug Information School and DUI assessments. Agency provides DBHR-certified service(s). Serves anyone with an alcohol or drug problem. Call for information about the application process and fees."
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Asian Counseling and Referral Service ",
+        "Location": "3639 MLK Jr. Way S. Seattle, WA 98144",
+        "Phone Number": "206-695-7506",
+        "Hours": "Mon. – Fri., 8 a.m. – 6 p.m.",
+        "Website": "svdpseattle.org",
+        "Meal Information": "Outpatient, intensive outpatient and integrated mental health and substance use disorder services for adults 18 and older and youth 13-21. Agency provides DBHR-certified services. Call for registration. Sliding scale fees. Accepts Apple Health (Medicaid) and private insurance."
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Sound Mental Health",
+        "Location": "1600 E. Olive St. Seattle, WA 98144",
+        "Phone Number": "206-302-2300",
+        "Hours": "Mon. – Fri., 8 a.m. – 6 p.m.; Service hours vary",
+        "Website": "sound.health.org",
+        "Meal Information": "Assessments, outpatient and a co-occurring disorders program serving adults 18 and older and youth 13-18. Agency provides DBHR-certified service(s). Call for information. Accepts Apple Health (Medicaid) and most commercial health plans. Sliding scale fees for private pay."
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Recovery Café",
+        "Location": "2022 Boren Ave. Seattle, WA 98144",
+        "Phone Number": "206-374-8731",
+        "Hours": "First Visit: Tue. – Sat., noon – 5 p.m.; Latte Hour: Daily, 2:30 p.m.; Meals: Tue. – Sat., 12:30 – 3:00 p.m., 5:15 – 6:00 p.m.",
+        "Website": "www.recoverycafe.org",
+        "Meal Information": "Members receive meals, recovery classes, peer support and referrals. Serves everyone. Members must be drug and alcohol free for 24 hours, contribute to running the Cafe and attend a support group. Visit to sign up for a New Member Introduction."
+      }
+    ]
+  },
+  {
+    "category": "Employment and Training Services",
+    "data": [
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "CARES of Washington",
+        "Location": "1833 N. 105th St., Suite 201 Seattle, WA",
+        "Phone Number": "206-938-1253",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m.",
+        "Website": "www.caresofwa.org",
+        "Meal Information": "Career coaching, financial planning, benefits counseling and asset development services serving people 18 and older who are legally eligible to work in the U.S. Serves people with disabilities and people with barriers to employment. Call, apply online or apply in person. No fees."
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "DSHS Division of Vocational Rehabilitation",
+        "Location": "1200 12th Ave. S., Suite 730 Seattle, WA",
+        "Phone Number": "206-374-8731",
+        "Hours": "Mon. – Fri., 8 a.m. – 5 p.m.",
+        "Website": "dshs.wa.gov/",
+        "Meal Information": "Medical evaluation, vocational assessment, counseling and guidance and job preparation. Includes support, job match and placement, follow up and post employment services. Serves those who have a physical or mental impairment. Call for an appointment. No fees."
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "FareStart",
+        "Location": "700 Virginia St. Seattle, WA",
+        "Phone Number": "206-374-8731",
+        "Hours": "Orientation: Tue., 9:30 a.m.; Training Program: Mon. – Fri., 8 a.m. – 8 p.m.",
+        "Website": "www.recoverycafe.org",
+        "Meal Information": "Sixteen weeks of culinary arts job training, followed by six months of support services for adults 18 and older who are healthy enough to work in food service and legally authorized to work in the U.S. No fees. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Neighborhood House",
+        "Location": "4410 29th Ave. S, Seattle, WA",
+        "Phone Number": "206-461-4568",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m",
+        "Website": "www.nhwa.org/index.php",
+        "Meal Information": "eEducation programs, bilingual assistance with job applications, job searches and interviews for immigrants, refugees and low-income people. Offers ESL and citizenship classes. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "WorkSource",
+        "Location": "2024 3rd Ave., YWCA second floor Seattle, WA",
+        "Phone Number": "206-374-8731",
+        "Hours": " Mon. – Fri., 8:30 a.m. – 5:30 p.m.",
+        "Website": "www. worksourceskc.org",
+        "Meal Information": "Employment and training services including job search assistance, hiring events, resource referrals, counseling and more. Calls locations for information on eligibility, application and fees."
+      }
+    ]
+  },
+  {
+    "category": "Family and Maternity Services",
+    "data": [
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "3W Medical for Women",
+        "Location": "4528 Eighth Ave. NE, Unit 1A Seattle, WA",
+        "Phone Number": "206-588-0311",
+        "Hours": "Mon., Wed., Thurs., 10 a.m. – 5 p.m.; Fri., appointment only",
+        "Website": "www.3wmedical.org",
+        "Meal Information": "Sexual health services, pregnancy services and social service referrals to local community partners for women. Call for an appointment. Appointments not required. Most services are free. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Cedar River Clinics",
+        "Location": "509 Olive Way, Suite 1454, Seattle, WA",
+        "Phone Number": "800-572-4223",
+        "Hours": "Phone intake: Mon. – Fri., 8 a.m. – 5 p.m.; Sat., 9 a.m. – 2 p.m.",
+        "Website": "www.cedarriverclinics.org/seattle/",
+        "Meal Information": "Abortion services, birth control, STD services, HIV services, hormone therapy, reproductive health services, well women care and pregnancy options counseling. Call to schedule an appointment. Documents required: photo ID. Sliding scale fees. Most insurance plans accepted, including Apple Health (Medicaid)."
+      },
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Children’s Home Society of Washington",
+        "Location": "2611 NE 125th St., Suite 145, Seattle, WA",
+        "Phone Number": "206-364-7930",
+        "Hours": "Mon., noon – 5 p.m.; Tue. – Thurs., 9 a.m. – 5 p.m.; Fri., 9 a.m. – 3 p.m.",
+        "Website": "www.childrenshomesociety.org/northking/",
+        "Meal Information": "Accepts Apple Health (Medicaid). Parenting classes and support groups, WIC, preventative health services and maternity support services serving low-income,  pregnant women who receive state medical assistance. Interpreters available with advance notice. Call for appointment. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Country Doctor Community Health Centers",
+        "Location": "2101 E. Yesler Way Suite 150, Seattle, WA",
+        "Phone Number": "206-299-1900",
+        "Hours": " Mon., Tue., Thurs., Fri., 9 a.m. – 5 p.m.; Wed., 9 a.m. – 8:30 p.m.; Sat., 9 a.m. – noon.",
+        "Website": "www.countrydoctor.org",
+        "Meal Information": "Comprehensive health services as well as prenatal and pregnancy care for pregnant women who receive state medical assistance. Country Doctor site offers WIC. Accepts Apple Health (Medicaid). "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Northwest Harvest",
+        "Location": "711 Cherry St, Seattle, WA",
+        "Phone Number": "206-625-0755",
+        "Hours": "Thurs., 9 a.m. – 5 p.m.",
+        "Website": "www.northwestharvest.org/cherry-street-food-bank",
+        "Meal Information": "Baby cupboard serving families with children 5 and younger. Clients may visit once per day. Visit in person. Documents required: if baby is not present at food pantry, birth certificate or Apple Health card. No fees. "
+      }
+    ]
+  },
+  {
+    "category": "Food Assistance",
+    "data": [
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Ballard Food Bank",
+        "Location": "5130 Leary Ave. NW, Seattle, WA",
+        "Phone Number": "206-789-7800",
+        "Hours": "Mon., Thurs., 2 p.m. – 7 p.m.; Tue., Wed., 11 a.m. – 4 p.m.",
+        "Website": "www.ballardfoodbank.org/food-bank-1/",
+        "Meal Information": "Food pantry, commodities and home delivery for residents in 98107, 98109, 98117, 98119 and 98199. Numbers distributed 2.5 hours before opening time. Visit in person or call for delivery requirements. Application form required. Documents required:  photo ID and proof of address or residency in area. No fees."
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "El Centro de la Raza",
+        "Location": "2524 16th Ave. S. Seattle, WA",
+        "Phone Number": "206-957-4634",
+        "Hours": "Wed., 3:30 p.m. – 6:30 p.m.; Thurs., 9 a.m. – noon, 1:30 p.m. – 4 p.m.; Fri., 2 p.m. – 4 p.m.; Government Commodities: Fri., 10 a.m. – noon",
+        "Website": "www.elcentrodelaraza.org",
+        "Meal Information": "Operates a food pantry. Serves everyone. Government Commodities available to residents of ZIP codes 98144 and 98108 only. May visit once per week. Visit in person. No fees."
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Pike Market Food Bank ",
+        "Location": "1531 Western Ave, Seattle, WA",
+        "Phone Number": "206-626-6462",
+        "Hours": "Tue., Thurs., 10 a.m. – 1 p.m., Wed., 4 p.m. – 6 p.m.",
+        "Website": "www.pmfb.org",
+        "Meal Information": "Food bank with limited delivery service, call for more information. Serves ZIP codes 98101, 98104, 98121 and anyone who is homeless. Visit in person. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Queen Anne Food Bank",
+        "Location": "232 Warren Ave. N., Suite B, Seattle, WA",
+        "Phone Number": "206-216-4102",
+        "Hours": "Food Pantry: Thurs., 2 – 4 p.m.; Meals: Mon. –Thurs., 8:30 – 11:30 a.m.; Fri., 9 – 11 a.m",
+        "Website": "www.qafb.org",
+        "Meal Information": "Meals, sack lunches and a food pantry for those in ZIP codes 98101, 98109, 98119, 98121. Meal program serves everyone. Visit in person. Food pantry documents required: picture ID and proof of address. No fees. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Rainier Valley Food Bank",
+        "Location": "4205 Rainier Ave. S, Seattle, WA",
+        "Phone Number": "206-723-4105",
+        "Hours": "Food Pantry: Wed., Sat., 9:30 a.m. – 2 p.m.; No-Cook Bags: Tue.– Sat., 9:30 a.m. – 2 p.m.",
+        "Website": "www.rvfb.org",
+        "Meal Information": "Food pantry, non-cook to-go bags and home delivery services serving everyone. Call for delivery information. Documents Required: photo ID. No fees."
+      }
+    ]
+  },
+  {
+    "category": "For People of Color",
+    "data": [
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Arab American Community Coalition",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-634-9001",
+        "Hours": "Hotline: 24 Hours",
+        "Website": "www.seattle.dalilusa.com/clients/aacc/",
+        "Meal Information": "24-hour hotline staffed by Arabic speakers to deal with harassment, civil rights advocacy, personal safety concerns and attacks and immigration issues. Serves everyone. Call. No fees. "
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Asian Counseling and Referral Services",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-695-7500",
+        "Hours": "Mon. – Fri., 8 a.m. – 6 p.m.; hours vary by program",
+        "Website": "www.acrs.org/services/",
+        "Meal Information": "Offers mental health and substance abuse treatment. Offers case management services to elderly and disabled adults. Operates a food pantry, a meal program, employment services, ESL classes,  citizenship classes and a legal clinic. Agency provides DBHR-certified service(s). Focuses on individuals from Asian and Pacific American communities. Call for more information, then visit in person. Documents required for food pantry: photo ID and proof of address. No fees for food pantry; call for additional programs."
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Chief Seattle Club",
+        "Location": "410 Second Ave. Extension S, Seattle, WA",
+        "Phone Number": "206-292-6214",
+        "Hours": "Drop-in services: daily, 7 a.m. – 2 p.m.; Breakfast: daily, 8 – 9:30a.m.; Lunch: noon – 1 p.m.; Hygiene Services: daily: 7 – 10 a.m.",
+        "Website": "www.chiefseattleclub.org/what-we-offer/",
+        "Meal Information": "Drop-in center with clothing, meals, hygiene items, benefits assistance, assessment/referral to alcohol treatment, housing assistance and case management forlow-income and homeless American Indians and Alaska Natives 18 and older. Must apply for membership and provide proof of tribal affiliation. Members visit in person. No fees; Apple Health (Medicaid) accepted for chemical dependency assessment. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Filipino Community of Seattle",
+        "Location": "5740 MLK Jr. Way S., Seattle, WA",
+        "Phone Number": "206-",
+        "Hours": "Tue., Thurs., 10 a.m. – 1 p.m.",
+        "Website": "www.filcommsea.org",
+        "Meal Information": "Offers a congregate ethnic meal program. Focuses on older adults in the Filipino community. Visit in person. $3 for lunch. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Urban League of Metropolitan Seattle",
+        "Location": "105 14th Ave, Seattle, WA",
+        "Phone Number": "206-461-3792",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m.",
+        "Website": "www.urbanleague.org",
+        "Meal Information": "Housing counseling services, employment services and re-entryworkshops. Serves African-Americans. Call for information."
+      }
+    ]
+  },
+  {
+    "category": "Health Services",
+    "data": [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Country Doctor Community Health Centers",
+        "Location": "2101 E. Yesler Way, Suite 150, Seattle, WA",
+        "Phone Number": "206-299-1900",
+        "Hours": " Mon., Tue., Thurs., Fri., 9 a.m. – 5 p.m.; Wed., 9 a.m. – 8:30 p.m.; Sat., 9 a.m. – noon",
+        "Website": "www.countrydoctor.org",
+        "Meal Information": "Comprehensive health services and an after-hours clinic. Serves everyone. Call for an appointment; but walk-in only for Swedish. Sliding scale fees. Accepts Medicare, Apple Health (Medicaid) and insurance. No one will be turned away due to inability to pay. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Harborview Medical Center",
+        "Location": "800 Jefferson St. Seattle, WA",
+        "Phone Number": "206-744-5200",
+        "Hours": "Intake: daily, 8 a.m. – 4:30 p.m.",
+        "Website": "www.uwmedicine.org/locations/",
+        "Meal Information": "Short-term respite beds serving homeless adults who are too sick to be in a regular shelter and are leaving any hospital, clinic or emergency department. Social worker or health care provider must contact intake. Accepts Apple Health (Medicaid) and Medicare. Assesses for charity care. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Hepatitis Education Project",
+        "Location": "1621 S. Jackson St., Suite 201, Seattle, WA",
+        "Phone Number": "206-732-0311",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m",
+        "Website": "www.hepeducation.org",
+        "Meal Information": "Offers Hepatitis C testing and Hepatitis A & B vaccinations. Serves everyone. Call for an appointment. No fees. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "International Community Health Services",
+        "Location": "3815 S. Othello St. Seattle, WA",
+        "Phone Number": "206-788-3500",
+        "Hours": " Mon., Wed., 7:30 a.m. – 7 p.m.; Tue., Thurs., Fri., 7:30 a.m. – 6 p.m.; Sat., 8 a.m. – 5:30 p.m",
+        "Website": "www.ichs.com",
+        "Meal Information": "Offers primary care, behavioral health and suboxone treatment. Staff is multi-lingual. Serves everyone. Call for an appointment. Same day appointments. Accepts major private insurances,  Apple Health (Medicaid) and Medicare. Sliding scale fees. No one is turned away due to inability to pay. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "King County Public Health STD Clinic ",
+        "Location": "908 Jefferson St. 11th Floor, Seattle, WA",
+        "Phone Number": "206-744-3590",
+        "Hours": "Clinic: Mon., Thurs., Fri., 7:30 a.m. – 6 p.m.; Tue., 9:30 a m. – 6 p.m.; Wed., 7:30 a.m. – 7:30 p.m.",
+        "Website": "www.uwmedicine.org/locations/",
+        "Meal Information": "Offers diagnosis and treatment of sexually transmitted diseases, including HIV. Serves everyone. Staff are sensitive to the needs of LGBTQI. Call or visit site. Sliding scale fees, but no person will be denied. Medicare, Apple Health (Medicaid) and insurance accepted. "
+      }
+    ]
+  },
+  {
+    "category": "HIV/AIDS Services",
+    "data": [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Cedar River Clinics",
+        "Location": "509 Olive Way, Suite 1454, Seattle, WA",
+        "Phone Number": "206-957-0990",
+        "Hours": "Intake: Mon. – Fri., 8 a.m. – 5 p.m.; Sat., 9 a.m. – 2 p.m.",
+        "Website": "www.cedarriverclinics.org",
+        "Meal Information": "HIV testing and counseling serving everyone. Call for an appointment. Sliding scale fees. Accepts Apple Health (Medicaid) and most insurance plans. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Center for MultiCultural Health",
+        "Location": "1120 E. Terrace St., Suite 200, Seattle, WA",
+        "Phone Number": "206-461-6910",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m.",
+        "Website": "www.multi-culturalhealth.org",
+        "Meal Information": "HIV counseling as well as testing for Africans and African Americans. Further restrictions apply. Call for information. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Entre Hermanos",
+        "Location": "1105 23rd Ave. Seattle, WA",
+        "Phone Number": "206-322-7700",
+        "Hours": "Office: Mon. – Fri., 10 a.m. – 6 p.m.; HIV testing: 1 – 4:30 p.m.",
+        "Website": "www.entrehermanos.org/hiv-prevention/",
+        "Meal Information": "Offers HIV/AIDS prevention education, testing, support groups and case management. Offered in Spanish and English. Serves Latino men who have sex with men and anyone who is HIV positive. Call. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Gay City",
+        "Location": "517 E. Pike St. Seattle, WA",
+        "Phone Number": "206-860-6969",
+        "Hours": " Mon. – Fri., 3 – 8 p.m.; Sat., 12:30 – 5 p.m",
+        "Website": "www.gaycity.org/wellness/",
+        "Meal Information": "HIV/STI testing, assistance obtaining PrEP serving gay and bisexual men, trans individuals, gender non-conforming and non-binary people, 14 and older. Services in English and Spanish. Call or visit website to make an appointment. Drop-in testing only at Out of the Closet. No fees."
+      },
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Samaritan Center of Puget Sound ",
+        "Location": "564 NE Ravenna Blvd, Seattle, WA",
+        "Phone Number": "206-527-2266",
+        "Hours": "Main office: Mon. – Thurs., 8 a.m. – 7 p.m.; Fri., 8 a.m. – 5 p.m.",
+        "Website": "www.samaritanps.org/node/390",
+        "Meal Information": "Practical support such as transportation, meal preparation and child care for people with AIDS. Call for information. No fees."
+      }
+    ]
+  },
+  {
+    "category": "Housing Services",
+    "data": [
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Aloha Inn",
+        "Location": "1911 Aurora Ave. N, Seattle, WA",
+        "Phone Number": "206-283-6070",
+        "Hours": "Applications: Wed., 10 a.m. – noon., Thurs., 5 – 7 p.m.",
+        "Website": "www.ccsww.org/get-help/shelter-homeless-services/aloha-inn/",
+        "Meal Information": "Operates structured transitional housing. Serves adults, single or couples. Accepts both co-ed and same-sex couples. Must be working or have an income, but cannot exceed $1,200 gross monthly. Sobriety required on the premises. No sex offenders. Call for application location. Documents Required: valid, legal picture ID. Rent is $5 to $25 per week. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Coordinated Entry for All ",
+        "Location": "Catholic Community Services, 100 23rd Ave. S, Seattle, WA",
+        "Phone Number": "211",
+        "Hours": "Walk-in hours: Thurs., 9 a.m. – noon",
+        "Website": "www.kingcounty.gov",
+        "Meal Information": "A large referral service in King County that connects clients to housing services. Serves all people experiencing homelessness in King County. Kirkland location serves families with children under 18. Call 211 for more information, all locations and to schedule an appointment. Limited walk-in hours are available at specific locations"
+      },
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Elizabeth Gregory Home",
+        "Location": "University Lutheran Church, 1604 NE 50th St., Seattle, WA",
+        "Phone Number": "206-283-6070",
+        "Hours": "Mon. – Fri., 9 a.m. – 4:30 p.m.",
+        "Website": "www.eghseattle.org/programs/",
+        "Meal Information": "Transitional housing and case management for sober single women 18 and older who are homeless or very low-income. Anyone who identifies as female is welcome. Accepts domestic violence survivors. Cannot accept those with an arson conviction fewer than 10 years old. Visit day center in person to apply. Openings are limited. Fees are 30 percent of monthly income. No income is required to apply. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Pioneer Human Services",
+        "Location": "1108 E. Spruce St, Seattle, WA",
+        "Phone Number": "206-624-0082",
+        "Hours": "Mon. – Fri., 8 a.m. – 4 p.m.",
+        "Website": "www.pioneerhumanservices.org/housing",
+        "Meal Information": "Offers affordable drug- and alcohol-free transitional housing as well as permanent housing. Offers a resource center with referrals and case management. Serves individuals who have been recently incarcerated or in a treatment program for substance use disorder. Cannot accept those with a history of arson. Download application from specific property on website. Submit application to specified address on application. Fees vary depending on facility and unit size. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Plymouth Housing",
+        "Location": "2113 Third Ave, Seattle, WA",
+        "Phone Number": "206-374-9409",
+        "Hours": "9AM - 5PM Mon. - Fri.",
+        "Website": "www.plymouthhousing.org/",
+        "Meal Information": "Offers affordable non-subsidized housing. View website for available properties, eligibility requirements and the application. Contact information for specific properties found online. Have your application ready at tour along with a $35 screening fee for each adult household member. Accepts comprehensive, reusable tenant screening report in lieu of the standard screening fee. "
+      }
+    ]
+  },
+  {
+    "category": "Immigrant and Refugee Services",
+    "data": [
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Asian Counseling and Referral Service",
+        "Location": "3639 MLK Jr. Way S., Seattle, WA",
+        "Phone Number": "206-695-7578",
+        "Hours": "Mon. – Fri., 8 a.m. – 6 p.m.; service hours vary",
+        "Website": "www.acrs.org/services/",
+        "Meal Information": "Offers bilingual naturalization classes, one-on-one case-management and assistance with naturalization forms. King County residents. Call or visit in person. Low-income residents or those receiving public assistance are eligible for some free services and classes. "
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Casa Latina",
+        "Location": "317 17th Ave. S., Seattle, WA",
+        "Phone Number": "206-956-0779",
+        "Hours": "Orientation: first and third Tue., 7 a.m. – 4 p.m.",
+        "Website": "www.casa-latina.org/get-involved/",
+        "Meal Information": "Offers English as a Second Language (ESL) classes, day labor dispatching, domestic workers training, social support and bilingual Spanish-English wage-claim advocacy. Serves low-income Latino immigrants. Visit in person. Documents Required: official photo ID. Membership: $25/year. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Horn of Africa Services",
+        "Location": "4714 Rainier Ave. S., Suite 105, Seattle, WA",
+        "Phone Number": "206-760-0550",
+        "Hours": "Mon. – Fri., 9:30 a.m. – 5 p.m.;Legal clinic: second Fri., 2 – 5 p.m.",
+        "Website": "www.hoas.org/social-services/",
+        "Meal Information": "Offers citizenship classes, housing assistance, job search assistance, benefits assistance,a monthly legal clinic and more. Primarily serves refugees and immigrants from East African countries. Call main office or visit in person to complete an application. No fees. "
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Muslim Housing Services",
+        "Location": "6727 Rainier Ave. S, Seattle, WA",
+        "Phone Number": "206-723-1712",
+        "Hours": "Mon. –Fri., 10 a.m. – 6 p.m.",
+        "Website": "www.muslim-housing.org",
+        "Meal Information": "Case management, homelessness prevention, transitional housing and rental assistance. Serves refugees and second migration immigrants from East Africa, Eastern Europe, the Middle East and other parts of Africa. Staff speaks multiple languages. Call for eligibility, application and fee information. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Northwest Immigrant Rights Project",
+        "Location": "615 Second Ave., Suite 400 , Seattle, WA",
+        "Phone Number": "206-587-4009",
+        "Hours": "Mon. – Fri., 9 a.m. – noon, 1 – 4 p.m",
+        "Website": "www.nwirp.org/get-help/",
+        "Meal Information": "Assists with applications for political asylum, petitions under the Violence Against Women Act, DACA applications and other immigration applications. Offers representation in immigration court to those facing deportation/removal. Serves low-income immigrants, asylum seekers or refugees. Call for information,  screening and appointment. Cannot assist clients already represented by an attorney for this issue. Fees vary depending on services, many are free. "
+      }
+    ]
+  },
+  {
+    "category": "Legal Services",
+    "data": [
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "King County Department of Public Defense",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-477-8899",
+        "Hours": "24 hours",
+        "Website": "www.kingcounty.gov/courts/public-defense.aspx",
+        "Meal Information": "Over-the-phone legal information and advice for those with criminal, CPS or APS issues. Serves low-income. Call. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Northwest Justice Project",
+        "Location": "401 Second Ave. S. Suite 407, Seattle, WA",
+        "Phone Number": "211",
+        "Hours": "Mon. – Fri., 8 a.m. – 6 p.m",
+        "Website": "www.washingtonlawhelp.org",
+        "Meal Information": "Legal advice and representation specializing in housing, family, health, public benefits, consumer and education law. Serves low-income people at or below 200 percent of the Federal Poverty Level. Cannot assist clients already represented by an attorney for this issue. Call 2-1-1 for screening or a referral. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Seattle Community Law Center",
+        "Location": "1404 E. Yesler Way, Suite 203, Seattle, WA",
+        "Phone Number": "206-686-7252",
+        "Hours": "Mon. – Fri., 8 a.m. – 6 p.m.; Social Security overpayment clinic:Tue., 1 p.m.",
+        "Website": "www.seattlecommlaw.org/projects/",
+        "Meal Information": "Representation, advocacy and assistance applying for, receiving, or appealing decisions on Social Security benefits, serving low-income and homeless individuals with disabilities. Operates a free Social Security Overpayment Clinic. Call for screening, appointment and fee information. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Seattle Office for Civil Rights.",
+        "Location": "810 Third Ave., Central Building, Suite 750, Seattle, WA",
+        "Phone Number": "206-233-7100",
+        "Hours": "Mon. – Fri., 8 a.m. – 5 p.m.",
+        "Website": "www.seattle.gov/civilrights",
+        "Meal Information": "Investigates and resolves complaints regarding discrimination in employment, housing, public places and contracting. The discriminatory act must have been committed within the Seattle city limits and have occurred within the last 180 days (non-housing) or 365 days (housing). Call or visit in person. No fees. "
+      },
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Solid Ground",
+        "Location": "1501 N. 45th St., Seattle, WA",
+        "Phone Number": "206-694-6767",
+        "Hours": "Tenant services: Mon., Thurs., 10:30 a.m. – 1:30 p.m.; Wed., 1:30 – 4:30 p.m",
+        "Website": "www.solid-ground.org/get-help",
+        "Meal Information": "Legal services to help clients obtain and retain public benefits. Provides information and referral for tenants facing eviction or struggling with other rental issues. Serves low-income residents of King County. No restrictions for advice and referrals. No fees."
+      }
+    ]
+  },
+  {
+    "category": "LGBTQIA Services",
+    "data": [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Cedar River Clinics",
+        "Location": "509 Olive Way, Suite 1454, Seattle, WA",
+        "Phone Number": "206-957-0990",
+        "Hours": "Intake: Mon. – Fri., 8 a.m. – 5 p.m.; Sat., 9 a.m. – 2 p.m",
+        "Website": "www.cedarriverclinics.org",
+        "Meal Information": "Offers health care such as cancer screenings, STD testing and treatment, HIV Testing and birth control. Offers transgender services such as hormone therapy, surgical referrals for gender reassignment,  breast and cosmetic surgeries, post-surgical follow up and ID documentation. Serves clients identifying as LGBTQ. Call for more information or to make an appointment. Sliding scale fees. Accepts Apple Health (Medicaid) and most insurance plans."
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "The Northwest Network",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-568-7777",
+        "Hours": "Mon. – Fri. 9 a.m. – 5 p.m.",
+        "Website": "www.nwnetwork.org",
+        "Meal Information": "Advocacy-based counseling over the phone or in person. Serves LGBTQ people of all ages who are being, or who have been, emotionally or physically abused by an intimate partner. No fees"
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Seattle Area Support Groups & Community Center",
+        "Location": "115 15th Ave. E., Suite 201, Seattle, WA",
+        "Phone Number": "206-322-2437",
+        "Hours": "Sun. – Fri., 9 a.m. – 9 p.m.; Sat., 9 a.m. – 1:30 p.m., 5 – 9 p.m.",
+        "Website": "www.sasgcc.org/",
+        "Meal Information": "Facilitates a variety of discussion and skill-building groups. Group and discussion focus varies but may include HIV/AIDS, substance abuse and recovery, or other LGBTQ relevant issues. Serves individuals who are LGBTQ identified or friendly. Call or visit the website for a current calendar and additional information about each group. Preregistration is required for some groups. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Seattle Counseling Service",
+        "Location": "1216 Pine St., Suite 300, Seattle, WA",
+        "Phone Number": "206-323-1768",
+        "Hours": "Office: Mon. – Thurs., 8 a.m. – 8 p.m.; Fri., 8 a.m. – 5 p.m.",
+        "Website": "www.seattlecounseling.org",
+        "Meal Information": "Substance use treatment and therapeutic counseling, including counseling for mental health illnesses, primarily serving LGBTQ people. Agency provides DBHR-certified service(s). Call for information or apply online. Sliding scale fees. Accepts Apple Health (Medicaid) and most insurance plans. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Entre Hermanos",
+        "Location": "1105 23rd Ave., Seattle, WA",
+        "Phone Number": "206-322-7700",
+        "Hours": "Mon. – Fri., 10 a.m. – 5 p.m.",
+        "Website": "www.entrehermanos.org",
+        "Meal Information": "Free HIV testing, case management and support groups as well as citizenship information and legal clinics, serving Latino LGBTQ individuals. Call or visit website for more information. No fees. "
+      }
+    ]
+  },
+  {
+    "category": "Mental Health Services",
+    "data": [
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Community Psychiatric Clinic",
+        "Location": "11000 Lake City Way NE, Seattle, WA",
+        "Phone Number": "206-545-2354",
+        "Hours": "Mon. – Fri., 8:30 a.m. – 5 p.m.; Service hours vary, call for info.",
+        "Website": "www.cpcwa.org",
+        "Meal Information": "Specialized structured housing programs, outpatient mental health and intensive outpatient substance use disorder treatment. Agency provides DBHR-certified service(s). Housing programs serve homeless individuals with mental illnesses; other programs serve adults 18 and older. Call for eligibility and application information. Fees vary by program. Accepts Apple Health (Medicaid),  Medicare, private pay and private insurance. Sliding scale fees."
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "DESC Crisis Respite Program",
+        "Location": "517 Third Ave, Seattle, WA",
+        "Phone Number": "206-464-1570 ",
+        "Hours": "Mon. – Fri., 7:30 a.m. – 4 p.m.",
+        "Website": "www.desc.org/what-we-do/crisis-response/",
+        "Meal Information": "Temporary shelter, behavioral health stabilization and case management, serving homeless adults in King County with severe mental illnesses. Clients must have a referral from one of the following: Harborview Medical Center’s Psychiatric Emergency Services and Psychiatric Inpatient Units, Seattle and King County’s Mental Health Courts, King County psychiatric emergency rooms and inpatient units, or another approved psychiatric mental health provider. No fees."
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Matumaini Counseling & Community Center",
+        "Location": "3714 S. Ferdinand St., Seattle, WA",
+        "Phone Number": "206- 708-1704",
+        "Hours": "Mon. – Fri., 10 a.m. – 6 p.m.",
+        "Website": "www.matumainicounseling.org",
+        "Meal Information": "Provides array of therapy approaches including family, couples and individual counseling to everyone. Call for information. Accepts Apple Health (Medicaid) and offers sliding scale fees."
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Sea Mar Community Health Centers",
+        "Location": "10001 17th Pl. S. Lower Level, Seattle, WA",
+        "Phone Number": "206-766-6976",
+        "Hours": "Mental Health: Mon. –Fri., 8 a.m. – 5 p.m.; Support groups: Mon., 5 – 7 p.m.; Tue., Thurs., 5 – 8 p.m",
+        "Website": "www.seamar.org",
+        "Meal Information": "Outpatient behavioral health clinics provides counseling as well as bilingual domestic violence survivor and chemical dependency support groups. Agency provides DBHR-certified service(s). Serves everyone. Call or visit in person to make an appointment. Sliding scale fees. Accepts Apple Health (Medicaid). "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Therapeutic Health Services",
+        "Location": "1116 Summit Ave., Seattle, WA",
+        "Phone Number": "206-323-0930",
+        "Hours": " Mon. – Thurs., 7 a.m. – 5:30 p.m.; Fri., 7 a.m. – 4:30 p.m.",
+        "Website": "www.ths-wa.org",
+        "Meal Information": "Mental health services,case management, group counseling for Serves mentally ill clients as well as those with co-occurring disorders. Call intake for an appointment. Sliding scale fees. Private pay, Apple Health (Medicaid) and private insurance. "
+      }
+    ]
+  },
+  {
+    "category": "Re Entry Assistance",
+    "data": [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Columbia Legal Services",
+        "Location": "516 Third Ave., King County Courthouse, Suite 621., Seattle, WA",
+        "Phone Number": "206-287-8625",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m.; Clinic: second Mon. and fourth Tue. of the month: 2:30 – 4:30 p.m.",
+        "Website": "www.columbialegal.org",
+        "Meal Information": "Attorneys assist people struggling with fees, fines and restitution, being denied housing or employment because of their criminal background. Cannot assist with vacating/sealing/expunging criminal records. There are no time restrictions for age of criminal history. Annual gross income should be at or below 225 percent of the Federal Poverty Level. Call for an appointment and clinic location. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Interaction Transition",
+        "Location": "1265 S. Main St., Suite 305-B, Seattle, WA",
+        "Phone Number": "206-324-3932",
+        "Hours": "Mon. – Fri., 9 a.m. – 4:30 p.m.",
+        "Website": "www.interactiontransition.org/services/",
+        "Meal Information": "Helps ex-offenders find employment in areas such as warehouse, manufacturing, recycling and auto-work. Serves those recently released from jail or prison or those with barriers to employment related to their criminal record. Call for more information or visit in person. No fees. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Pioneer Human Services Job Training",
+        "Location": "7000 Highland Park Way SW, Seattle, WA",
+        "Phone Number": "206-768-7333",
+        "Hours": "Mon. – Fri., 7:30 a.m. – 4 p.m.",
+        "Website": "www.pioneerhumanservices.org/job-skills",
+        "Meal Information": "Job training experience in manufacturing and food service following graduation from job readiness program for individuals who have at least one criminal conviction. Requires a referral by a probation officer, corrections officer, case manager or other referral source. Call for more information. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Sound",
+        "Location": "1600 E. Olive St., Seattle, WA",
+        "Phone Number": "206-302-2200",
+        "Hours": "Mon. – Fri., 8:30 a.m. – 5 p.m",
+        "Website": "sound.health",
+        "Meal Information": "Co-occurring disorder integrated case management, therapy, sex offender treatment, chemical dependency treatment,  vocational training, payee services, coordination with courts and probation, medication management, referrals to medical services and assistance identifying housing. Serves mentally ill men and woman who have a history of incarceration or interactions with the legal system. Accepts referrals by self or by professionals. Call to make a referral. Call for payment details. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "YWCA of Seattle",
+        "Location": "2024 Third Ave., Seattle, WA",
+        "Phone Number": "206-436-8629",
+        "Hours": "Mon. – Fri., 8:30 a.m. – 5 p.m.",
+        "Website": "www.ywcaworks.org",
+        "Meal Information": "Provides ex-offenders with employment re-entry services and targeted job training including construction, environmental, culinary,  manufacturing and others. Serves those with criminal justice system involvement in the past 12 months or low-come King County residents with a criminal history, but without an active warrant,  who are a recipient of SNAP (basic food) benefits and eligible to work in United States. Call for more information. No fees"
+      }
+    ]
+  },
+  {
+    "category": "Senior Services",
+    "data": [
+      {
+        "Geographic Area": "North Seattle",
+        "Program Name": "Hunger Intervention Program",
+        "Location": "Lake City Community Center, 12531 28th Ave. NE., Seattle, WA",
+        "Phone Number": "206-538-6567",
+        "Hours": "Mon., Wed., noon – 1 p.m.",
+        "Website": "www.hungerintervention.org/programs/",
+        "Meal Information": "Lunch and activities. Call or visit website for menu and activity calendar. Focuses on North Seattle residents 60 and older. Visit in person. Suggested donation is $3 for seniors 60 and older and $6 for anyone under 60. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Lazarus Center",
+        "Location": "416 Second Ave. Extension S., Seattle, WA",
+        "Phone Number": "206-623-7219",
+        "Hours": "Daily: day center, 7 a.m. – 6:30 p.m.; breakfast, 8 – 8:45 a.m.; lunch: 12:30 – 2:20 p.m",
+        "Website": "www.ccsww.org/get-help/shelter-homeless-services/",
+        "Meal Information": "Operates a drop-in center with laundry, shower, telephone, mailing address service, clothing and daily lunch. Serves homeless and marginally housed adults who are 50 and older. Visit in person. Documents Required: Valid state ID. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Neighborhood Legal Clinics",
+        "Location": "2208 Second Ave., Seattle, WA",
+        "Phone Number": "206-448-5720",
+        "Hours": "Call for appointment: Mon. –Thurs., 9:30 a.m. – 3:30 p.m.; Clinic: first and third Fri., 1– 3 p.m.",
+        "Website": "www.kcba.org/For-the-Public/Free-Legal-Assistance/",
+        "Meal Information": "Provides an appointment to discuss issues of living wills/advance directives, powers-of-attorney, wills, estate planning,  Apple Health (Medicaid), etc. Can request an interpreter. Serves King County residents or those who have a case filed in King County. Call to schedule an appointment. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Pike Market Senior Center",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-728-2773 ",
+        "Hours": "Mon. – Fri., 8:20 a.m. and noon; Sun., Sat., 8:20 and 11:30 a.m",
+        "Website": "www.pikemarketseniorcenter.org/programs/",
+        "Meal Information": "Hot breakfasts and lunches as well as social worker and referrals. Serves adults 55 and older. Call or visit in person. Documents Required: Photo ID. No fees. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "South Park Senior Center",
+        "Location": "8201 10th Ave. S., Seattle, WA",
+        "Phone Number": "206-767-2544",
+        "Hours": "Dinner: Mon., Wed., Fri., 5:30 p.m.; Lunch: Tue., 11:30 a.m",
+        "Website": "www.spseniors.org",
+        "Meal Information": "Congregate hot meals. Friday meals are Asian. Serves adults 50 and older. Call or visit in person. $3 donation requested. "
+      }
+    ]
+  },
+  {
+    "category": "Survivor Support Services",
+    "data": [
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "ADD Health Counseling Services & Seattle Treatment Services",
+        "Location": "5237 Ranier Ave. S, Seattle, WA",
+        "Phone Number": "206-525-0094",
+        "Hours": "Hours vary; voicemail is available",
+        "Website": "www.addhealthcounselingservices.org/services",
+        "Meal Information": "Offers counseling, advocacy, trainings, information and referrals. Serves those in need of domestic violence services. Call for more information. Sliding scale fees. "
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Catherine Booth House",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-324-4943",
+        "Hours": "Helpline: 24 hours",
+        "Website": "www.salvationarmydomesticviolenceprograms.org",
+        "Meal Information": "Confidential Location, no address. Domestic violence emergency shelter at a confidential location. Operates a 24-hour crisis line. Provides advocacy for housing,  legal and financial needs of domestic violence victims. Serves abused women or men, with or without children, who are fleeing intimate partner violence. Does not serve households that include more than one adult. Accepts service animals. Call for phone screening. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Escape to Peace",
+        "Location": "11100 Main St. Suite 101, Seattle, WA",
+        "Phone Number": "425-449-8917",
+        "Hours": "By Appointment: Mon. – Fri., 11 a.m. – 7 p.m",
+        "Website": "www.escapetopeace.org/trauma-therapy/",
+        "Meal Information": "Offers self-regulation therapy. Serves anyone who has had trauma in their lives. Call or visit in person to make an appointment. Documents Required: prefer picture ID or student ID. No fees. "
+      },
+      {
+        "Geographic Area": "South Seattle",
+        "Program Name": "Real Escape from the Sex Trade",
+        "Location": "4215 Rainier Ave. S., Suite B, Seattle, WA",
+        "Phone Number": "206-451-7378",
+        "Hours": "Helpline: 24 hours",
+        "Website": "www.iwantrest.com/services/",
+        "Meal Information": "Emergency shelter that provides referrals, crisis intervention, case management and advocacy, for women, 18 and older, who may be victims of sex trafficking. Accepts trans clients on a case-by-case basis. Call helpline for intake. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Shepherd’s Counseling Services",
+        "Location": "2601 Broadway E., Seattle, WA",
+        "Phone Number": "206-323-7131",
+        "Hours": "Mon. – Fri., 9 a.m. – 6 p.m.;",
+        "Website": "www.shepherdstherapy.org/index.php/find-help/find-help/",
+        "Meal Information": "Individual and group therapy and support groups, for adult survivors of childhood sexual abuse. Cannot serve sex offenders. Call for free initial consultation and evaluation. Sliding scale fees. "
+      }
+    ]
+  },
+  {
+    "category": "Transportation Assistance",
+    "data": [
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Hopelink",
+        "Location": "Seattle, WA",
+        "Phone Number": "800-923-7433",
+        "Hours": "8 a.m. - 5 p.m.",
+        "Website": "www. . hopelink.org/need-help",
+        "Meal Information": "Non-emergency medical transportation in King County for services covered by Medicaid. Rides offered 8 a.m. to 5 p.m. Can also offer an Orca card, gas card and parking or other reimbursements. Call at least two days in advance. Before calling, have your Provider One Number, name of medical provider, appointment date and time, reason for the appointment, and the name,  address and phone number of medical facility. No fees."
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "ORCA Lift",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-553-3000",
+        "Hours": "8 a.m. - 5 p.m.",
+        "Website": "www.kingcounty.gov",
+        "Meal Information": "Offers a reduced-fare program for adults between 19 and 64 whose household income is at or below 200 percent of the Federal Poverty Level. Citizenship is not required. Valid for King County Metro,  Sound Transit, Seattle street cars and King County water Taxis. Call for enrollment locations and documents required."
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Solid Ground Downtown Circulator Bus",
+        "Location": "Seattle, WA",
+        "Phone Number": "206-753-4801",
+        "Hours": "Mon. – Fri., first bus departs stop No. 1, 7 a.m.; last bus departsstop No. 1, 4 p.m",
+        "Website": "www.solid-ground.org/get-help/transportation/",
+        "Meal Information": "Shuttle rides for low-income people and those who access health and human services in the downtown Seattle area. seven stops. Arrives approximately every 30 minutes. Stop No. 1, Ninth and Alder; stop No. 2, Fourth and Yesler (adverse weather stop is First and Yesler); stop No. 3, First and Marion; stop No. 4, First and Pine; stop No. 5, First and Bell; stop No. 6, Ninth and Virginia; stop No. 7,  Boren and Seneca. Serves everyone. Visit in person. No fees. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "King County Metro Transit Regional Reduced Fare Permit (RRFP)",
+        "Location": "201 S. Jackson St. King Street Center Bldg, Seattle, WA",
+        "Phone Number": "206-553-3000",
+        "Hours": "Mon. – Fri., 6 a.m. – 8 p.m.",
+        "Website": "www.metro.kingcounty.gov/tops/accessible/",
+        "Meal Information": "Issues Regional Reduced Fair Permits (RRFPs). Serves those 65 and older or those 18-64 with disabilities that qualify. No income restrictions. Call for eligibility and application information. Documents Required: Seniors: proof of age.; People with disabilities: Proof-of-disability application form. RRFP costs $3 to issue. Rides on Metro buses are $1 during all hours. $36 for a metro monthly pass. "
+      }
+    ]
+  },
+  {
+    "category": "Vetran Services",
+    "data": [
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Catholic Community Services Michael’s Place",
+        "Location": "1307 E. Spring St., Seattle, WA",
+        "Phone Number": "206-726-5688",
+        "Hours": "Mon. – Fri., 9 a.m. – 5 p.m.",
+        "Website": "www.ccsww.org/get-help/housing/transitional-housing",
+        "Meal Information": "Transitional housing for homeless adult male veterans who have a mental health diagnosis or are in recovery and eligible for transitional housing through the Veterans Administration Puget Sound Health Care System (VA Hospital). Application is done via the VA system or King County Veterans organizations. Residents must pay 25 percent of their gross income. "
+      },
+      {
+        "Geographic Area": "Central Seattle",
+        "Program Name": "Compass Housing Alliance",
+        "Location": "Office: 77 S. Washington St, Seattle, WA",
+        "Phone Number": "206-474-1000",
+        "Hours": "8 a.m. - 5 p.m. Mon. - Fri.",
+        "Website": "www.compasshousingalliance.org",
+        "Meal Information": "Multiple programs that provide permanent housing, transitional housing, case management and supportive services. Serves low-income veterans, including couples and families. Call for more information."
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Disabled American Veterans",
+        "Location": "Seattle, WA",
+        "Phone Number": "206- 764-2564",
+        "Hours": "Mon. – Fri., 7 a.m. – 2 p.m.; closed last Fri. of the month",
+        "Website": "www.dav.org/veterans/i-need-a-ride/",
+        "Meal Information": "Transportation to medical services at the Veterans Administration Hospital. Appointments are required one week in advance. Veterans can bring an escort or service dog with a doctor’s note. Serves veterans with disabilities. Not wheelchair accessible. No fees. "
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "El Centro de la Raza",
+        "Location": "2524 16th Ave. S., Seattle, WA",
+        "Phone Number": "206-769-0153",
+        "Hours": "Office: Mon. – Fri., 8:30 a.m. – 5:30 p.m.",
+        "Website": "www.elcentrodelaraza.org/what-we-do/",
+        "Meal Information": "Information and referrals to assist veterans with food, housing, filing claims, appealing a VA decision, PTSD and crisis management,  military sexual trauma and employment assistance. Services Veterans, especially women veterans and veterans of color. Serves veterans of all discharge types. Call or visit site. No fees. "
+      },
+      {
+        "Geographic Area": "Seattle",
+        "Program Name": "Seattle Vet Center",
+        "Location": "735 E. Marginal Way S., Room 1102, Seattle, WA",
+        "Phone Number": "206-658-4225",
+        "Hours": "Mon. – Fri., 8 a.m. – 4:30 p.m.; Flexible hours by appointment",
+        "Website": "www.vetcenter.va.gov/Vet_Center_Services.asp",
+        "Meal Information": "Offers benefit counseling, job service referrals and bereavement counseling. Offers mental health intake assessments for veterans who experienced sexual trauma in the military. Offers shortterm trainings on living/coping skills as well as long-term multiple-focus trainings. Will refer to other agencies. Serves veterans and sometimes veterans’ families. Call or visit site. If available,  bring medical discharge and separation (DD214) papers. No fees."
+      }
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  {
+//    "Geographic Area": "Seattle",
+//    "Program Name": "",
+//    "Location": "Seattle, WA",
+//    "Phone Number": "206-",
+//    "Hours": "",
+//    "Website": "www.",
+//    "Meal Information": ""
+//  },

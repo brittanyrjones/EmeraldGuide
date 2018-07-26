@@ -1,0 +1,136 @@
+{
+  "youthshelter": [
+    {
+      "Area": "Seattle and surrounding areas",
+      "Shelter Address": "16225 NE 87th Street, Ste A-1, Redmond, WA 98052",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Emergency Shelter - Friends of Youth",
+      "Phone Number": "425-298-4846",
+      "Website": "http://www.friendsofyouth.org/",
+      "Shelter Information": "CALL THE 24-HOUR SHELTER HOTLINE: (206) 236-KIDS (5437). One of our team members will always be available to take your call, 24/7.",
+      "Shelter Hours": "24 Hours a day, 7 Days a week.",
+      "People Served": "Age 11-17"
+    },
+    {
+      "Area": "Outside of Seattle",
+      "Shelter Address": "16225 NE 87th Street, Ste A-1, Redmond, WA 98052",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "The Landing - Friends of Youth",
+      "Phone Number": "425-449-3868.",
+      "Website": "http://www.friendsofyouth.org/getHelpShelter.aspx",
+      "Shelter Information": "Sightly emergency shelter screening and referral for women, 18 and older. No children. Visit in person. Priority given to clients who arrive by 8 p.m. No fees. ",
+      "Shelter Hours": "Line-up for the shelter is at 8:30 PM. Intake begins at 8:45 PM.",
+      "People Served": "Age 18-24"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "1828 Yale Ave, Seattle, WA 98101",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Orion Center - Youthcare",
+      "Phone Number": "206-622-5555",
+      "Website": "www.youthcare.org/",
+      "Shelter Information": "Seven nights a week, we provide safe, overnight emergency shelter for up to twenty 18-24 year olds, where they can also do their laundry, take a hot shower, and eat a meal.",
+      "Shelter Hours": "Tuesday	8:30AM–5PM, Wednesday 8:30AM–6:30PM, Thursday 8:30AM–6:30PM, Friday	8:30AM–6:30PM, Saturday 11AM–1PM, Monday 8:30AM–6:30PM",
+      "People Served": "Age 18-24"
+    },
+    {
+      "Area": "North Seattle",
+      "Shelter Address": "Call for more Information",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Adolescent Shelter - Youthcare",
+      "Phone Number": "206-622-5555",
+      "Website": "www.youthcare.org/",
+      "Shelter Information": "YouthCare runs the only short-term emergency shelter in Seattle for homeless youth aged 12–17.",
+      "Shelter Hours": "Contact: 24 hours; shelter: nightly: 4:45 p.m. – 7 a.m.",
+      "People Served": "Age 12-18"
+    },
+    {
+      "Area": "South Seattle",
+      "Shelter Address": "2500 NE 54th St, Seattle, WA 98105",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Jackson Street Shelter - Youthcare",
+      "Phone Number": "206-622-5555",
+      "Website": "www.youthcare.org/",
+      "Shelter Information": "Jackson Street’s work centers around reducing the impact of homelessness for young adults currently enrolled in an educational pathway. Often times students experiencing homelessness have to make a tough choice between continuing to work toward completing their schooling or focusing on stabilizing their living situation. Jackson Street aims to support these young people in continuing their education while working with on-site case management to help identify pathways to independence and stability.",
+      "Shelter Hours": "Nightly, 7 p.m. – 6 a.m.",
+      "People Served": "Age 18-24"
+    },
+    {
+      "Area": "North Seattle",
+      "Shelter Address": "Call for more information",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Casa de los Amigos - Youthcare",
+      "Phone Number": "206-622-5555",
+      "Website": "www.youthcare.org/",
+      "Shelter Information": "This program provides emergency shelter and supportive services for unaccompanied and/or undocumented minors, ages 12–17. No fees.",
+      "Shelter Hours": "Call for more Information",
+      "People Served": "Age 12-17"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "1609 19th Ave, Seattle WA, 98122",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Peace for the Streets by Kids from the Streets (PSKS)",
+      "Phone Number": "206-726-8500 ",
+      "Website": "salvationarmynw.org/",
+      "Shelter Information": "Shelter and support services at PSKS prioritize human safety, health and security for Seattle area homeless youth and young adults. We offer education, employment and housing support to help participants get back on their feet and become engaged, self sufficient members of the community.",
+      "Shelter Hours": "Nightly 9:30 PM to 7:30 AM",
+      "People Served": "Age 14-17"
+    },
+    {
+      "Area": "North Seattle",
+      "Shelter Address": "1415 NE 43rd Street, Seattle",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "ROOTS Young Adult Shelter",
+      "Phone Number": "206-632-1635",
+      "Website": "rootsinfo.org",
+      "Shelter Information": "To stay at ROOTS, call or arrive between 8:00-8:30PM, and ask to be put on the list for shelter. No Fees. ",
+      "Shelter Hours": "Phone inquiries and tickets: daily: 9:30 – 11:30 a.m., 12:30 – 5:30 p.m., 10 p.m. – 6 a.m.; in-person intake with tickets: 8 p.m. nightly",
+      "People Served": "Age 18-25"
+    },
+    {
+      "Area": "Central Seattle",
+      "Shelter Address": "9010 13th Ave NW, Seattle, WA 98117",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "LaBaTeYah Youth Home",
+      "Phone Number": "206-781-8303",
+      "Website": "http://www.unitedindians.org/programs/youth-home/",
+      "Shelter Information": "United Indians Youth Home seeks to provide a safe and nurturing environment for homeless youth, combining Native American wisdom and ceremony with modern educational, medical and social services.. Referrals are made through the King County Youth Housing Connection. Our three-story, 25-bed home offers transitional and state group housing to youth between the ages of 18 and 23. Youth can stay for up to 18 months.",
+      "Shelter Hours": "Mon. – Fri., 8:30 – 9 a.m",
+      "People Served": "Age 18-23"
+    },
+    {
+      "Area": "Snohomish County",
+      "Shelter Address": "Arlington (North) 2929 Pine St, Everett, WA 98201",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Cocoon House North",
+      "Phone Number": "425-259-5802",
+      "Website": "cocoonhouse.org",
+      "Shelter Information": "Cocoon House provides short and long term housing to homeless young people ages 12-17 years old, and their children. Providing much more than a safe place to sleep, teens receive help engaging in school, preparing for employment, life and enrichment skills, and help accessing community services on and off site, while planning for long term housing. ",
+      "Shelter Hours": "24 Hours a day 7 Days a week",
+      "People Served": "Pregnant or Parenting Age 12-17"
+    },
+    {
+      "Area": "Snohomish County",
+      "Shelter Address": "Central 2929 Pine St, Everett, WA 98201",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Cocoon House Central",
+      "Phone Number": "425-259-5802",
+      "Website": "cocoonhouse.org",
+      "Shelter Information": "Cocoon House provides short and long term housing to homeless young people ages 12-17 years old, and their children. Providing much more than a safe place to sleep, teens receive help engaging in school, preparing for employment, life and enrichment skills, and help accessing community services on and off site, while planning for long term housing. ",
+      "Shelter Hours": "24 Hours a day 7 Days a week",
+      "People Served": "Age 12-17"
+    },
+    {
+      "Area": "Snohomish County",
+      "Shelter Address": "East, Monroe WA - Call for more details",
+      "Category": "Emergency Shelter",
+      "Shelter Name": "Cocoon House East",
+      "Phone Number": "425-259-5802",
+      "Website": "cocoonhouse.org",
+      "Shelter Information": "Cocoon House provides short and long term housing to homeless young people ages 12-17 years old, and their children. Providing much more than a safe place to sleep, teens receive help engaging in school, preparing for employment, life and enrichment skills, and help accessing community services on and off site, while planning for long term housing. ",
+      "Shelter Hours": "24 Hours a day 7 Days a week",
+      "People Served": "Age 12-17"
+    }
+  ]
+}
