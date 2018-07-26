@@ -32,27 +32,21 @@ public class Emergency {
     public String getCategory() {
         return category;
     }
-
     public void setCategory(String category) {
         this.category = category;
     }
-
     public String getEmergencyName() {
         return emergencyName;
     }
-
     public void setEmergencyName(String emergencyName) {
         this.emergencyName = emergencyName;
     }
-
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
     public String getWebsite() {
         return website;
     }
@@ -60,13 +54,10 @@ public class Emergency {
     public void setWebsite(String website) {
         this.website = website;
     }
-
     public String getEmergencyInformation() {
         return emergencyInformation;
     }
-
     public void setEmergencyInformation(String emergencyInformation) {
         this.emergencyInformation = emergencyInformation;
     }
-
 }

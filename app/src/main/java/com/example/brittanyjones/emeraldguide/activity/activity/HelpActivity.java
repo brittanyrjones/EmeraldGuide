@@ -21,7 +21,6 @@ public class HelpActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
 
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
 
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,13 +29,6 @@ public class HelpActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(HelpActivity.this, HelpActivity.class);
-                startActivity(helpint);
 
-            }
-        });
     }
 }

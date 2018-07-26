@@ -16,11 +16,9 @@ public class ResourceAdapter extends BaseAdapter {
 
     Context context;
     List<Resource> dataList;
-
     private View vi;
     private ViewHolder viewHolder;
     private static LayoutInflater inflater = null;
-
 
     public ResourceAdapter(Context context, List<Resource> dataList){
         this.context = context;
@@ -61,17 +59,14 @@ public class ResourceAdapter extends BaseAdapter {
             vi.setTag(viewHolder);
         }else
             viewHolder = (ViewHolder) view.getTag();
-
         viewHolder.geographicArea.setText(resource.getGeographicArea());
         viewHolder.programName.setText(resource.getProgramName());
         viewHolder.location.setText(resource.getLocation());
         viewHolder.phoneNumber.setText(resource.getPhoneNumber());
         viewHolder.website.setText(resource.getWebsite());
         viewHolder.mealInformation.setText(resource.getMealInformation());
-
         return vi;
     }
-
     public class ViewHolder{
         TextView geographicArea;
         TextView programName;

@@ -10,16 +10,13 @@ import android.widget.Button;
 import com.example.brittanyjones.emeraldguide.R;
 
 public class YouthActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youth);
         setTitle("Youth Emerald Guide");
-
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button youth_search_btn = (Button) findViewById(R.id.button25);
         Button youth_help_btn = (Button) findViewById(R.id.button26);
         Button youth_emergency_btn = (Button) findViewById(R.id.button27);
@@ -57,7 +54,6 @@ public class YouthActivity extends AppCompatActivity {
                 startActivity(youthvolunteerint);
             }
         });
-
         youth_resource_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,7 +68,6 @@ public class YouthActivity extends AppCompatActivity {
                 startActivity(youthshowerint);
             }
         });
-
         youth_shelter_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,5 +84,3 @@ public class YouthActivity extends AppCompatActivity {
         });
     }
 }
-
-

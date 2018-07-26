@@ -3,7 +3,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
+    android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:orientation="horizontal"
     card_view:cardCornerRadius="20dp"
@@ -15,7 +15,7 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="259dp"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10sp">
@@ -37,51 +37,57 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_above="@+id/shelArea_txt"
-            android:layout_alignParentStart="true">
+            android:layout_alignParentStart="true"
+            android:gravity="center">
 
-            <TextView
-                android:id="@+id/shelPhoneNumber_txt"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                android:layout_alignTop="@+id/shelterAddress_txt"
-                android:layout_toStartOf="@+id/shelWebsite_txt"
-                android:autoLink="phone"
-                android:background="@drawable/ic_phone_black_24dp"
-                android:text="Phone Number"
-                android:textColor="@android:color/transparent"
-                android:textColorLink="@android:color/transparent"
-                android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/shelPhoneNumber_txt"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
 
-            <TextView
-                android:id="@+id/shelWebsite_txt"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_above="@+id/shelArea_txt"
-                android:layout_centerHorizontal="true"
-                android:autoLink="all"
-                android:background="@drawable/ic_open_in_browser_black_24dp"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:text="Resource Website"
-                android:textColor="@android:color/transparent"
-                android:textColorLink="@android:color/transparent"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:autoLink="phone"
+                    android:background="@drawable/ic_phone_ring_outline"
+                    android:text="Phone Number"
+                    android:textColor="@android:color/transparent"
+                    android:textColorLink="@android:color/transparent"
+                    android:textSize="15dp" />
 
-            <TextView
-                android:id="@+id/shelterAddress_txt"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignTop="@+id/shelWebsite_txt"
-                android:layout_toEndOf="@+id/shelWebsite_txt"
-                android:autoLink="map"
-                android:background="@drawable/ic_directions_black_24dp"
-                android:text="Resource Location"
-                android:textColor="@android:color/transparent"
-                android:textColorLink="@android:color/transparent" />
+                <TextView
+                    android:id="@+id/shelWebsite_txt"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:autoLink="all"
+                    android:background="@drawable/ic_mouse_outline_filled"
+                    android:clickable="true"
+                    android:linksClickable="true"
+                    android:text="Resource Website"
+                    android:textColor="@android:color/transparent"
+                    android:textColorLink="@android:color/transparent"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/shelterAddress_txt"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:autoLink="map"
+                    android:background="@drawable/ic_location_marker_outline_filled"
+                    android:paddingRight="20dp"
+                    android:text="Resource Location"
+                    android:textColor="@android:color/transparent"
+                    android:textColorLink="@android:color/transparent" />
+            </RelativeLayout>
 
         </LinearLayout>
 
@@ -107,13 +113,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginBottom="23dp"
             android:autoLink="phone"
             android:fontFamily="@font/gilda_display"
             android:gravity="center"
+            android:padding="5dp"
             android:text="Phone Number"
-            android:textColor="@android:color/holo_purple"
-            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
             android:textStyle="bold" />
 
 
@@ -152,7 +158,7 @@
             android:padding="10sp"
             android:text="Meal Information"
             android:textColor="@android:color/black"
-            android:textSize="10sp"
+            android:textSize="12dp"
             android:textStyle="bold"
             android:visibility="visible" />
 

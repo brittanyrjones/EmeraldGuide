@@ -15,19 +15,14 @@ import com.mindorks.placeholderview.ExpandablePlaceHolderView;
 
 import java.util.Objects;
 public class SearchActivity extends AppCompatActivity {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-
+        setTitle("General Resources");
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
-
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,16 +30,6 @@ public class SearchActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(SearchActivity.this, HelpActivity.class);
-                startActivity(helpint);
-
-            }
-        });
-
-
         Context mContext = this.getApplicationContext();
         ExpandablePlaceHolderView mExpandableView = findViewById(R.id.expandableView);
         for(Feed feed : Objects.requireNonNull(Utils.loadFeeds(this.getApplicationContext()))){

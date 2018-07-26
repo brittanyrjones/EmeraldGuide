@@ -7,7 +7,6 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.brittanyjones.emeraldguide.R;
@@ -21,21 +20,11 @@ import java.io.InputStream;
 import java.util.List;
 
 public class ResourceActivity extends AppCompatActivity {
-
-
     private final static String JSON_FILE_ANDROID_WEAR = "resources.json";
     private final static String TAG = "ResourceActivity";
-
     private ResourceAdapter resourceAdapter;
     private ListView listView;
-    EditText search;
-
-
-
-
-//
-//    TextView geographicArea_txt;
-
+//    EditText search;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +35,6 @@ public class ResourceActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
 
         Button search_btn=(Button)findViewById(R.id.button25);
-        Button help_btn=(Button)findViewById(R.id.button26);
 
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,27 +43,13 @@ public class ResourceActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(ResourceActivity.this,HelpActivity.class);
-                startActivity(helpint);
-            }
-        });
-
         init();
     }
-
-
-
         public void init() {
         listView = (ListView) findViewById(R.id.listView);
-
         resourceAdapter = new ResourceAdapter(ResourceActivity.this, getResourcesData());
         listView.setAdapter(resourceAdapter);
     }
-
-
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<Resource> getResourcesData() {
         String jsonString = getAssetsJSON(JSON_FILE_ANDROID_WEAR);
@@ -84,7 +58,6 @@ public class ResourceActivity extends AppCompatActivity {
         BaseResource baseResource = gson.fromJson(jsonString, BaseResource.class);
         return  baseResource.getResource();
     }
-
     /* Get File in Assets Folder */
     public String getAssetsJSON(String resources) {
         String json = null;
@@ -95,15 +68,11 @@ public class ResourceActivity extends AppCompatActivity {
             inputStream.read(buffer);
             inputStream.close();
             json = new String(buffer, "UTF-8");
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return json;
     }
-
-
 }
 
 

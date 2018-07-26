@@ -20,42 +20,25 @@ import java.io.InputStream;
 import java.util.List;
 
 public class YouthShelterActivity extends AppCompatActivity {
-
-
     private final static String JSON_FILE_ANDROID_YOUTHSHEL = "youthshelter.json";
     private final static String TAG = "ShelterActivity";
-
     private YouthShelterAdapter youthshelterAdapter;
     private ListView youthshellistView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shelter);
         setTitle("Emergency Shelters");
-
-
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
-
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent searchint = new Intent(YouthShelterActivity.this, SearchActivity.class);
                 startActivity(searchint);
             }
-        });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(YouthShelterActivity.this, HelpActivity.class);
-                startActivity(helpint);
-            }
-
         });
         init();
     }
@@ -65,7 +48,6 @@ public class YouthShelterActivity extends AppCompatActivity {
         youthshelterAdapter = new YouthShelterAdapter(YouthShelterActivity.this, getYouthShelterData());
         youthshellistView.setAdapter(youthshelterAdapter);
     }
-
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<YouthShelter> getYouthShelterData() {
         String jsonString = getAssetsJSON(JSON_FILE_ANDROID_YOUTHSHEL);
@@ -74,7 +56,6 @@ public class YouthShelterActivity extends AppCompatActivity {
         YouthShelterList baseYouthShelter = gson.fromJson(jsonString, YouthShelterList.class);
         return  baseYouthShelter.getYouthShelter();
     }
-
     public String getAssetsJSON(String youthshelter) {
         String json = null;
         try {
@@ -88,13 +69,6 @@ public class YouthShelterActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return json;
     }
-
-
-
-
-
-
 }

@@ -62,7 +62,6 @@ public class YouthShelterAdapter extends BaseAdapter {
             youthshelvi.setTag(viewHolder);
         }else
             viewHolder = (ViewHolder) view.getTag();
-
         viewHolder.category.setText(youthshelter.getCategory());
         viewHolder.shelterName.setText(youthshelter.getShelterName());
         viewHolder.shelterInformation.setText(youthshelter.getShelterInformation());
@@ -72,11 +71,8 @@ public class YouthShelterAdapter extends BaseAdapter {
         viewHolder.area.setText(youthshelter.getArea());
         viewHolder.shelterAddress.setText(youthshelter.getShelterAddress());
         viewHolder.peopleServed.setText(youthshelter.getPeopleServed());
-
-
         return youthshelvi;
     }
-
     public class ViewHolder{
         TextView category;
         TextView shelterName;

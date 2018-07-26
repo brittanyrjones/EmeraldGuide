@@ -34,13 +34,9 @@ public class YouthResourceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resource);
         setTitle("Free Hot/Cold Meals");
-
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
-
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,17 +44,8 @@ public class YouthResourceActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(YouthResourceActivity.this, HelpActivity.class);
-                startActivity(helpint);
-            }
-
-        });
         init();
     }
-
 
     public void init() {
         youthreslistView = (ListView) findViewById(R.id.listView);
@@ -73,7 +60,6 @@ public class YouthResourceActivity extends AppCompatActivity {
         YouthResourceList baseYouthResource = gson.fromJson(jsonString, YouthResourceList.class);
         return  baseYouthResource.getYouthresource();
     }
-
 
     public String getAssetsJSON(String youthresource) {
         String json = null;
@@ -91,10 +77,4 @@ public class YouthResourceActivity extends AppCompatActivity {
 
         return json;
     }
-
-
-
-
-
-
 }

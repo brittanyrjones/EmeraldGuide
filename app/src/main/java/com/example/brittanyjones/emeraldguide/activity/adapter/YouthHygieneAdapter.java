@@ -15,11 +15,9 @@ import java.util.List;
 public class YouthHygieneAdapter extends BaseAdapter{
     Context context;
     List<YouthHygiene> dataList;
-
     private View youthhyvi;
     private ViewHolder viewHolder;
     private static LayoutInflater inflater = null;
-
     public YouthHygieneAdapter(Context context, List<YouthHygiene> dataList){
         this.context = context;
         this.dataList = dataList;
@@ -61,7 +59,6 @@ public class YouthHygieneAdapter extends BaseAdapter{
             youthhyvi.setTag(viewHolder);
         }else
             viewHolder = (ViewHolder) view.getTag();
-
         viewHolder.category.setText(youthhygiene.getCategory());
         viewHolder.hygieneName.setText(youthhygiene.getHygieneName());
         viewHolder.hygieneInformation.setText(youthhygiene.getHygieneInformation());
@@ -70,7 +67,6 @@ public class YouthHygieneAdapter extends BaseAdapter{
         viewHolder.hygieneHours.setText(youthhygiene.getHygieneHours());
         viewHolder.area.setText(youthhygiene.getArea());
         viewHolder.hygieneAddress.setText(youthhygiene.getHygieneAddress());
-
         return youthhyvi;
     }
 

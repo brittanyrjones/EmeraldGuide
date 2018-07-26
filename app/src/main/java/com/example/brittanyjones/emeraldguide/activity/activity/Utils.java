@@ -1,24 +1,18 @@
 package com.example.brittanyjones.emeraldguide.activity.activity;//package com.example.brittanyjones.emeraldguide.activity.activity;
-
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
-
 import com.example.brittanyjones.emeraldguide.activity.model.Feed;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import org.json.JSONArray;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Utils {
-
     private static final String TAG = "Utils";
-
     public static List<Feed> loadFeeds(Context context){
         try{
             GsonBuilder builder = new GsonBuilder();
@@ -36,7 +30,6 @@ public class Utils {
             return null;
         }
     }
-
     private static String loadJSONFromAsset(Context context, String jsonFileName) {
         String json = null;
         InputStream is = null;
@@ -56,7 +49,6 @@ public class Utils {
         return json;
     }
 }
-
 
 //import android.content.Context;
 //import android.content.res.AssetManager;

@@ -16,12 +16,9 @@ public class YouthResourceAdapter extends BaseAdapter{
 
     Context context;
     List<YouthResource> dataList;
-
     private View youthvi;
     private ViewHolder viewHolder;
     private static LayoutInflater inflater = null;
-
-
     public YouthResourceAdapter(Context context, List<YouthResource> dataList){
         this.context = context;
         this.dataList = dataList;
@@ -61,17 +58,14 @@ public class YouthResourceAdapter extends BaseAdapter{
             youthvi.setTag(viewHolder);
         }else
             viewHolder = (ViewHolder) view.getTag();
-
         viewHolder.geographicArea.setText(youthresource.getGeographicArea());
         viewHolder.programName.setText(youthresource.getProgramName());
         viewHolder.location.setText(youthresource.getLocation());
         viewHolder.phoneNumber.setText(youthresource.getPhoneNumber());
         viewHolder.website.setText(youthresource.getWebsite());
         viewHolder.mealInformation.setText(youthresource.getMealInformation());
-
         return youthvi;
     }
-
     public class ViewHolder{
         TextView geographicArea;
         TextView programName;

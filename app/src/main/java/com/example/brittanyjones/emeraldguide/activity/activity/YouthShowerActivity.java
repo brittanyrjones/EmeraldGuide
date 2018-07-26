@@ -20,41 +20,25 @@ import java.io.InputStream;
 import java.util.List;
 
 public class YouthShowerActivity extends AppCompatActivity {
-
-
     private final static String JSON_FILE_ANDROID_YOUTHHYG = "youthhygiene.json";
     private final static String TAG = "ShowerActivity";
-
     private YouthHygieneAdapter youthhygieneAdapter;
     private ListView youthhyglistView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shower);
         setTitle("Hygiene Facilities");
-
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
-
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent searchint = new Intent(YouthShowerActivity.this, SearchActivity.class);
                 startActivity(searchint);
             }
-        });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(YouthShowerActivity.this, HelpActivity.class);
-                startActivity(helpint);
-            }
-
         });
         init();
     }
@@ -64,7 +48,6 @@ public class YouthShowerActivity extends AppCompatActivity {
         youthhygieneAdapter = new YouthHygieneAdapter(YouthShowerActivity.this, getYouthHygieneData());
         youthhyglistView.setAdapter(youthhygieneAdapter);
     }
-
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<YouthHygiene> getYouthHygieneData() {
         String jsonString = getAssetsJSON(JSON_FILE_ANDROID_YOUTHHYG);
@@ -73,7 +56,6 @@ public class YouthShowerActivity extends AppCompatActivity {
         YouthHygieneList baseYouthHygiene = gson.fromJson(jsonString, YouthHygieneList.class);
         return  baseYouthHygiene.getYouthHygiene();
     }
-
     public String getAssetsJSON(String youthhygiene) {
         String json = null;
         try {
@@ -83,11 +65,9 @@ public class YouthShowerActivity extends AppCompatActivity {
             inputStream.read(buffer);
             inputStream.close();
             json = new String(buffer, "UTF-8");
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return json;
     }
 }

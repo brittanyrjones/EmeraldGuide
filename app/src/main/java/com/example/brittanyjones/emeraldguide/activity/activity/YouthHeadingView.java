@@ -40,18 +40,15 @@ public class YouthHeadingView {
         mContext = context;
         mHeading = heading;
     }
-
     @Resolve
     private void onResolved() {
         toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_drop_down_black_24dp));
         headingTxt.setText(mHeading);
     }
-
     @Expand
     private void onExpand(){
         toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_drop_down_black_24dp));
     }
-
     @Collapse
     private void onCollapse(){
         toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_drop_down_black_24dp));

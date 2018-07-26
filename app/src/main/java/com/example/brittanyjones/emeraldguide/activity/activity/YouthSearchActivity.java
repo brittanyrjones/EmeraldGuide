@@ -21,14 +21,9 @@ public class YouthSearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-
-
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
-
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,17 +31,6 @@ public class YouthSearchActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(YouthSearchActivity.this, HelpActivity.class);
-                startActivity(helpint);
-            }
-
-        });
-
-
-
     Context mContext = this.getApplicationContext();
         ExpandablePlaceHolderView mExpandableView = (ExpandablePlaceHolderView) findViewById(R.id.expandableView);
         for(Feed feed : Objects.requireNonNull(Utils.loadFeeds(this.getApplicationContext()))){

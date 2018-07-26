@@ -36,8 +36,8 @@
             android:padding="5sp"
             android:text="Emergency Name"
             android:textAllCaps="true"
-            android:textColor="@android:color/black"
-            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
         <TextView
@@ -58,7 +58,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:autoLink="phone"
-            android:background="@drawable/ic_phone_black_24dp"
+            android:background="@drawable/ic_phone_ring_outline"
             android:gravity="center"
             android:text="phone"
             android:textColor="@android:color/transparent"

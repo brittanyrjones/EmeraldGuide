@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.brittanyjones.emeraldguide.R;
-import com.example.brittanyjones.emeraldguide.activity.activity.helppages.EmergencyHelpActivity;
 import com.example.brittanyjones.emeraldguide.activity.adapter.EmergencyAdapter;
 import com.example.brittanyjones.emeraldguide.activity.model.Emergency;
 import com.example.brittanyjones.emeraldguide.activity.model.EmergencyList;
@@ -40,7 +39,6 @@ public class EmergencyActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
 
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
 
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,14 +47,7 @@ public class EmergencyActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent emergencyhelpint = new Intent(EmergencyActivity.this, EmergencyHelpActivity.class);
-                startActivity(emergencyhelpint);
-            }
 
-        });
         init();
     }
 

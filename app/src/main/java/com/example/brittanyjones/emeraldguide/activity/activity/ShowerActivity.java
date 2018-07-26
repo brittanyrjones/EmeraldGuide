@@ -20,29 +20,18 @@ import java.io.InputStream;
 import java.util.List;
 
 public class ShowerActivity extends AppCompatActivity {
-
-
     private final static String JSON_FILE_ANDROID_HYG = "hygiene.json";
     private final static String TAG = "ShowerActivity";
-
     private HygieneAdapter hygieneAdapter;
     private ListView hyglistView;
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shower);
         setTitle("Hygiene Facilities");
-
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
         Button search_btn = (Button) findViewById(R.id.button25);
-        Button help_btn = (Button) findViewById(R.id.button26);
-
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,24 +39,13 @@ public class ShowerActivity extends AppCompatActivity {
                 startActivity(searchint);
             }
         });
-        help_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent helpint = new Intent(ShowerActivity.this, HelpActivity.class);
-                startActivity(helpint);
-            }
-
-        });
         init();
     }
-
-
     public void init() {
         hyglistView = (ListView) findViewById(R.id.hyglistView);
         hygieneAdapter = new HygieneAdapter(ShowerActivity.this, getHygieneData());
         hyglistView.setAdapter(hygieneAdapter);
     }
-
     /* Convert JSON String to BaseWatch Model via GSON */
     public List<Hygiene> getHygieneData() {
         String jsonString = getAssetsJSON(JSON_FILE_ANDROID_HYG);
@@ -92,10 +70,4 @@ public class ShowerActivity extends AppCompatActivity {
 
         return json;
     }
-
-
-
-
-
-
 }

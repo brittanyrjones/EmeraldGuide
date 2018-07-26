@@ -47,7 +47,7 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".activity.activity.helppages.EmergencyHelpActivity"></activity>
+        <activity android:name=".activity.activity.helppages.EmergencyHelpActivity" />
     </application>
 
 </manifest>

@@ -7,11 +7,12 @@
     android:background="@drawable/green_dye"
 
     tools:context=".activity.activity.YouthMenuSearchActivity">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="#8d669900"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -29,9 +30,9 @@
         <Button
             android:id="@+id/button25"
             android:layout_width="25dp"
-            android:gravity="right"
             android:layout_height="25dp"
-            android:background="@drawable/ic_search_black_24dp" />
+            android:background="@drawable/ic_search_black_24dp"
+            android:gravity="right" />
 
     </android.support.v7.widget.Toolbar>
 

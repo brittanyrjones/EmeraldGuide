@@ -20,7 +20,6 @@ public class ShelterAdapter extends BaseAdapter{
     private View shelvi;
     private ViewHolder viewHolder;
     private static LayoutInflater inflater = null;
-
     public ShelterAdapter(Context context, List<Shelter> dataList){
         this.context = context;
         this.dataList = dataList;
@@ -62,10 +61,8 @@ public class ShelterAdapter extends BaseAdapter{
             viewHolder.shelterHours = (TextView) shelvi.findViewById(R.id.shelterHours_txt);
             viewHolder.peopleServed = (TextView) shelvi.findViewById(R.id.shelterPeople_Served_txt);
             shelvi.setTag(viewHolder);
-
         }else
             viewHolder = (ViewHolder) view.getTag();
-
         viewHolder.category.setText(shelter.getCategory());
         viewHolder.shelterName.setText(shelter.getShelterName());
         viewHolder.shelterInformation.setText(shelter.getShelterInformation());

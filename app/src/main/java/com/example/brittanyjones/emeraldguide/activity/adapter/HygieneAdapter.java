@@ -62,7 +62,6 @@ public class HygieneAdapter extends BaseAdapter {
             hyvi.setTag(viewHolder);
         }else
             viewHolder = (ViewHolder) view.getTag();
-
         viewHolder.category.setText(hygiene.getCategory());
         viewHolder.hygieneName.setText(hygiene.getHygieneName());
         viewHolder.hygieneInformation.setText(hygiene.getHygieneInformation());
@@ -71,10 +70,8 @@ public class HygieneAdapter extends BaseAdapter {
         viewHolder.hygieneHours.setText(hygiene.getHygieneHours());
         viewHolder.area.setText(hygiene.getArea());
         viewHolder.hygieneAddress.setText(hygiene.getHygieneAddress());
-
         return hyvi;
     }
-
     public class ViewHolder{
         TextView category;
         TextView hygieneName;

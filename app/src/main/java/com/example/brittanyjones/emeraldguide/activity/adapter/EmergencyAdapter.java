@@ -19,9 +19,6 @@ public class EmergencyAdapter extends BaseAdapter {
     private View emvi;
     private ViewHolder viewHolder;
     private static LayoutInflater inflater = null;
-
-
-
     public EmergencyAdapter(Context context, List<Emergency> dataList){
         this.context = context;
         this.dataList = dataList;

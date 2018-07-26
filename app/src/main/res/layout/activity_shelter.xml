@@ -13,7 +13,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="#8d669900"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
 
@@ -22,20 +22,13 @@
 
 
         <Button
-            android:id="@+id/button26"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@drawable/ic_info_black_24dp"
-            android:gravity="right"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="27dp" />
-
-        <Button
             android:id="@+id/button25"
-            android:layout_width="25dp"
-            android:gravity="right"
-            android:layout_height="25dp"
-            android:background="@drawable/ic_search_black_24dp" />
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_search_outline_filled" />
 
     </android.support.v7.widget.Toolbar>
 

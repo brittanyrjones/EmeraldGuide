@@ -17,13 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle("Adult Emerald Guide");
-
-
+//        mAuth = FirebaseAuth.getInstance();
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
 //        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-
         Button search_btn=(Button)findViewById(R.id.button25);
         Button help_btn=(Button)findViewById(R.id.button26);
         Button emergency_btn=(Button)findViewById(R.id.button27) ;
@@ -61,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(volunteerint);
             }
         });
-
         resource_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(showerint);
             }
         });
-
         shelter_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
