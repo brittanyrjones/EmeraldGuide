@@ -3,7 +3,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="200dp"
     android:layout_margin="10dp"
     android:layout_marginBottom="10dp"
     android:orientation="horizontal"
@@ -16,7 +16,7 @@
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="225dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10sp">
@@ -46,7 +46,7 @@
         <TextView
             android:id="@+id/hygieneHours_txt"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/hygieneName_txt"
             android:layout_marginBottom="8dp"
@@ -63,7 +63,7 @@
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.059" />
+            card_view:layout_constraintVertical_bias="0.108" />
 
         <TextView
             android:id="@+id/hygCategory_txt"
@@ -78,7 +78,7 @@
         <TextView
             android:id="@+id/hygieneInformation_txt"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/hygieneHours_txt"
             android:layout_marginBottom="8dp"
@@ -93,8 +93,7 @@
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.507" />
+            card_view:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
             android:id="@+id/linearLayout6"
@@ -109,7 +108,7 @@
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.824">
+            card_view:layout_constraintVertical_bias="0.754">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -178,7 +177,7 @@
         <TextView
             android:id="@+id/hygArea_txt"
             android:layout_width="match_parent"
-            android:layout_height="24dp"
+            android:layout_height="17dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginBottom="8dp"
@@ -197,7 +196,7 @@
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.969" />
+            card_view:layout_constraintVertical_bias="0.943" />
 
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>
