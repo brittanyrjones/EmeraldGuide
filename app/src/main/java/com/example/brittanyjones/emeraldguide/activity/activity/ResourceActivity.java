@@ -86,6 +86,7 @@ public class ResourceActivity extends AppCompatActivity {
 
 
 
+
 //    private LinearLayoutManager layoutManager;
 //    List<Resource> resourceList =null;
 //
@@ -161,7 +162,7 @@ public class ResourceActivity extends AppCompatActivity {
 
 
 
-//public class ResourceActivity extends AppCompatActivity {
+//public class ResourceActivity2 extends AppCompatActivity {
 //
 //    private ArrayList<Resource> resourceList;
 //    private ProgressDialog pDialog;
@@ -173,7 +174,7 @@ public class ResourceActivity extends AppCompatActivity {
 //        super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_resource);
 //
-//        pDialog = new ProgressDialog(ResourceActivity.this);
+//        pDialog = new ProgressDialog(ResourceActivity2.this);
 //        pDialog.setMessage("Loading Data.. Please wait...");
 //        pDialog.setIndeterminate(false);
 //        pDialog.setCancelable(false);
@@ -211,7 +212,7 @@ public class ResourceActivity extends AppCompatActivity {
 //    }
 //}
 
-//public class ResourceActivity extends AppCompatActivity {
+//public class ResourceActivity2 extends AppCompatActivity {
 //
 //    ListView listView;
 //
