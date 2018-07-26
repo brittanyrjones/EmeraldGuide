@@ -9,11 +9,9 @@ public class YouthShelterList {
     @SerializedName("youthshelter")
     @Expose
     private ArrayList<YouthShelter> youthshelter = null;
-
     public ArrayList<YouthShelter> getYouthShelter() {
         return youthshelter;
     }
-
     public void setYouthShelter(ArrayList<YouthShelter> youthshelter) {
         this.youthshelter = youthshelter;
     }

@@ -48,84 +48,55 @@ public class Shelter {
     public String getArea() {
         return area;
     }
-
     public void setArea(String area) {
         this.area = area;
     }
-
     public String getShelterAddress() {
         return shelterAddress;
     }
-
     public void setShelterAddress(String shelterAddress) {
         this.shelterAddress = shelterAddress;
     }
-
     public String getCategory() {
         return category;
     }
-
     public void setCategory(String category) {
         this.category = category;
     }
-
     public String getShelterName() {
         return shelterName;
     }
-
     public void setShelterName(String shelterName) {
         this.shelterName = shelterName;
     }
-
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
     public String getWebsite() {
         return website;
     }
-
     public void setWebsite(String website) {
         this.website = website;
     }
-
     public String getShelterInformation() {
         return shelterInformation;
     }
-
     public void setShelterInformation(String shelterInformation) {
         this.shelterInformation = shelterInformation;
     }
-
     public String getShelterHours() {
         return shelterHours;
     }
-
     public void setShelterHours(String shelterHours) {
         this.shelterHours = shelterHours;
     }
-
     public String getPeopleServed() {
         return peopleServed;
     }
-
     public void setPeopleServed(String peopleServed) {
         this.peopleServed = peopleServed;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -32,51 +32,39 @@ public class YouthResource {
         this.website = website;
         this.mealInformation = mealInformation;
     }
-
     public String getGeographicArea() {
         return geographicArea;
     }
-
     public void setGeographicArea(String geographicArea) {
         this.geographicArea = geographicArea;
     }
-
     public String getProgramName() {
         return programName;
     }
-
     public void setProgramName(String programName) {
         this.programName = programName;
     }
-
     public String getLocation() {
         return location;
     }
-
     public void setLocation(String location) {
         this.location = location;
     }
-
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
     public String getWebsite() {
         return website;
     }
-
     public void setWebsite(String website) {
         this.website = website;
     }
-
     public String getMealInformation() {
         return mealInformation;
     }
-
     public void setMealInformation(String mealInformation) {
         this.mealInformation = mealInformation;
     }

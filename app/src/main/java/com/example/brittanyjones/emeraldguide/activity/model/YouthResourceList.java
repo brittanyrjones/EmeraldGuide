@@ -10,11 +10,9 @@ public class YouthResourceList {
     @SerializedName("youthresource")
     @Expose
     private ArrayList<YouthResource> youthresource = null;
-
     public ArrayList<YouthResource> getYouthresource() {
         return youthresource;
     }
-
     public void setYouthResource(ArrayList<YouthResource> youthresource) {
         this.youthresource = youthresource;
     }

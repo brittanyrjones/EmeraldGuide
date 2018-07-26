@@ -10,11 +10,8 @@ public class HygieneList {
     @SerializedName("hygiene")
     @Expose
     private ArrayList<Hygiene> hygiene = null;
-
     public ArrayList<Hygiene> getHygiene() { return hygiene; }
-
     public void setHygiene(ArrayList<Hygiene> hygiene) {
         this.hygiene = hygiene;
     }
-
 }

@@ -43,68 +43,49 @@ public class Hygiene {
     public String getArea() {
         return area;
     }
-
     public void setArea(String area) {
         this.area = area;
     }
-
     public String getHygieneAddress() {
         return hygieneAddress;
     }
-
     public void setHygieneAddress(String hygieneAddress) {
         this.hygieneAddress = hygieneAddress;
     }
-
     public String getCategory() {
         return category;
     }
-
     public void setCategory(String category) {
         this.category = category;
     }
-
     public String getHygieneName() {
         return hygieneName;
     }
-
     public void setHygieneName(String hygieneName) {
         this.hygieneName = hygieneName;
     }
-
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
     public String getWebsite() {
         return website;
     }
-
     public void setWebsite(String website) {
         this.website = website;
     }
-
     public String getHygieneInformation() {
         return hygieneInformation;
     }
-
     public void setHygieneInformation(String hygieneInformation) {
         this.hygieneInformation = hygieneInformation;
     }
-
     public String getHygieneHours() {
         return hygieneHours;
     }
-
     public void setHygieneHours(String hygieneHours) {
         this.hygieneHours = hygieneHours;
     }
-
-
-
-
 }

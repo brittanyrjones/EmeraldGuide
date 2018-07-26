@@ -9,9 +9,7 @@ public class YouthHygieneList {
     @SerializedName("youthhygiene")
     @Expose
     private ArrayList<YouthHygiene> youthhygiene = null;
-
     public ArrayList<YouthHygiene> getYouthHygiene() { return youthhygiene; }
-
     public void setYouthHygiene(ArrayList<YouthHygiene> youthhygiene) {
         this.youthhygiene = youthhygiene;
     }
